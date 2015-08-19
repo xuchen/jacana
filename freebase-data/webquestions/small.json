@@ -1,0 +1,20 @@
+[
+    {
+        "url": "http://www.freebase.com/view/en/jamaica",
+        "targetValue": "(list (description \"Jamaican Creole English Language\") (description \"Jamaican English\"))",
+        "utterance": "what does jamaican people speak?",
+        "retrievedList": "jamaica:93.113 jamaican_american:19.838 jamaican_dollar:18.866 jamaican:17.257 jamaican_creole:16.857 jamaican_english:16.039 jamaican_patty:15.626 jamaican_posse:15.395 jamaica_national_football_team:14.423 jamaican_jerk_spice:13.962"
+    },
+    {
+        "url": "http://www.freebase.com/view/en/james_k_polk",
+        "targetValue": "(list (description Lawyer))",
+        "utterance": "what did james k polk do before he was president?",
+        "retrievedList": "james_k_polk:693.880 uss_james_k_polk:240.536 james_k_polk_house:156.966 james_k_polk_national_historic_site:155.130 james_k_polk_elementary_school:104.248 james_k_polk_state_office_building:101.719 james_k_polk_middle_school:96.863 sarah_childress_polk:88.392 james_k_polk_1845_presidential_inauguration:76.485 president:19.656"
+    },
+    {
+        "url": "http://www.freebase.com/view/en/oregon_ducks",
+        "targetValue": "(list (description \"University of Oregon\"))",
+        "utterance": "what is the oregon ducks 2012 football schedule?",
+        "retrievedList": "oregon_ducks_football:1125.606 oregon_ducks:517.977 oregon_ducks_mens_basketball:354.954 oregon_ducks_baseball:252.277 oregon:154.052 2009_10_oregon_ducks_womens_basketball_team:58.663 university_of_oregon:51.675 2009_10_oregon_ducks_mens_basketball_team:48.744 1938_39_oregon_ducks_mens_basketball_team:39.891 oregon_state_beavers_football:37.716"
+    }
+]

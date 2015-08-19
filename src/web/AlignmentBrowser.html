@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="javascript-css/jquery-1.9.1.min.js">
+</script>
+
+<script src="javascript-css/jquery.tinyscrollbar.min.js">
+// http://baijs.nl/tinyscrollbar/ 
+</script>
+
+<script src="javascript-css/align.js">
+</script>
+
+<!-- for Chrome to work (without setting up a server):
+	http://stackoverflow.com/questions/2541949/problems-with-jquery-getjson-using-local-files-in-chrome
+ -->
+
+<link rel="stylesheet" type="text/css" href="javascript-css/align.css">
+
+<script>
+
+	var ALIGN_LIST = [];
+	var ALIGN_LIST2 = [];
+	var targetIsRTL = false;
+	
+	// a global index indicating which align is shown 
+	var CURRENT_IDX = 0;
+	
+	// indicates whether to switch the view from the source being 
+	// along top (default) or the target on top (transposed).
+	// The results still keep the same source / target names.
+	var viewTransposed =  true;
+
+	$(document).ready(function() {
+		$('#submit').submit(function(e) {
+			$('#submit2').hide();
+			// http://fuelyourcoding.com/jquery-events-stop-misusing-return-false/
+			e.preventDefault();
+			var input = $('input[name="inputfile"]').val();
+			$.getJSON(input, function(data) {
+				var html = '';
+				console.log(data);
+				html += '<div class="indices">';
+				$.each(data, function(alignIndex, align) {
+					align.idx = alignIndex
+					html += '<div class="index" id="' + align.idx + '">';
+					html += '<h4><a href="#">' + align.name + '</a></h4>';
+					html += '</div>\n';
+					ALIGN_LIST.push(align);
+					$('.indices').on("click", '#'+align.idx, showTable);
+				});
+				html += '</div>';
+				$('.indices').html(html);
+		        $('#scrollbar1').tinyscrollbar();
+				
+				// show the first table 
+				showTable();
+			});
+
+			document.onkeydown = function(evt) {
+			    evt = evt || window.event;
+			    switch (evt.keyCode) {
+			        case 37: // left 
+			            leftOrDownArrowPressed();
+			            break;
+//			        case 38: // up 
+//			            rightOrUpArrowPressed();
+//			            break;
+			        case 39: // right 
+			            rightOrUpArrowPressed();
+			            break;
+//			        case 40: // down 
+//			            leftOrDownArrowPressed();
+//			            break;
+			    }
+			};
+			
+			
+			return true;
+		});
+		
+		$('#submit2').submit(function(e) {
+			// http://fuelyourcoding.com/jquery-events-stop-misusing-return-false/
+			e.preventDefault();
+			var input = $('input[name="inputfile"]').val();
+			var input2 = $('input[name="inputfile2"]').val();
+            if (!input || !input2) {
+            	alert("You have to select two files!");
+            	return true;
+            }
+			$.getJSON(input, function(data) {
+				var html = '';
+				console.log(data);
+				html += '<div class="indices">';
+				$.each(data, function(alignIndex, align) {
+					align.idx = alignIndex
+					html += '<div class="index" id="' + align.idx + '">';
+					html += '<h4><a href="#">' + align.name + '</a></h4>';
+					html += '</div>\n';
+					ALIGN_LIST.push(align);
+					$('.indices').on("click", '#'+align.idx, showTable);
+				});
+				html += '</div>';
+				$('.indices').html(html);
+		        $('#scrollbar1').tinyscrollbar();
+				
+			});
+			
+			$.getJSON(input2, function(data) {
+				var html = '';
+				$.each(data, function(alignIndex, align) {
+					ALIGN_LIST2.push(align);
+				});
+				// show the first table 
+				showTable();
+
+			});
+				
+			document.onkeydown = function(evt) {
+			    evt = evt || window.event;
+			    switch (evt.keyCode) {
+			        case 37: // left 
+			            leftOrDownArrowPressed();
+			            break;
+//			        case 38: // up 
+//			            rightOrUpArrowPressed();
+//			            break;
+			        case 39: // right 
+			            rightOrUpArrowPressed();
+			            break;
+//			        case 40: // down 
+//			            leftOrDownArrowPressed();
+//			            break;
+			    }
+			};
+			
+			
+			return true;
+		});
+		
+	  $("#transpose").click(function () {
+    	 viewTransposed = ! viewTransposed;
+    	 showTable();
+  	});
+		
+		return true;
+	});
+	
+
+	function leftOrDownArrowPressed() {
+		CURRENT_IDX = CURRENT_IDX > 0 ? CURRENT_IDX-1 : 0;
+		showTable();
+	}
+
+	function rightOrUpArrowPressed() {
+		CURRENT_IDX = CURRENT_IDX < ALIGN_LIST.length-1 ? CURRENT_IDX+1 : ALIGN_LIST.length-1;
+		showTable();
+	}
+	
+	function showTable() {
+		var id = this.id;
+		if (id === undefined)
+			id = CURRENT_IDX;
+		else
+			CURRENT_IDX = parseInt(id);
+		if (ALIGN_LIST2.length == 0) {
+			var align = ALIGN_LIST[id]
+			return showTableAlign(align)
+		} else {
+			var align = ALIGN_LIST[id]
+			var align2 = ALIGN_LIST2[id]
+			return showComparisonTableAlign(align, align2)
+		}
+	}
+
+</script>
+</head>
+<body>
+
+	<div id="header">
+		<h2>Jacana Alignment Browser</h2>
+	
+		<form id=submit action="">
+			<label>Select file: <input id="input" name="inputfile" type="file" accept="text/json" /></label>
+			<input name="submit" type="submit" value="Show" />
+		</form>
+		
+		<p>Hint: use &larr; and &rarr; to navigate through long list after clicking "Show".</p>
+    <button id="transpose">Transpose Alignment</button>
+	</div>
+	
+	<div>
+		<form id=submit2 action="">
+			<p>Or additionally select one more file and compare them:</p>
+			<label>Another file: <input id="input2" name="inputfile2" type="file" accept="text/json" /></label>
+			<input name="submit2" type="submit" value="Compare" />
+		</form>
+	</div>
+	<div id="scrollbar1">
+	    <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+        <div class="viewport">
+            <div class="overview">
+				<div class="indices">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="tables">
+	</div>
+
+</body>
+</html>
+

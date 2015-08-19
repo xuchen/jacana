@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script src="javascript-css/jquery-1.9.1.min.js">
+</script>
+
+<script src="javascript-css/align.js">
+</script>
+
+<link rel="stylesheet" type="text/css" href="javascript-css/align.css">
+
+<script>
+	var viewTransposed =  true;
+	var targetIsRTL = false;
+
+	$(document).ready(function() {
+	 
+	    //Stops the submit request
+	    $("#myAjaxRequestForm").submit(function(e){
+	           e.preventDefault();
+	    });
+	    
+	    document.getElementById('sentence2').onkeypress = function(e) {
+	        doClick('alignButton', e);
+	    };
+	    //checks for the button click event
+	    // $("#alignButton").click = doAlign();
+	});
+
+    function doAlign() {
+         
+       //get the form data and then serialize that
+       //dataString = $("#myAjaxRequestForm").serialize();
+       
+       //get the form data using another method
+       var sentence1 = $("input#sentence1").val();
+       var sentence2 = $("input#sentence2").val();
+       if (sentence1.length == 0 || sentence2.length == 0) {
+       	alert("You have to input two sentences!");
+       	return true;
+       }
+       dataString = "sentences=" + encodeURIComponent(sentence1 + "###" + sentence2);
+       // dataString = "sentences=" + sentence1 + "###" + sentence2;
+       // the following is more elegant but we have to convert it from string to json object on the server side: 
+       // dataString =  "sentences="+JSON.stringify({ sentence1: sentence1, sentence2: sentence2 })
+       
+       //make the AJAX request, dataType is set to json
+       //meaning we are expecting JSON data in response from the server
+       $.ajax({
+           type: "POST",
+           url: "",
+           data: dataString,
+           contentType: "application/x-www-form-urlencoded; charset=UTF-8",
+           scriptCharset: "utf-8",
+           dataType: "json",
+           
+           //if received a response from the server 
+           success: function( data, textStatus, jqXHR) {
+                if(data.success){
+                    showTableAlign(data.alignment)
+                }
+                else {
+                    $("#tables").html("<div><b>Invalid response!</b></div>");
+                }
+           },
+           
+           //If there was no resonse from the server 
+           error: function(jqXHR, textStatus, errorThrown){
+                $("#tables").html("can't display the matrix<p>" + textStatus + "<p>" + jqXHR.responseText);
+           },
+           
+           //capture the request before it was sent to server 
+           beforeSend: function(jqXHR, settings){
+               //adding some Dummy data to the request
+               // settings.data += "&dummyData=whatever";
+               //disable the button until we get the response
+               // $('#myButton').attr("disabled", true);
+           },
+           
+           //this is called after the response or error functions are finsihed
+           //so that we can take some action
+           complete: function(jqXHR, textStatus){
+               //enable the button
+               // $('#myButton').attr("disabled", false);
+            }
+  
+        });       
+    }
+    
+    function doClick(buttonName,e)
+    {
+      //the purpose of this function is to allow the enter key to 
+      //point to the correct button to click.
+      var ev = e || window.event;
+      var key = ev.keyCode;
+
+      if (key == 13)
+      {
+         //Get the button the user wants to have clicked
+         var btn = document.getElementById(buttonName);
+         if (btn != null)
+         { 
+            //If we find the button click it
+            btn.click();
+            ev.preventDefault(); 
+         }
+      }
+    }
+ 
+</script>
+
+
+
+</head>
+
+<body>
+
+	<div id="header">
+		<h2>Jacana Aligner (<a href="https://code.google.com/p/jacana/">code<a>)</a></a></h2>
+
+		<form id="myAjaxRequestForm" >
+
+			<p>
+				<label for="sentence1">Enter Sentence 1:</label><br /> <input
+					id="sentence1" type="text" name="sentence1" size=100/>
+			</p>
+			<p>
+				<label for="sentence2">Enter Sentence 2:</label><br /> <input
+					id="sentence2" type="text" name="sentence2" size=100/>
+			</p>
+			<p>
+				<input id="alignButton" type="button" value="Align!" onclick="doAlign();"/>
+			</p>
+
+		</form>
+	</div>
+
+			<div id="tables"></div>
+
+</body>
+</html>
+

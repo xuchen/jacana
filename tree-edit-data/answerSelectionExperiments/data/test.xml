@@ -1,0 +1,212 @@
+<QApairs id='19'>
+<question>
+Who	was	the	leader	of	the	Branch	Davidian	Cult	confronted	by	the	FBI	in	Waco	,	Texas	in	<num>	?
+WP	VBD	DT	NN	IN	DT	NNP	NNP	NNP	VBN	IN	DT	NNP	IN	NNP	,	NNP	IN	CD	.
+dobj	auxpass	det	nsubjpass	prep	det	nn	nn	pobj	root	prep	det	pobj	prep	nn	p	pobj	prep	pobj	p
+10	10	4	10	4	9	9	9	5	0	10	13	11	10	17	10	14	17	18	10
+-	-	-	PER_DESC-B	-	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	-	-	-	ORGANIZATION-B	-	GPE-B	-	GPE-B	-	DATE-B	-
+</question>
+<negative>
+The	crisis	appeared	to	set	the	seal	on	the	expected	replacement	of	the	embattled	FBI	director	,	Mr	William	Sessions	.
+DT	NN	VBD	TO	VB	DT	NN	IN	DT	VBN	NN	IN	DT	JJ	NNP	NN	,	NNP	NNP	NNP	.
+det	nsubj	root	aux	xcomp	det	dobj	prep	det	amod	pobj	prep	det	amod	nn	pobj	p	nn	nn	appos	p
+2	3	0	5	3	7	5	5	11	11	8	11	16	16	16	12	3	20	20	16	3
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	ORGANIZATION-B	PER_DESC-B	-	-	PERSON-B	PERSON-I	-
+</negative>
+<negative>
+Ms	Reno	said	the	FBI	plan	had	been	part	of	a	'coherent	and	continuing	'	effort	to	bring	a	peaceful	end	to	the	51-day	siege	of	the	cult	group	's	compound	.
+NNP	NNP	VBD	DT	NNP	NN	VBD	VBN	NN	IN	DT	NN	CC	VBG	POS	NN	TO	VB	DT	JJ	NN	TO	DT	JJ	NN	IN	DT	NN	NN	POS	NN	.
+nn	nsubj	root	det	nn	nsubj	aux	cop	ccomp	prep	det	pobj	cc	amod	p	conj	aux	infmod	det	amod	dobj	prep	det	amod	pobj	prep	det	nn	poss	possessive	pobj	p
+2	3	0	6	6	9	9	9	3	9	12	10	12	15	3	12	18	9	21	21	18	18	25	25	22	25	29	29	31	29	26	3
+PERSON-B	PERSON-I	-	-	ORGANIZATION-B	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	DATE-B	-	-	-	ORG_DESC-B	ORG_DESC-I	-	FAC_DESC-B	-
+</negative>
+<negative>
+The	FBI	spokesman	,	Mr	Bob	Ricks	said	:	'Our	desire	was	to	get	them	out	of	there	in	a	non-lethal	,	systematic	manner	.	'
+DT	NNP	NN	,	NNP	NNP	NNP	VBD	:	NN	NN	VBD	TO	VB	PRP	RP	IN	RB	IN	DT	JJ	,	JJ	NN	.	''
+det	nn	nsubj	p	nn	nn	appos	root	p	nn	nsubj	parataxis	aux	xcomp	dobj	prt	prep	pobj	prep	det	amod	p	amod	pobj	p	p
+3	3	8	8	7	7	3	0	8	11	12	8	14	12	14	14	14	17	18	24	24	8	24	19	8	8
+-	ORGANIZATION-B	PER_DESC-B	-	-	PERSON-B	PERSON-I	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+The	FBI	had	acted	with	bravery	,	even	refusing	to	return	fire	coming	from	the	cult	members	,	he	said	.
+DT	NNP	VBD	VBN	IN	NN	,	RB	VBG	TO	VB	NN	VBG	IN	DT	NN	NNS	,	PRP	VBD	.
+det	nsubj	aux	ccomp	prep	pobj	p	advmod	xcomp	aux	xcomp	dobj	partmod	prep	det	nn	pobj	p	nsubj	root	p
+2	4	4	20	4	5	20	9	4	11	9	11	12	13	17	17	14	20	20	0	20
+-	ORGANIZATION-B	-	-	-	-	-	-	-	-	-	-	-	-	-	PER_DESC-B	PER_DESC-I	-	-	-	-
+</negative>
+<negative>
+One	FBI	agent	even	left	his	vehicle	to	grab	a	burning	woman	and	take	her	,	against	her	will	,	to	safety	.
+CD	NNP	NN	RB	VBD	PRP$	NN	TO	VB	DT	VBG	NN	CC	VB	PRP	,	IN	PRP$	NN	,	TO	NN	.
+num	nn	nsubj	advmod	root	poss	dobj	aux	infmod	det	amod	dobj	cc	conj	dobj	p	prep	poss	pobj	p	prep	pobj	p
+3	3	5	5	0	7	5	9	7	12	12	9	9	9	14	5	14	19	17	5	14	21	5
+CARDINAL-B	ORGANIZATION-B	PER_DESC-B	-	-	-	PRODUCT_DESC-B	-	-	-	-	PER_DESC-B	-	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+The	FBI	's	tear	gas	had	'absolutely	nothing	to	do	with	the	suicide	,	'	he	said	.
+DT	NNP	POS	JJ	NN	VBD	JJ	NN	TO	VB	IN	DT	NN	,	''	PRP	VBD	.
+det	poss	possessive	amod	nsubj	ccomp	amod	dobj	aux	infmod	prep	det	pobj	p	p	nsubj	root	p
+2	5	2	5	6	17	8	6	10	8	10	13	11	17	17	17	0	17
+-	ORGANIZATION-B	-	-	SUBSTANCE-B	-	-	-	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+It	was	the	cult	leader	,	who	gave	the	order	to	commit	suicide	.
+PRP	VBD	DT	NN	NN	,	WP	VBD	DT	NN	TO	VB	NN	.
+nsubj	cop	det	nn	root	p	nsubj	rcmod	det	dobj	aux	infmod	dobj	p
+5	5	5	5	0	5	8	5	10	8	12	10	12	5
+-	-	-	ORG_DESC-B	ORG_DESC-I	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+He	wanted	to	kill	some	FBI	people	first	.	'
+PRP	VBD	TO	VB	DT	NNP	NNS	RB	.	''
+nsubj	root	aux	xcomp	det	nn	dobj	advmod	p	p
+2	0	4	2	7	7	4	4	2	2
+-	-	-	-	-	ORGANIZATION-B	PER_DESC-B	-	-	-
+</negative>
+<negative>
+EIGHT-SIX	people	were	feared	to	have	died	in	an	apparent	mass	suicide	yesterday	when	the	51-day	siege	of	the	Branch	Davidian	religious	cult	near	Waco	,	Texas	,	ended	in	an	inferno	,	writes	Nancy	Dunne	in	Washington	.
+JJ	NNS	VBD	VBN	TO	VB	VBN	IN	DT	JJ	NN	NN	NN	WRB	DT	JJ	NN	IN	DT	NNP	NNP	JJ	NN	IN	NNP	,	NNP	,	VBN	IN	DT	NN	,	VBZ	NNP	NNP	IN	NNP	.
+amod	nsubjpass	auxpass	root	aux	aux	xcomp	prep	det	amod	nn	pobj	tmod	advmod	det	amod	nsubj	prep	det	nn	nn	amod	pobj	prep	nn	p	pobj	p	partmod	prep	det	pobj	p	advcl	nn	dobj	prep	pobj	p
+2	4	4	0	7	7	4	7	12	12	12	8	7	34	17	17	34	17	23	23	23	23	18	23	27	4	24	4	17	29	32	30	4	7	36	34	36	37	4
+TIME-B	PER_DESC-B	-	-	-	-	-	-	-	-	-	-	DATE-B	-	-	DATE-B	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	PER_DESC-B	-	GPE-B	-	GPE-B	-	-	-	-	-	-	-	PERSON-B	PERSON-I	-	GPE-B	-
+</negative>
+<negative>
+The	FBI	said	that	among	the	nine	survivors	were	an	Australian	and	two	of	the	<num>	Britons	believed	by	the	Foreign	Office	to	have	been	in	the	compound	.
+DT	NNP	VBD	DT	IN	DT	CD	NNS	VBD	DT	JJ	CC	CD	IN	DT	CD	NNS	VBN	IN	DT	NNP	NNP	TO	VB	VBN	IN	DT	NN	.
+det	nsubj	root	nsubj	prep	det	num	pobj	cop	det	ccomp	cc	conj	prep	det	num	pobj	partmod	prep	det	nn	pobj	aux	aux	xcomp	prep	det	pobj	p
+2	3	0	11	4	8	8	5	11	11	3	11	11	13	17	17	14	17	18	22	22	19	25	25	18	25	28	26	3
+-	ORGANIZATION-B	-	-	-	-	CARDINAL-B	PER_DESC-B	-	-	NATIONALITY-B	-	CARDINAL-B	-	-	CARDINAL-B	ORGANIZATION-B	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	-	-	FAC_DESC-B	-
+</negative>
+<negative>
+Attorney-general	Janet	Reno	,	who	took	responsibility	for	the	FBI	action	,	last	night	said	the	plan	to	move	against	the	compound	had	appeared	the	best	way	to	end	the	stand-off	without	bloodshed	.
+NNP	NNP	NNP	,	WP	VBD	NN	IN	DT	NNP	NN	,	JJ	NN	VBD	DT	NN	TO	VB	IN	DT	NN	VBD	VBN	DT	JJS	NN	TO	VB	DT	NN	IN	NN	.
+nn	nn	nsubj	p	nsubj	rcmod	dobj	prep	det	nn	pobj	p	amod	nsubj	root	det	nsubj	aux	infmod	prep	det	pobj	aux	cop	det	amod	ccomp	aux	xcomp	det	dobj	prep	pobj	p
+3	3	15	15	6	3	6	6	11	11	8	15	14	15	0	17	27	19	17	19	22	20	27	27	27	27	15	29	27	31	29	29	32	15
+PERSON-B	PERSON-I	PERSON-I	-	-	-	-	-	-	ORGANIZATION-B	-	-	TIME-B	TIME-I	-	-	-	-	-	-	-	FAC_DESC-B	-	-	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+She	absolved	President	Clinton	of	blame	,	saying	he	knew	only	generally	of	the	plan	,	and	added	that	the	FBI	had	'acted	professionally	and	with	remarkable	restraint	'	.
+PRP	VBD	NNP	NNP	IN	NN	,	VBG	PRP	VBD	RB	RB	IN	DT	NN	,	CC	VBD	IN	DT	NNP	VBD	VBN	RB	CC	IN	JJ	NN	''	.
+nsubj	root	nn	dobj	prep	pobj	p	partmod	nsubj	ccomp	advmod	dobj	prep	det	pobj	p	cc	conj	complm	det	nsubj	aux	ccomp	dep	cc	conj	amod	pobj	p	p
+2	0	4	2	4	5	2	2	10	8	12	10	12	15	13	2	10	10	23	21	23	23	18	23	24	24	28	26	2	2
+-	-	PER_DESC-B	PERSON-B	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	ORGANIZATION-B	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+The	blaze	spread	swiftly	,	punctuated	by	explosions	-	possibly	from	the	cult	's	ammunition	stores	.
+DT	NN	VBD	RB	,	VBN	IN	NNS	:	RB	IN	DT	NN	POS	NN	NNS	.
+det	nsubj	root	advmod	p	dep	prep	pobj	p	dep	dep	det	poss	possessive	nn	pobj	p
+2	3	0	3	3	3	6	7	3	11	6	13	16	13	16	11	3
+-	-	-	-	-	-	-	-	-	-	-	-	ORG_DESC-B	-	-	ORG_DESC-B	-
+</negative>
+<negative>
+It	started	several	hours	after	the	FBI	rammed	the	compound	with	tanks	and	fired	tear-	gas	in	an	attempt	to	end	the	siege	.
+PRP	VBD	JJ	NNS	IN	DT	NNP	VBD	DT	NN	IN	NNS	CC	VBD	JJ	NN	IN	DT	NN	TO	VB	DT	NN	.
+nsubj	root	amod	dobj	mark	det	nsubj	advcl	det	dobj	prep	pobj	cc	conj	amod	dobj	prep	det	pobj	aux	infmod	det	dobj	p
+2	0	4	2	8	7	8	2	10	8	8	11	8	8	16	14	14	19	17	21	19	23	21	2
+-	-	TIME-B	TIME-I	-	-	ORGANIZATION-B	-	-	FAC_DESC-B	-	PRODUCT_DESC-B	-	-	-	SUBSTANCE-B	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+By	the	time	firemen	arrived	little	was	left	of	the	cult	's	large	compound	.
+IN	DT	NN	NNS	VBD	RB	VBD	VBN	IN	DT	NN	POS	JJ	NN	.
+prep	det	pobj	nsubj	root	nsubjpass	auxpass	ccomp	prep	det	poss	possessive	amod	pobj	p
+5	3	1	5	0	8	8	5	8	11	14	11	14	9	5
+-	-	-	PER_DESC-B	-	-	-	-	-	-	ORG_DESC-B	-	-	FAC_DESC-B	-
+</negative>
+<negative>
+The	incident	appeared	to	echo	the	<num>	Jonestown	massacre	,	where	more	than	<num>	people	died	in	a	mass	suicide	at	a	cult	centre	in	the	jungles	of	Guyana	.
+DT	NN	VBD	TO	VB	DT	CD	NNP	NN	,	WRB	JJR	IN	CD	NNS	VBD	IN	DT	JJ	NN	IN	DT	NN	NN	IN	DT	NNS	IN	NNP	.
+det	nsubj	root	aux	xcomp	det	num	nn	dobj	p	advmod	mwe	quantmod	num	nsubj	rcmod	prep	det	amod	pobj	prep	det	nn	pobj	prep	det	pobj	prep	pobj	p
+2	3	0	5	3	9	9	9	5	3	16	13	14	15	16	9	16	20	20	17	20	24	24	21	16	27	25	27	28	3
+-	-	-	-	-	-	DATE-B	GPE-B	-	-	-	CARDINAL-B	CARDINAL-I	CARDINAL-I	PER_DESC-B	-	-	-	-	-	-	-	-	SUBSTANCE-B	-	-	-	-	ORGANIZATION-B	-
+</negative>
+<negative>
+The	charges	resulted	from	a	raid	to	confiscate	weapons	from	the	cult	.
+DT	NNS	VBD	IN	DT	NN	TO	VB	NNS	IN	DT	NN	.
+det	nsubj	root	prep	det	pobj	aux	xcomp	dobj	prep	det	pobj	p
+2	3	0	3	6	4	8	3	8	8	12	10	3
+-	-	-	-	-	-	-	-	PRODUCT_DESC-B	-	-	ORG_DESC-B	-
+</negative>
+<negative>
+The	raid	began	the	stand-off	and	left	four	agents	and	several	cult	followers	dead	.
+DT	NN	VBD	DT	NN	CC	VBD	CD	NNS	CC	JJ	NN	NNS	JJ	.
+det	nsubj	root	det	dobj	cc	conj	num	nsubj	cc	amod	nn	conj	xcomp	p
+2	3	0	5	3	3	3	9	14	9	13	13	9	7	3
+-	-	-	-	-	-	-	CARDINAL-B	PER_DESC-B	-	-	PER_DESC-B	PER_DESC-I	-	-
+</negative>
+<negative>
+But	the	FBI	was	evidently	no	longer	prepared	to	wait	.
+CC	DT	NNP	VBD	RB	RB	RBR	JJ	TO	VB	.
+cc	det	nsubj	cop	advmod	advmod	advmod	root	aux	xcomp	p
+8	3	8	8	8	7	8	0	10	8	8
+-	-	ORGANIZATION-B	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+At	5.55am	local	time	yesterday	the	cult	was	telephoned	and	informed	that	the	FBI	would	begin	to	fire	teargas	into	the	compound	.
+IN	JJ	JJ	NN	NN	DT	NN	VBD	JJ	CC	JJ	IN	DT	NNP	MD	VB	TO	VB	NNS	IN	DT	NN	.
+prep	amod	amod	nn	pobj	det	nsubj	cop	root	cc	conj	complm	det	nsubj	aux	ccomp	aux	xcomp	dobj	prep	det	pobj	p
+9	5	5	5	1	7	9	9	0	9	9	16	14	16	16	9	18	16	18	18	22	20	9
+-	CARDINAL-B	-	-	DATE-B	-	ORG_DESC-B	-	-	-	-	-	-	ORGANIZATION-B	-	-	-	-	-	-	-	FAC_DESC-B	-
+</negative>
+<negative>
+THE	51-day	siege	of	the	Branch	Davidian	religious	cult	near	Waco	,	Texas	,	ended	in	an	inferno	yesterday	following	an	attempt	by	US	law	enforcement	agents	to	halt	the	stand-off	.
+DT	JJ	NN	IN	DT	NNP	NNP	JJ	NN	IN	NNP	,	NNP	,	VBD	IN	DT	NN	NN	VBG	DT	NN	IN	NNP	NN	NN	NNS	TO	VB	DT	NN	.
+det	amod	nsubj	prep	det	nn	nn	amod	pobj	prep	nn	p	pobj	p	root	prep	det	pobj	tmod	xcomp	det	dobj	prep	nn	nn	nn	pobj	aux	xcomp	det	dobj	p
+3	3	15	3	9	9	9	9	4	9	13	15	10	15	0	15	18	16	15	15	22	20	20	27	27	27	23	29	20	31	29	15
+-	DATE-B	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	PER_DESC-B	-	GPE-B	-	GPE-B	-	-	-	-	-	DATE-B	-	-	-	-	GPE-B	-	-	PER_DESC-B	-	-	-	-	-
+</negative>
+<negative>
+The	White	House	said	FBI	agents	were	doing	everything	possible	to	rescue	the	<num>	cult	followers	from	the	compound	and	that	at	least	<num>	people	had	left	.
+DT	NNP	NNP	VBD	NNP	NNS	VBD	VBG	NN	JJ	TO	VB	DT	CD	NN	NNS	IN	DT	NN	CC	IN	IN	JJS	CD	NNS	VBD	VBN	.
+det	nn	nsubj	root	nn	nsubj	aux	ccomp	dobj	amod	aux	xcomp	det	num	nn	dobj	prep	det	pobj	cc	complm	quantmod	mwe	num	nsubj	aux	conj	p
+3	3	4	0	6	8	8	4	8	9	12	10	16	16	16	12	12	19	17	8	27	24	22	25	27	27	8	4
+-	ORGANIZATION-B	ORGANIZATION-I	-	ORGANIZATION-B	PER_DESC-B	-	-	-	-	-	-	-	CARDINAL-B	PER_DESC-B	PER_DESC-I	-	-	FAC_DESC-B	-	-	-	-	CARDINAL-B	PER_DESC-B	-	-	-
+</negative>
+<negative>
+'They	're	still	pulling	people	out	,	'	a	White	House	official	said	,	adding	that	the	FBI	did	not	know	how	many	would	survive	the	fire	.
+NN	VBP	RB	VBG	NNS	RP	,	''	DT	NNP	NNP	NN	VBD	,	VBG	IN	DT	NNP	VBD	RB	VB	WRB	JJ	MD	VB	DT	NN	.
+nsubj	aux	advmod	ccomp	dobj	prt	p	p	det	nn	nn	nsubj	root	p	xcomp	complm	det	nsubj	aux	neg	ccomp	advmod	advmod	aux	ccomp	det	dobj	p
+4	4	4	13	4	4	13	13	12	12	12	13	0	13	13	21	18	21	21	21	15	23	25	25	21	27	25	13
+-	-	-	-	PER_DESC-B	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	PER_DESC-B	-	-	-	-	-	ORGANIZATION-B	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+FBI	agents	pulled	out	of	the	compound	one	reluctant	woman	who	did	not	want	to	leave	.
+NNP	NNS	VBD	RP	IN	DT	NN	CD	JJ	NN	WP	VBD	RB	VB	TO	VB	.
+nn	nsubj	root	prt	prep	det	npadvmod	num	amod	pobj	nsubj	aux	neg	rcmod	aux	xcomp	p
+2	3	0	3	3	10	9	7	10	5	14	14	14	10	16	14	3
+ORGANIZATION-B	PER_DESC-B	-	-	-	-	-	-	-	PER_DESC-B	-	-	-	-	-	-	-
+</negative>
+<negative>
+talk	to	the	attorney-general	or	the	FBI	.
+VB	TO	DT	NN	CC	DT	NNP	.
+root	prep	det	pobj	cc	det	conj	p
+0	1	4	2	4	7	4	1
+-	-	-	PER_DESC-B	-	-	ORGANIZATION-B	-
+</negative>
+<negative>
+The	blaze	spread	swiftly	,	punctuated	by	explosions	-	possibly	from	the	cult	's	vast	ammunition	stores	.
+DT	NN	VBD	RB	,	VBN	IN	NNS	:	RB	IN	DT	NN	POS	JJ	NN	NNS	.
+det	nsubj	root	advmod	p	dep	prep	pobj	p	dep	dep	det	poss	possessive	amod	nn	pobj	p
+2	3	0	3	3	3	6	7	3	11	6	13	17	13	17	17	11	3
+-	-	-	-	-	-	-	-	-	-	-	-	ORG_DESC-B	-	-	-	ORG_DESC-B	-
+</negative>
+<negative>
+The	FBI	was	evidently	no	longer	prepared	to	wait	.
+DT	NNP	VBD	RB	RB	RBR	JJ	TO	VB	.
+det	nsubj	cop	advmod	advmod	advmod	root	aux	xcomp	p
+2	7	7	7	6	7	0	9	7	7
+-	ORGANIZATION-B	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+Mr	Bob	Ricks	,	the	FBI	agent	in	charge	of	the	operation	,	said	the	teargas	was	fired	to	'make	them	as	uncomfortable	as	possible	'	.
+NNP	NNP	NNP	,	DT	NNP	NN	IN	NN	IN	DT	NN	,	VBD	DT	NNS	VBD	VBN	TO	VB	PRP	RB	JJ	IN	JJ	''	.
+nn	nn	nsubj	p	det	nn	appos	prep	pobj	prep	det	pobj	p	root	det	nsubjpass	auxpass	ccomp	aux	xcomp	nsubj	advmod	xcomp	prep	pobj	p	p
+3	3	14	14	7	7	3	7	8	9	12	10	14	0	16	18	18	14	20	18	23	23	20	20	24	14	14
+-	PERSON-B	PERSON-I	-	-	ORGANIZATION-B	PER_DESC-B	-	-	-	-	ORG_DESC-B	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+Anything	but	clear	,	as	we	were	reminded	by	Panorama	;	Sinful	Messiah	-LRB-	BBC	<num>	,	Monday	-RRB-	is	whether	the	FBI	were	justified	in	mounting	the	assault	on	the	Branch	Davidian	headquarters	.
+NN	CC	JJ	,	RB	PRP	VBD	VBN	IN	NNP	:	NNP	NNP	-LRB-	NNP	CD	,	NNP	-RRB-	VBZ	IN	DT	NNP	VBD	VBN	IN	VBG	DT	NN	IN	DT	NNP	NNP	NN	.
+nsubjpass	cc	conj	p	advmod	nsubjpass	auxpass	root	prep	pobj	p	nn	nsubj	p	appos	num	p	dep	p	parataxis	complm	det	nsubjpass	auxpass	ccomp	prep	pcomp	det	dobj	prep	det	nn	nn	pobj	p
+8	1	1	8	6	8	8	0	8	9	8	13	20	8	13	15	8	15	8	8	25	23	25	25	20	25	26	29	27	27	34	34	34	30	8
+-	-	-	-	-	-	-	-	-	ORGANIZATION-B	-	WORK_OF_ART-B	WORK_OF_ART-I	-	ORGANIZATION-B	PRODUCT-B	-	DATE-B	-	-	-	-	ORGANIZATION-B	-	-	-	-	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	FAC_DESC-B	-
+</negative>
+</QApairs>

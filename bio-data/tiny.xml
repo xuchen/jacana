@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<retrieved-sentences-set>
+  <name>Dummy name</name>
+  <date>11/1/2012 12:49.9</date>
+  <q-and-retrieved-sentences>
+    <qid>990</qid>
+    <question> What process does this quote describe?</question>
+     <answers>
+      <answer>Diffusion</answer>
+      <answer>diffusion</answer>
+      <answer>passive movement</answer>
+      <answer>passive transport</answer>
+     </answers>
+    <retrieved-sentences>
+      <sentence>
+        <sid>1.7.3.6.1</sid>
+        <sentence-string>We can now state a simple rule of diffusion.</sentence-string>
+        <rank>1</rank>
+        <relevance>109.742714</relevance>
+      </sentence>
+    </retrieved-sentences>
+  </q-and-retrieved-sentences>
+  <q-and-retrieved-sentences>
+    <qid>28</qid>
+    <question>What kind of cell division results in a haploid cell from a diploid cell?</question>
+     <answers>
+      <answer>Meiosis</answer>
+     </answers>
+    <retrieved-sentences>
+      <sentence>
+        <sid>4.1662.1.1</sid>
+        <sentence-string>An embryo is a multicellular diploid eukaryote. </sentence-string>
+        <rank>1</rank>
+        <relevance>77.26775</relevance>
+      </sentence>
+    </retrieved-sentences>
+  </q-and-retrieved-sentences>
+</retrieved-sentences-set>

@@ -1,0 +1,9 @@
+
+
+
+RTE2_test_M.align.berkeley-unsupervised.txt:
+Exact match          0.4   (3 of 800)
+Macro-averaged (reported in paper)):
+  Precision          39.9
+  Recall             64.8
+  F1                 49.4

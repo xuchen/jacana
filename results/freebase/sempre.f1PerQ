@@ -1,0 +1,852 @@
+qword2q:
+0.403	what	929
+0.389	who	261
+0.345	which	35
+0.318	where	357
+0.200	how many	5
+0.182	how i	1
+0.164	when	100
+0.000	how large	1
+0.000	how deep	1
+
+
+
+qtype2q:
+1.000	went	1
+1.000	vii	1
+1.000	victory	1
+1.000	use	2
+1.000	superbowl	1
+1.000	sri	1
+1.000	spain	1
+1.000	signed	1
+1.000	ship	1
+1.000	schools	2
+1.000	running	1
+1.000	rule	1
+1.000	religions	1
+1.000	religion	4
+1.000	raised	2
+1.000	programmed	1
+1.000	practiced	1
+1.000	player	1
+1.000	period	1
+1.000	obama	1
+1.000	nationality	3
+1.000	named	1
+1.000	movement	2
+1.000	lived	1
+1.000	label	1
+1.000	inventions	2
+1.000	industry	1
+1.000	graduate	1
+1.000	good	1
+1.000	genre	1
+1.000	events	1
+1.000	engaged	3
+1.000	electorate	1
+1.000	district	1
+1.000	design	1
+1.000	degrees	3
+1.000	degree	1
+1.000	conduct	1
+1.000	color	1
+1.000	change	1
+1.000	celebrities	1
+1.000	capital	1
+1.000	buried	5
+1.000	art	1
+0.955	graduated	2
+0.952	currency	21
+0.916	import	2
+0.909	band	1
+0.900	series	1
+0.889	died	12
+0.889	party	9
+0.867	disease	5
+0.778	languages	3
+0.778	highschool	3
+0.778	guitar	3
+0.769	university	4
+0.750	playing	2
+0.750	continent	4
+0.713	border	5
+0.700	voices	1
+0.700	awards	2
+0.698	married	21
+0.676	school	16
+0.668	form	9
+0.667	sort	1
+0.667	sign	1
+0.667	lohan	1
+0.667	zone	9
+0.667	money	6
+0.667	got	3
+0.667	built	3
+0.650	continents	2
+0.648	plays	43
+0.636	die	22
+0.625	used	8
+0.599	colleges	3
+0.598	language	57
+0.584	system	4
+0.578	attend	3
+0.577	college	13
+0.577	city	13
+0.548	born	14
+0.526	marry	13
+0.520	kind	45
+0.518	type	50
+0.510	go	45
+0.506	country	32
+0.501	airport	7
+0.500	written	2
+0.500	voice	3
+0.500	unified	1
+0.500	town	2
+0.500	shows	2
+0.500	represent	2
+0.500	name	2
+0.500	makes	3
+0.500	league	1
+0.500	instruments	3
+0.500	instrument	2
+0.500	grow	6
+0.500	group	1
+0.500	grew	2
+0.500	drug	1
+0.500	drafted	2
+0.500	cancer	2
+0.500	battles	1
+0.500	arrested	1
+0.500	area	2
+0.500	all	2
+0.487	live	25
+0.479	does	4
+0.477	's	2
+0.476	spoken	13
+0.476	team	35
+0.475	win	6
+0.471	county	17
+0.469	speak	17
+0.438	government	5
+0.429	play	55
+0.400	time	7
+0.400	take	5
+0.400	music	1
+0.400	founded	5
+0.400	english	1
+0.400	club	1
+0.396	style	5
+0.389	countries	41
+0.375	timezone	8
+0.375	voiced	4
+0.358	did	4
+0.356	played	35
+0.334	province	2
+0.334	began	2
+0.333	killed	9
+0.333	draft	4
+0.298	movies	22
+0.292	invent	4
+0.281	wrote	7
+0.259	called	9
+0.254	come	22
+0.250	station	1
+0.250	state	10
+0.250	happen	4
+0.250	get	12
+0.250	fought	4
+0.244	states	5
+0.233	study	6
+0.200	year	25
+0.200	owns	5
+0.200	many	5
+0.200	flower	1
+0.200	are	5
+0.194	was	29
+0.188	acted	2
+0.187	influenced	7
+0.184	songs	3
+0.182	season	1
+0.182	met	1
+0.167	president	4
+0.167	located	26
+0.154	fly	1
+0.154	famous	13
+0.150	document	2
+0.147	is	83
+0.147	won	16
+0.143	happened	7
+0.133	position	5
+0.125	work	4
+0.111	book	6
+0.105	films	2
+0.105	books	5
+0.100	discover	5
+0.100	see	9
+0.071	mean	4
+0.071	invented	4
+0.067	start	15
+0.067	people	3
+0.059	do	62
+0.057	end	7
+0.056	products	2
+0.050	visit	4
+0.040	have	5
+0.000	years	2
+0.000	write	1
+0.000	worship	1
+0.000	works	1
+0.000	wars	1
+0.000	war	2
+0.000	vote	1
+0.000	vegetables	1
+0.000	types	1
+0.000	tupac	1
+0.000	train	1
+0.000	trade	1
+0.000	think	1
+0.000	things	1
+0.000	teams	2
+0.000	surrender	1
+0.000	stop	1
+0.000	stones	1
+0.000	stiller	1
+0.000	stay	3
+0.000	started	2
+0.000	stands	1
+0.000	stand	2
+0.000	stabbed	1
+0.000	sports	2
+0.000	sport	1
+0.000	situated	1
+0.000	sit	1
+0.000	sing	2
+0.000	shot	1
+0.000	say	1
+0.000	run	4
+0.000	rules	1
+0.000	ruler	1
+0.000	ruled	1
+0.000	role	3
+0.000	return	1
+0.000	retired	1
+0.000	resigns	1
+0.000	region	3
+0.000	ran	2
+0.000	rainforest	1
+0.000	race	1
+0.000	prompted	1
+0.000	produce	1
+0.000	predict	1
+0.000	pray	1
+0.000	practice	1
+0.000	planet	1
+0.000	places	3
+0.000	pieces	1
+0.000	percentage	1
+0.000	percent	2
+0.000	peat	1
+0.000	part	5
+0.000	own	1
+0.000	originated	1
+0.000	originate	8
+0.000	organizations	1
+0.000	organisms	1
+0.000	opening	1
+0.000	open	1
+0.000	offices	1
+0.000	ocean	2
+0.000	occur	4
+0.000	objects	1
+0.000	moving	1
+0.000	montesquie	1
+0.000	mohammed	1
+0.000	materials	1
+0.000	manufactured	2
+0.000	make	2
+0.000	made	6
+0.000	like	1
+0.000	led	5
+0.000	learn	1
+0.000	large	1
+0.000	lands	1
+0.000	landed	1
+0.000	known	11
+0.000	kill	1
+0.000	join	2
+0.000	johansson	1
+0.000	jobs	2
+0.000	jackson	1
+0.000	islands	1
+0.000	island	1
+0.000	invested	1
+0.000	invest	1
+0.000	inspired	5
+0.000	indicted	1
+0.000	include	1
+0.000	honor	1
+0.000	honduras	1
+0.000	hit	1
+0.000	hemisphere	1
+0.000	helped	1
+0.000	held	1
+0.000	governor	1
+0.000	given	1
+0.000	games	1
+0.000	found	2
+0.000	formed	1
+0.000	follow	1
+0.000	flow	1
+0.000	find	3
+0.000	financed	1
+0.000	filmed	1
+0.000	fighting	1
+0.000	fight	2
+0.000	export	2
+0.000	explore	1
+0.000	explain	1
+0.000	executed	2
+0.000	excuse	1
+0.000	exchange	1
+0.000	evolved	1
+0.000	ends	1
+0.000	elected	1
+0.000	educated	1
+0.000	eat	1
+0.000	drink	1
+0.000	doing	1
+0.000	distributed	1
+0.000	discovery	1
+0.000	discovered	1
+0.000	developed	1
+0.000	dessen	1
+0.000	designed	1
+0.000	deferred	1
+0.000	defeated	1
+0.000	deep	1
+0.000	declared	1
+0.000	dating	2
+0.000	dated	1
+0.000	date	1
+0.000	created	2
+0.000	counties	1
+0.000	contribute	1
+0.000	conrad	1
+0.000	company	1
+0.000	code	1
+0.000	coaches	1
+0.000	coached	1
+0.000	coach	2
+0.000	classified	1
+0.000	characters	1
+0.000	character	1
+0.000	channel	2
+0.000	century	1
+0.000	celebrated	1
+0.000	caused	2
+0.000	camp	1
+0.000	call	5
+0.000	cain	1
+0.000	business	1
+0.000	brought	1
+0.000	broncos	1
+0.000	brad	1
+0.000	bowl	1
+0.000	body	1
+0.000	bisect	1
+0.000	bible	1
+0.000	believe	3
+0.000	begin	1
+0.000	been	2
+0.000	based	4
+0.000	banjo	1
+0.000	attack	1
+0.000	athlete	1
+0.000	assassinated	1
+0.000	approve	1
+0.000	appointed	1
+0.000	animal	1
+0.000	age	1
+0.000	address	1
+0.000	activities	1
+0.000	accomplished	1
+0.000	accomplish	2
+0.000	about	2
+
+
+
+qrel2q:
+1.000	--prep_in-->	1
+0.470	--det-->	659
+0.400	--nsubjpass-->	2
+0.376	--dep-->	157
+0.308	--nsubj-->	183
+0.284	--dobj-->	212
+0.282	--advmod-->	465
+0.083	--pobj-->	12
+
+
+
+qword_qtype2q:
+1.000	who vii	1
+1.000	who signed	1
+1.000	who running	1
+1.000	who makes	1
+1.000	who engaged	3
+1.000	which party	1
+1.000	which continent	1
+1.000	where went	1
+1.000	where raised	2
+1.000	where playing	1
+1.000	where obama	1
+1.000	where lived	1
+1.000	where import	1
+1.000	where graduate	1
+1.000	where got	1
+1.000	where fought	1
+1.000	where died	1
+1.000	where conduct	1
+1.000	where buried	5
+1.000	when drafted	1
+1.000	when change	1
+1.000	what victory	1
+1.000	what use	2
+1.000	what superbowl	1
+1.000	what sri	1
+1.000	what spain	1
+1.000	what ship	1
+1.000	what schools	2
+1.000	what rule	1
+1.000	what religions	1
+1.000	what religion	4
+1.000	what programmed	1
+1.000	what practiced	1
+1.000	what player	1
+1.000	what period	1
+1.000	what nationality	3
+1.000	what named	1
+1.000	what movement	2
+1.000	what label	1
+1.000	what killed	2
+1.000	what inventions	2
+1.000	what industry	1
+1.000	what good	1
+1.000	what genre	1
+1.000	what founded	1
+1.000	what events	1
+1.000	what electorate	1
+1.000	what district	1
+1.000	what design	1
+1.000	what degrees	3
+1.000	what degree	1
+1.000	what color	1
+1.000	what celebrities	1
+1.000	what capital	1
+1.000	what art	1
+0.963	what died	9
+0.955	where graduated	2
+0.952	what currency	21
+0.909	what band	1
+0.900	what series	1
+0.875	what party	8
+0.867	what disease	5
+0.857	what die	7
+0.833	who import	1
+0.803	what university	3
+0.800	what continents	1
+0.778	what languages	3
+0.778	what highschool	3
+0.778	what guitar	3
+0.741	which airport	3
+0.733	who married	20
+0.714	what used	7
+0.713	what border	5
+0.700	what voices	1
+0.700	what awards	2
+0.697	where born	11
+0.676	what school	16
+0.668	what form	9
+0.667	who sign	1
+0.667	which university	1
+0.667	what sort	1
+0.667	what lohan	1
+0.667	where built	3
+0.667	what zone	9
+0.667	what money	6
+0.667	what continent	3
+0.648	who plays	43
+0.639	who does	3
+0.625	what city	12
+0.609	what spoken	9
+0.599	what colleges	3
+0.598	what language	57
+0.584	what system	4
+0.578	where attend	3
+0.577	what college	13
+0.570	when win	5
+0.546	where go	41
+0.542	what country	24
+0.533	where die	15
+0.526	who marry	13
+0.520	what kind	45
+0.518	what type	50
+0.515	what speak	12
+0.511	what is	9
+0.500	who voice	3
+0.500	who speak	1
+0.500	who playing	1
+0.500	which continents	1
+0.500	where take	4
+0.500	where study	2
+0.500	where play	10
+0.500	where grow	6
+0.500	where grew	2
+0.500	where arrested	1
+0.500	when won	3
+0.500	when unified	1
+0.500	when got	2
+0.500	when died	2
+0.500	what written	2
+0.500	what town	2
+0.500	what shows	2
+0.500	what represent	2
+0.500	what played	2
+0.500	what name	2
+0.500	what league	1
+0.500	what instruments	3
+0.500	what instrument	2
+0.500	what group	1
+0.500	what drug	1
+0.500	what cancer	2
+0.500	what battles	1
+0.500	what area	2
+0.500	what all	2
+0.487	where live	25
+0.477	when 's	2
+0.476	what team	35
+0.471	what county	17
+0.438	what government	5
+0.429	who play	41
+0.417	who did	3
+0.400	what time	7
+0.400	which country	8
+0.400	where english	1
+0.400	what music	1
+0.400	what club	1
+0.396	what style	5
+0.394	who influenced	3
+0.392	what countries	34
+0.378	which countries	7
+0.375	what timezone	8
+0.375	who voiced	4
+0.348	who played	33
+0.334	where began	2
+0.334	what province	2
+0.333	who wrote	3
+0.333	who killed	3
+0.333	where was	9
+0.333	where happen	3
+0.333	who draft	4
+0.322	what wrote	3
+0.322	where speak	4
+0.322	what airport	4
+0.305	what states	4
+0.300	where get	10
+0.298	what movies	22
+0.292	what invent	4
+0.286	what invented	1
+0.286	when is	8
+0.266	where come	21
+0.259	what called	9
+0.250	who founded	4
+0.250	which state	2
+0.250	where work	2
+0.250	what station	1
+0.250	what state	8
+0.250	what play	4
+0.250	what makes	2
+0.200	who owns	5
+0.200	where visit	1
+0.200	where start	5
+0.200	where are	5
+0.200	what year	25
+0.200	what have	1
+0.200	what flower	1
+0.200	how many many	5
+0.200	when go	3
+0.188	what acted	2
+0.184	what songs	3
+0.182	what season	1
+0.182	what did	1
+0.182	how i met	1
+0.176	where spoken	4
+0.167	when president	4
+0.167	where located	26
+0.167	which book	2
+0.154	where fly	1
+0.154	what famous	13
+0.150	what document	2
+0.143	what happened	7
+0.139	when was	19
+0.133	what position	5
+0.105	what films	2
+0.105	what books	5
+0.100	what study	4
+0.100	what discover	5
+0.100	what see	9
+0.088	where is	61
+0.083	what book	4
+0.077	who won	11
+0.071	what mean	4
+0.067	when end	6
+0.067	what people	3
+0.059	what do	62
+0.056	what products	2
+0.031	what influenced	4
+0.000	who write	1
+0.000	who worship	1
+0.000	who was	1
+0.000	who trade	1
+0.000	who surrender	1
+0.000	who stiller	1
+0.000	who started	1
+0.000	who sing	1
+0.000	who run	2
+0.000	who rules	1
+0.000	who ruled	1
+0.000	who ran	2
+0.000	who pray	1
+0.000	who made	1
+0.000	who led	2
+0.000	who johansson	1
+0.000	who is	4
+0.000	who invented	1
+0.000	who inspired	1
+0.000	who helped	1
+0.000	who have	4
+0.000	who fought	3
+0.000	who formed	1
+0.000	who follow	1
+0.000	who financed	1
+0.000	who fighting	1
+0.000	who fight	1
+0.000	who explore	1
+0.000	who executed	1
+0.000	who drafted	1
+0.000	who developed	1
+0.000	who designed	1
+0.000	who defeated	1
+0.000	who dating	2
+0.000	who dated	1
+0.000	who created	1
+0.000	who coaches	1
+0.000	who coached	1
+0.000	who coach	2
+0.000	who brad	1
+0.000	who appointed	1
+0.000	which states	1
+0.000	which ruler	1
+0.000	which ocean	1
+0.000	which made	1
+0.000	which island	1
+0.000	which is	1
+0.000	which export	1
+0.000	which city	1
+0.000	which approve	1
+0.000	where wrote	1
+0.000	where vote	1
+0.000	where used	1
+0.000	where tupac	1
+0.000	where stay	3
+0.000	where started	1
+0.000	where situated	1
+0.000	where run	2
+0.000	where practice	1
+0.000	where originated	1
+0.000	where originate	7
+0.000	where occur	3
+0.000	where moving	1
+0.000	where mohammed	1
+0.000	where married	1
+0.000	where manufactured	2
+0.000	where made	1
+0.000	where killed	4
+0.000	where kill	1
+0.000	where jackson	1
+0.000	where honduras	1
+0.000	where found	2
+0.000	where flow	1
+0.000	where find	2
+0.000	where filmed	1
+0.000	where export	1
+0.000	where executed	1
+0.000	where excuse	1
+0.000	where exchange	1
+0.000	where evolved	1
+0.000	where ends	1
+0.000	where end	1
+0.000	where educated	1
+0.000	where eat	1
+0.000	where distributed	1
+0.000	where cain	1
+0.000	where begin	1
+0.000	where based	4
+0.000	where attack	1
+0.000	where address	1
+0.000	when take	1
+0.000	when stop	1
+0.000	when start	10
+0.000	when stabbed	1
+0.000	when sit	1
+0.000	when shot	1
+0.000	when return	1
+0.000	when retired	1
+0.000	when resigns	1
+0.000	when peat	1
+0.000	when originate	1
+0.000	when opening	1
+0.000	when open	1
+0.000	when occur	1
+0.000	when landed	1
+0.000	when join	2
+0.000	when invented	2
+0.000	when hit	1
+0.000	when held	1
+0.000	when happen	1
+0.000	when governor	1
+0.000	when given	1
+0.000	when get	1
+0.000	when elected	1
+0.000	when declared	1
+0.000	when created	1
+0.000	when come	1
+0.000	when celebrated	1
+0.000	when born	3
+0.000	when assassinated	1
+0.000	what years	2
+0.000	what works	1
+0.000	what work	2
+0.000	what won	2
+0.000	what win	1
+0.000	what wars	1
+0.000	what war	2
+0.000	what visit	3
+0.000	what vegetables	1
+0.000	what types	1
+0.000	what train	1
+0.000	what think	1
+0.000	what things	1
+0.000	what teams	2
+0.000	what stones	1
+0.000	what stands	1
+0.000	what stand	2
+0.000	what sports	2
+0.000	what sport	1
+0.000	what sing	1
+0.000	what say	1
+0.000	what role	3
+0.000	what region	3
+0.000	what rainforest	1
+0.000	what race	1
+0.000	what prompted	1
+0.000	what produce	1
+0.000	what predict	1
+0.000	what planet	1
+0.000	what places	3
+0.000	what pieces	1
+0.000	what percentage	1
+0.000	what percent	2
+0.000	what part	5
+0.000	what own	1
+0.000	what organizations	1
+0.000	what organisms	1
+0.000	what offices	1
+0.000	what ocean	1
+0.000	what objects	1
+0.000	what montesquie	1
+0.000	what materials	1
+0.000	what make	2
+0.000	what made	3
+0.000	what like	1
+0.000	what led	3
+0.000	what learn	1
+0.000	what lands	1
+0.000	what known	11
+0.000	what jobs	2
+0.000	what islands	1
+0.000	what invested	1
+0.000	what invest	1
+0.000	what inspired	4
+0.000	what indicted	1
+0.000	what include	1
+0.000	what honor	1
+0.000	what hemisphere	1
+0.000	what go	1
+0.000	what get	1
+0.000	what games	1
+0.000	what find	1
+0.000	what fight	1
+0.000	what explain	1
+0.000	what drink	1
+0.000	what doing	1
+0.000	what does	1
+0.000	what discovery	1
+0.000	what discovered	1
+0.000	what dessen	1
+0.000	what deferred	1
+0.000	what date	1
+0.000	what counties	1
+0.000	what contribute	1
+0.000	what conrad	1
+0.000	what company	1
+0.000	what code	1
+0.000	what classified	1
+0.000	what characters	1
+0.000	what character	1
+0.000	what channel	2
+0.000	what century	1
+0.000	what caused	2
+0.000	what camp	1
+0.000	what call	5
+0.000	what business	1
+0.000	what brought	1
+0.000	what broncos	1
+0.000	what bowl	1
+0.000	what body	1
+0.000	what bisect	1
+0.000	what bible	1
+0.000	what believe	3
+0.000	what been	2
+0.000	what banjo	1
+0.000	what athlete	1
+0.000	what animal	1
+0.000	what age	1
+0.000	what activities	1
+0.000	what accomplished	1
+0.000	what accomplish	2
+0.000	what about	2
+0.000	how large large	1
+0.000	how deep deep	1
+
+
+
+0.419	7	395
+0.384	6	432
+0.377	<=10	1270
+0.355	8	273
+0.351	5	299
+0.340	<=5	386
+0.315	10	48
+0.305	11	19
+0.304	4	78
+0.296	3	9
+0.288	9	122
+0.257	<=15	34
+0.250	12	10
+0.117	13	4
+0.000	15	1
+
+
+

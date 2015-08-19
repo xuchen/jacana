@@ -1,0 +1,600 @@
+What	do	practitioners	of	Wicca	worship	?
+WP	VBP	NNS	IN	NNP	NN	.
+VMOD	ROOT	OBJ	NMOD	NMOD	PMOD	P
+2	0	2	3	6	4	2
+-	-	PER_DESC-B	-	ORGANIZATION-B	-	-
+
+How	many	followers	does	Wicca	have	?
+NNP	JJ	NNS	VBZ	NNP	VB	.
+NMOD	NMOD	SUB	ROOT	SUB	VMOD	P
+3	3	4	0	4	4	4
+-	-	PER_DESC-B	-	PERSON-B	-	-
+
+What	is	Florence	Nightingale	famous	for	?
+WP	VBZ	NNP	JJ	NN	IN	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	P
+2	0	5	5	2	5	2
+-	-	PERSON-B	PERSON-I	-	-	-
+
+When	was	Florence	Nightingale	born	?
+WRB	VBD	NNP	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	SUB	P
+2	0	5	5	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+When	did	Amtrak	begin	operations	?
+WRB	VBD	RB	VB	NNS	.
+VMOD	ROOT	VMOD	VC	OBJ	P
+2	0	2	2	4	2
+-	-	ORGANIZATION-B	-	-	-
+
+How	many	passengers	does	Amtrak	serve	annually	?
+NNP	JJ	NNS	VBZ	NNP	NN	RB	.
+NMOD	NMOD	SUB	ROOT	NMOD	SUB	VMOD	P
+3	3	4	0	6	4	4	4
+-	-	PER_DESC-B	-	ORGANIZATION-B	-	DATE-B	-
+
+How	many	employees	does	Amtrak	have	?
+NNP	JJ	NNS	VBZ	RB	VB	.
+NMOD	NMOD	SUB	ROOT	VMOD	VC	P
+3	3	4	0	4	4	4
+-	-	PER_DESC-B	-	ORGANIZATION-B	-	-
+
+Who	is	the	president	or	chief	executive	of	Amtrak	?
+NNP	VBZ	DT	NN	CC	JJ	NN	IN	NNP	.
+SUB	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	NMOD	PMOD	P
+2	0	7	7	7	7	2	7	8	2
+-	-	-	PER_DESC-B	-	PER_DESC-B	PER_DESC-I	-	ORGANIZATION-B	-
+
+When	did	Jack	Welch	become	chairman	of	General	Electric	?
+WRB	VBD	NNP	NNP	VBN	NN	IN	NNP	NNP	.
+VMOD	ROOT	NMOD	SUB	VMOD	PRD	NMOD	NMOD	PMOD	P
+2	0	4	2	2	5	6	9	7	2
+-	-	PERSON-B	PERSON-I	-	PER_DESC-B	-	ORGANIZATION-B	ORGANIZATION-I	-
+
+How	many	years	was	Jack	Welch	with	GE	?
+NNP	JJ	NNS	VBD	NNP	NNP	IN	NNP	.
+NMOD	NMOD	SUB	ROOT	NMOD	SUB	VMOD	PMOD	P
+3	3	4	0	6	4	4	7	4
+-	-	DATE-B	-	PERSON-B	PERSON-I	-	ORGANIZATION-B	-
+
+When	did	Jack	Welch	retire	from	GE	?
+WRB	VBD	NNP	NNP	NN	IN	NNP	.
+VMOD	ROOT	NMOD	NMOD	SUB	NMOD	PMOD	P
+2	0	5	5	2	5	6	2
+-	-	PERSON-B	PERSON-I	-	-	ORGANIZATION-B	-
+
+How	many	people	did	Jack	Welch	fire	from	GE	?
+NNP	JJ	NNS	VBD	NNP	NNP	NN	IN	NNP	.
+NMOD	NMOD	SUB	ROOT	NMOD	NMOD	SUB	NMOD	PMOD	P
+3	3	4	0	7	7	4	7	8	4
+-	-	PER_DESC-B	-	PERSON-B	PERSON-I	-	-	ORGANIZATION-B	-
+
+In	what	country	did	the	Khmer	Rouge	movement	take	place	?
+IN	WP	NN	VBD	DT	NNP	NNP	NN	VB	NN	.
+VMOD	PMOD	NMOD	ROOT	NMOD	NMOD	NMOD	SUB	VMOD	OBJ	P
+4	1	2	0	8	8	8	4	4	9	4
+-	-	GPE_DESC-B	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	-
+
+When	did	the	Khmer	Rouge	come	into	power	?
+WRB	VBD	DT	NNP	NNP	VB	IN	NN	.
+VMOD	ROOT	NMOD	NMOD	SUB	VMOD	VMOD	PMOD	P
+2	0	5	5	2	2	6	7	2
+-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	-
+
+Who	was	Khmer	Rouge	's	first	leader	?
+NNP	VBD	NNP	NNP	POS	JJ	NN	.
+SUB	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	7	7	2	2
+-	-	ORGANIZATION-B	ORGANIZATION-I	-	ORDINAL-B	PER_DESC-B	-
+
+When	was	the	Khmer	Rouge	removed	from	power	?
+WRB	VBD	DT	NN	NN	VBD	IN	NN	.
+VMOD	ROOT	NMOD	NMOD	SUB	VMOD	VMOD	PMOD	P
+2	0	5	5	6	2	6	7	2
+-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	-
+
+How	many	members	are	there	in	the	singing	group	the	Wiggles	?
+NNP	JJ	NNS	VBP	RB	IN	DT	JJ	NN	DT	NNS	.
+NMOD	NMOD	SUB	ROOT	VMOD	VMOD	NMOD	NMOD	PMOD	NMOD	PMOD	P
+3	3	4	0	4	4	9	9	6	11	6	4
+-	-	PER_DESC-B	-	-	-	-	-	-	-	ORGANIZATION-B	-
+
+Where	is	the	group	Wiggles	from	?
+RB	VBZ	DT	NN	NNS	IN	.
+VMOD	ROOT	NMOD	NMOD	PRD	VMOD	P
+2	0	5	5	2	2	2
+-	-	-	ORG_DESC-B	ORGANIZATION-B	-	-
+
+What	kind	of	a	particle	is	a	quark	?
+WP	NN	IN	DT	NN	VBZ	DT	NN	.
+VMOD	NMOD	NMOD	NMOD	PMOD	ROOT	NMOD	PRD	P
+6	1	1	5	3	0	8	6	6
+-	-	-	-	-	-	-	-	-
+
+Who	discovered	quarks	?
+NNP	VBD	NNS	.
+SUB	ROOT	OBJ	P
+2	0	2	2
+-	-	-	-
+
+When	were	quarks	discovered	?
+WRB	VBD	NNS	VBN	.
+VMOD	ROOT	SUB	VMOD	P
+2	0	4	2	2
+-	-	-	-	-
+
+What	kind	of	music	does	the	Clash	play	?
+WP	NN	IN	NN	VBZ	DT	JJ	VB	.
+VMOD	NMOD	NMOD	PMOD	ROOT	NMOD	SUB	VMOD	P
+5	1	1	3	0	7	8	5	5
+-	-	-	-	-	-	-	-	-
+
+What	town	was	Nimitz	native	of	?
+WP	NN	VBD	NNP	NN	IN	.
+VMOD	NMOD	ROOT	NMOD	PRD	NMOD	P
+3	1	0	5	3	5	3
+-	GPE_DESC-B	-	FAC-B	PER_DESC-B	-	-
+
+During	what	war	did	Nimitz	serve	?
+VBG	WP	NN	VBD	NNP	NN	.
+VMOD	VMOD	NMOD	ROOT	NMOD	SUB	P
+4	1	2	0	6	4	4
+-	-	-	-	FAC-B	-	-
+
+What	rank	did	Nimitz	reach	?
+WP	NN	VBD	RB	VB	.
+VMOD	NMOD	ROOT	VMOD	VC	P
+3	1	0	3	3	3
+-	-	-	FAC-B	-	-
+
+What	year	did	the	Teapot	Dome	scandal	take	place	?
+WP	NN	VBD	DT	NNP	NNP	TO	VB	NN	.
+VMOD	NMOD	ROOT	NMOD	NMOD	SUB	VMOD	VMOD	OBJ	P
+3	1	0	6	6	8	8	3	8	3
+-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	-
+
+Who	was	President	of	the	United	States	in	<num>	?
+NNP	VBD	NN	IN	DT	NNP	NNPS	IN	CD	.
+SUB	ROOT	PRD	NMOD	NMOD	NMOD	PMOD	VMOD	PMOD	P
+2	0	2	3	7	7	4	2	8	2
+-	-	PER_DESC-B	-	-	GPE-B	GPE-I	-	DATE-B	-
+
+What	was	the	main	focus	of	the	Teapot	Dome	scandal	?
+WP	VBD	DT	NN	NN	IN	DT	NNP	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	5	5	2	5	10	10	10	6	2
+-	-	-	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-
+
+When	was	the	USS	Constitution	commissioned	?
+WRB	VBD	DT	NNP	NNP	VBD	.
+VMOD	VMOD	NMOD	NMOD	SUB	ROOT	P
+2	6	5	5	2	0	6
+-	-	-	LAW-B	LAW-I	-	-
+
+What	conflict	did	the	USS	Constitution	distinguish	herself	in	?
+WP	NN	VBD	DT	NNP	NNP	JJ	NN	IN	.
+VMOD	NMOD	ROOT	NMOD	NMOD	NMOD	NMOD	OBJ	NMOD	P
+3	1	0	8	8	8	8	3	8	3
+-	-	-	-	LAW-B	LAW-I	-	-	-	-
+
+What	is	USS	Constitution	's	nickname	?
+WP	VBZ	NNP	NNP	POS	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	6	2	2
+-	-	PRODUCT-B	PRODUCT-I	-	-	-
+
+Who	established	the	Nobel	prize	awards	?
+NNP	VBD	DT	NNP	NN	NNS	.
+SUB	ROOT	NMOD	NMOD	NMOD	OBJ	P
+2	0	6	6	6	2	2
+-	-	-	WORK_OF_ART-B	-	-	-
+
+When	were	the	Nobel	prize	awards	first	given	?
+WRB	VBD	DT	NNP	NN	NNS	RB	VBN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	SUB	VMOD	NMOD	P
+2	0	6	6	6	2	8	6	2
+-	-	-	WORK_OF_ART-B	-	-	-	-	-
+
+What	is	the	monetary	value	of	the	Nobel	prize	?
+WP	VBZ	DT	JJ	NN	IN	DT	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	P
+2	0	5	5	2	5	9	9	6	2
+-	-	-	-	-	-	-	WORK_OF_ART-B	-	-
+
+What	tribe	did	Sacajawea	belong	to	?
+WP	NN	VBD	NNP	VBG	TO	.
+VMOD	NMOD	ROOT	SUB	VMOD	VMOD	P
+3	1	0	3	3	5	3
+-	PER_DESC-B	-	ORGANIZATION-B	-	-	-
+
+What	years	did	Sacajawea	accompany	Lewis	and	Clark	on	their	expedition	?
+WP	NNS	VBD	NNP	NN	NNP	CC	NNP	IN	PRP$	NN	.
+NMOD	SUB	ROOT	NMOD	NMOD	NMOD	NMOD	SUB	NMOD	NMOD	PMOD	P
+2	3	0	8	8	8	8	3	8	11	9	3
+-	DATE-B	-	ORGANIZATION-B	-	PERSON-B	-	PERSON-B	-	-	-	-
+
+When	did	Sacajawea	die	?
+WRB	VBD	NNP	FW	.
+VMOD	ROOT	SUB	VMOD	P
+2	0	2	2	2
+-	-	ORGANIZATION-B	-	-
+
+Where	is	Sacajawea	buried	?
+RB	VBZ	NNP	VBD	.
+PRD	ROOT	SUB	PRD	P
+2	0	4	2	2
+-	-	PERSON-B	-	-
+
+How	much	is	the	Sacajawea	coin	worth	?
+NNP	RB	VBZ	DT	NNP	NN	NN	.
+SUB	VMOD	ROOT	NMOD	NMOD	NMOD	PRD	P
+3	3	0	7	7	7	3	3
+-	-	-	-	ORGANIZATION-B	-	-	-
+
+When	was	the	IFC	established	?
+WRB	VBD	DT	NNP	VBD	.
+VMOD	ROOT	NMOD	SUB	VMOD	P
+2	0	4	5	2	5
+-	-	-	ORGANIZATION-B	-	-
+
+What	is	IFC	's	mission	?
+WP	VBZ	NNP	POS	NN	.
+VMOD	ROOT	NMOD	NMOD	SUB	P
+2	0	4	5	2	2
+-	-	ORGANIZATION-B	-	-	-
+
+Who	was	the	leader	of	the	cult	IFC	?
+NNP	VBD	DT	NN	IN	DT	NN	NNP	.
+SUB	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	7	8	5	2
+-	-	-	PER_DESC-B	-	-	-	SUBSTANCE-B	-
+
+How	many	members	of	Heaven	's	Gate	committed	suicide	?
+NNP	JJ	NNS	IN	NNP	POS	NNP	VBD	NN	.
+NMOD	NMOD	SUB	NMOD	NMOD	NMOD	PMOD	ROOT	OBJ	P
+3	3	8	3	6	7	4	0	8	8
+-	-	PER_DESC-B	-	-	-	FAC-B	-	-	-
+
+When	did	the	mass	suicide	of	Heaven	's	Gate	occur	?
+WRB	VBD	DT	NN	NN	IN	NNP	POS	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	SUB	NMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	5	5	2	5	8	10	10	6	2
+-	-	-	-	-	-	-	-	FAC-B	-	-
+
+Where	did	the	mass	suicide	of	Heaven	's	Gate	occur	?
+RB	VBD	DT	NN	NN	IN	NNP	POS	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	SUB	NMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	5	5	2	5	8	10	10	6	2
+-	-	-	-	-	-	-	-	FAC-B	-	-
+
+How	did	the	Heaven	's	Gate	members	commit	suicide	?
+NNP	VBD	DT	NNP	POS	NNP	NNS	NN	NN	.
+SUB	ROOT	NMOD	NMOD	NMOD	NMOD	NMOD	NMOD	OBJ	P
+2	0	5	5	9	9	9	9	2	2
+-	-	-	-	-	ORGANIZATION-B	PER_DESC-B	-	-	-
+
+Why	did	the	Heaven	's	Gate	members	commit	suicide	?
+NNP	VBD	DT	NNP	POS	NNP	NNS	NN	NN	.
+SUB	ROOT	NMOD	NMOD	NMOD	NMOD	NMOD	NMOD	OBJ	P
+2	0	5	5	9	9	9	9	2	2
+-	-	-	-	-	ORGANIZATION-B	PER_DESC-B	-	-	-
+
+What	is	Bashar	Assad	's	party	affiliation	?
+WP	VBZ	NNP	NNP	POS	NN	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	7	7	2	2
+-	-	PERSON-B	PERSON-I	-	-	-	-
+
+What	was	Bashar	Assad	's	profession	prior	to	assuming	the	Presidency	?
+WP	VBD	NNP	NNP	POS	NN	NN	TO	VBG	DT	NNP	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	NMOD	PMOD	NMOD	OBJ	P
+2	0	5	5	7	7	2	7	8	11	9	2
+-	-	PERSON-B	PERSON-I	-	-	-	-	-	-	WORK_OF_ART-B	WORK_OF_ART-I
+
+How	long	are	Syrian	presidential	terms	?
+NNP	RB	VBP	JJ	JJ	NNS	.
+SUB	VMOD	ROOT	NMOD	NMOD	PRD	P
+3	3	0	6	6	3	3
+-	-	-	NATIONALITY-B	-	-	-
+
+When	was	Abu	Nidal	born	?
+WRB	VBD	NNP	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	SUB	P
+2	0	5	5	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+What	was	Abu	Nidal	's	name	at	birth	?
+WP	VBD	DT	NNP	POS	NN	IN	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	PRD	VMOD	PMOD	P
+2	0	5	5	6	2	2	7	2
+-	-	PERSON-B	PERSON-I	-	-	-	-	-
+
+How	many	followers	does	Abu	Nidal	have	?
+NNP	JJ	NNS	VBZ	NNP	NNP	VBP	.
+NMOD	NMOD	SUB	ROOT	NMOD	SUB	SUB	P
+3	3	4	0	6	4	4	4
+-	-	PER_DESC-B	-	PERSON-B	PERSON-I	-	-
+
+In	what	year	did	the	PLO	condemn	Abu	Nidal	to	death	?
+IN	WP	NN	VBD	DT	NNP	NN	NNP	NNP	TO	VB	.
+VMOD	PMOD	VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	SUB	VMOD	VMOD	P
+4	1	4	0	9	9	9	9	11	11	4	4
+-	-	-	-	-	ORGANIZATION-B	-	PERSON-B	PERSON-I	-	-	-
+
+What	is	Carlos	the	Jackal	's	real	name	?
+WP	VBZ	IN	DT	NNP	POS	JJ	NN	.
+VMOD	ROOT	VMOD	NMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	2	6	6	8	8	3	2
+-	-	PERSON-B	PERSON-I	PERSON-I	-	-	-	-
+
+Where	was	Carlos	the	Jackal	born	?
+RB	VBD	IN	DT	NNP	NN	.
+VMOD	ROOT	VMOD	NMOD	NMOD	PMOD	P
+2	0	2	6	6	3	2
+-	-	PERSON-B	-	ANIMAL-B	-	-
+
+Whom	did	Ramirez	marry	?
+NNP	VBD	NNP	NN	.
+SUB	ROOT	NMOD	OBJ	P
+2	0	4	2	2
+-	-	PERSON-B	-	-
+
+When	was	Carlos	the	Jackal	captured	?
+WRB	VBD	IN	DT	NNP	VBD	.
+VMOD	SBAR	VMOD	NMOD	SUB	ROOT	P
+6	1	2	5	6	0	6
+-	-	PERSON-B	PERSON-I	PERSON-I	-	-
+
+Where	was	Carlos	-LRB-	Ramirez	-RRB-	captured	?
+RB	VBD	NNP	-LRB-	NNP	-RRB-	VBN	.
+VMOD	ROOT	SUB	P	NMOD	P	NMOD	P
+2	0	2	5	3	5	3	2
+-	-	PERSON-B	-	PERSON-B	-	-	-
+
+When	was	Cassini	launched	?
+WRB	VBD	NNP	VBN	.
+VMOD	ROOT	SUB	VMOD	P
+2	0	4	2	2
+-	-	PERSON-B	-	-
+
+How	much	did	it	cost	to	build	Cassini	?
+NNP	RB	VBD	PRP	VB	TO	VB	NNP	.
+SUB	VMOD	ROOT	SUB	VMOD	VMOD	VMOD	OBJ	P
+3	3	0	3	3	7	5	7	3
+-	-	-	-	-	-	-	ORGANIZATION-B	-
+
+What	is	Cassini	's	destination	?
+WP	VBZ	NNP	POS	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	P
+2	0	4	5	2	2
+-	-	PERSON-B	-	-	-
+
+What	is	the	religious	affiliation	of	the	Kurds	?
+WP	VBZ	DT	JJ	NN	IN	DT	NNS	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	PMOD	P
+2	0	5	5	2	5	8	6	2
+-	-	-	-	-	-	-	NATIONALITY-B	-
+
+How	many	Kurds	live	in	Turkey	?
+NNP	JJ	NNS	VBP	IN	NNP	.
+NMOD	NMOD	SUB	ROOT	VMOD	PMOD	P
+3	3	4	0	4	5	4
+-	-	NATIONALITY-B	-	-	GPE-B	-
+
+When	was	the	first	Burger	King	restaurant	opened	?
+WRB	VBD	DT	JJ	NNP	NNP	NN	VBN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	SUB	VMOD	P
+2	0	7	7	7	7	2	2	2
+-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	ORG_DESC-B	-	-
+
+Where	was	the	first	Burger	King	restaurant	opened	?
+RB	VBD	DT	JJ	NNP	NNP	NN	VBN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	NMOD	P
+2	0	7	7	7	7	2	7	2
+-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	ORG_DESC-B	-	-
+
+What	are	Burger	King	's	gross	sales	today	?
+WP	VBP	NNP	NNP	POS	NN	NNS	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	VMOD	P
+2	0	5	5	7	7	2	2	2
+-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	DATE-B	-
+
+Who	is	the	CEO	of	the	publishing	company	Conde	Nast	?
+NNP	VBZ	DT	NN	IN	DT	VBG	NN	NNP	NNP	.
+SUB	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	8	8	10	10	5	2
+-	-	-	PER_DESC-B	-	-	-	ORG_DESC-B	ORGANIZATION-B	ORGANIZATION-I	-
+
+Where	are	the	company	Conde	Nast	's	headquarters	?
+RB	VBP	DT	NN	NNP	NNP	POS	NNS	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	4	7	7	7	8	2	2
+-	-	-	ORG_DESC-B	ORGANIZATION-B	ORGANIZATION-I	-	FAC_DESC-B	-
+
+Whom	did	Eileen	Marie	Collins	marry	?
+NNP	VBD	VBN	NNP	NNP	NN	.
+SUB	ROOT	VC	NMOD	NMOD	OBJ	P
+2	0	2	6	6	3	2
+-	-	PERSON-B	PERSON-I	PERSON-I	-	-
+
+Where	does	Eileen	Marie	Collins	live	?
+RB	VBZ	VBN	NNP	NNP	NN	.
+VMOD	ROOT	VC	NMOD	NMOD	OBJ	P
+2	0	2	6	6	3	2
+-	-	PERSON-B	PERSON-I	PERSON-I	-	-
+
+What	is	Eileen	Marie	Collins	'	occupation	?
+WP	VBZ	VBN	NNP	NNP	POS	NN	.
+VMOD	ROOT	VC	NMOD	NMOD	NMOD	OBJ	P
+2	0	2	6	6	7	3	2
+-	-	PERSON-B	PERSON-I	PERSON-I	-	-	-
+
+What	branch	of	the	service	did	Eileen	Marie	Collins	serve	in	?
+WP	NN	IN	DT	NN	VBD	RB	NNP	NNP	NN	IN	.
+VMOD	NMOD	NMOD	NMOD	PMOD	ROOT	VMOD	NMOD	NMOD	OBJ	NMOD	P
+6	1	1	5	3	0	6	10	10	6	10	6
+-	ORG_DESC-B	-	-	ORG_DESC-B	-	PERSON-B	PERSON-I	PERSON-I	-	-	-
+
+What	rank	did	Eileen	Marie	Collins	reach	?
+WP	NN	VBD	RB	NNP	NNP	NN	.
+VMOD	NMOD	ROOT	VMOD	NMOD	NMOD	VC	P
+3	1	0	3	7	7	3	3
+-	-	-	PERSON-B	PERSON-I	PERSON-I	-	-
+
+Where	was	Walter	Mosley	born	?
+RB	VBD	NNP	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	P
+2	0	4	5	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+When	was	the	Good	Friday	agreement	made	?
+WRB	VBD	DT	JJ	NN	NN	VBD	.
+VMOD	ROOT	NMOD	NMOD	NMOD	SUB	NMOD	P
+2	0	6	6	6	2	6	2
+-	-	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	-	-
+
+What	kind	of	ship	is	the	Liberty	Bell	<num>	?
+WP	NN	IN	NN	VBZ	DT	NNP	NNP	CD	.
+VMOD	NMOD	NMOD	PMOD	ROOT	NMOD	NMOD	PRD	NMOD	P
+5	1	1	3	0	8	8	5	8	5
+-	-	-	PRODUCT_DESC-B	-	-	FAC-B	FAC-I	FAC-I	-
+
+What	happened	to	the	Liberty	Bell	<num>	?
+WP	VBN	TO	DT	NNP	NNP	CD	.
+ROOT	SBAR	VMOD	NMOD	NMOD	PMOD	NMOD	P
+0	1	2	6	6	3	6	1
+-	-	-	-	FAC-B	FAC-I	FAC-I	-
+
+What	is	Vilar	's	nationality	?
+WP	VBZ	NNP	POS	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	P
+2	0	4	5	2	2
+-	-	PERSON-B	-	-	-
+
+What	is	the	name	of	the	company	Vilar	founded	?
+WP	VBZ	DT	NN	IN	DT	NN	NN	VBD	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	NMOD	P
+2	0	4	2	4	8	8	5	8	2
+-	-	-	-	-	-	ORG_DESC-B	ORG_DESC-I	-	-
+
+Who	founded	Public	Citizen	?
+NNP	VBD	NNP	NNP	.
+SUB	ROOT	NMOD	OBJ	P
+2	0	4	2	2
+-	-	ORGANIZATION-B	ORGANIZATION-I	-
+
+When	was	Public	Citizen	formed	?
+WRB	VBD	NNP	NNP	VBD	.
+VMOD	SBAR	NMOD	SUB	ROOT	P
+5	1	4	5	0	5
+-	-	ORGANIZATION-B	ORGANIZATION-I	-	-
+
+Who	is	Public	Citizen	's	current	head	?
+NNP	VBZ	NNP	NNP	POS	JJ	NN	.
+SUB	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	7	7	2	2
+-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	PER_DESC-B	-
+
+What	state	does	senator	Jim	Inhofe	represent	?
+WP	NN	VBZ	NN	NNP	NNP	NN	.
+VMOD	NMOD	ROOT	NMOD	NMOD	NMOD	OBJ	P
+3	1	0	7	7	7	3	3
+-	GPE_DESC-B	-	PER_DESC-B	PERSON-B	PERSON-I	-	-
+
+What	branch	of	the	service	did	senator	Jim	Inhofe	serve	in	?
+WP	NN	IN	DT	NN	VBD	NN	NNP	NNP	NN	IN	.
+VMOD	NMOD	NMOD	NMOD	PMOD	ROOT	NMOD	NMOD	NMOD	OBJ	NMOD	P
+6	1	1	5	3	0	10	10	10	6	10	6
+-	ORG_DESC-B	-	-	ORG_DESC-B	-	PER_DESC-B	PERSON-B	PERSON-I	-	-	-
+
+Who	founded	the	Muslim	Brotherhood	?
+NNP	VBD	DT	NNP	NNP	.
+SUB	ROOT	NMOD	NMOD	OBJ	P
+2	0	5	5	2	2
+-	-	-	NATIONALITY-B	ORG_DESC-B	-
+
+When	was	the	Muslim	Brotherhood	formed	?
+WRB	VBD	DT	NNP	NNPS	VBD	.
+VMOD	ROOT	NMOD	NMOD	SUB	VMOD	P
+2	0	5	5	2	2	2
+-	-	-	NATIONALITY-B	ORG_DESC-B	-	-
+
+What	is	Muslim	Brotherhood	's	goal	?
+WP	VBZ	NNP	NNP	POS	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	6	2	2
+-	-	NATIONALITY-B	ORG_DESC-B	-	-	-
+
+Where	is	the	Berkman	Center	for	Internet	and	Society	located	?
+RB	VBZ	DT	NNP	NNP	IN	NNP	CC	NNP	VBD	.
+VMOD	VMOD	NMOD	NMOD	SUB	NMOD	NMOD	NMOD	PMOD	ROOT	P
+2	10	5	5	10	5	9	9	6	0	10
+-	-	-	FAC-B	FAC-I	-	-	-	FAC-B	-	-
+
+What	is	Berkman	Center	for	Internet	and	Society	's	mission	?
+WP	VBZ	NNP	NNP	IN	NNP	CC	NNP	POS	NN	.
+VMOD	ROOT	NMOD	SUB	NMOD	NMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	10	10	9	10	5	2
+-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	ORGANIZATION-B	-	-	-
+
+What	kind	of	insect	is	a	boll	weevil	?
+WP	NN	IN	NN	VBZ	DT	JJ	NN	.
+VMOD	NMOD	NMOD	PMOD	ROOT	NMOD	NMOD	PRD	P
+5	1	1	3	0	8	8	5	5
+-	-	-	-	-	-	-	-	-
+
+What	was	Johnny	Appleseed	's	real	name	?
+WP	VBD	NNP	NNP	POS	JJ	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	7	7	2	2
+-	-	PERSON-B	PERSON-I	-	-	-	-
+
+Where	was	Johnny	Appleseed	born	?
+RB	VBD	NNP	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	P
+2	0	5	5	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+When	did	Johnny	Appleseed	die	?
+WRB	VBD	NNP	NNP	FW	.
+VMOD	ROOT	NMOD	SUB	VMOD	P
+2	0	4	2	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+What	did	Johnny	Appleseed	wear	as	a	hat	?
+WP	VBD	NNP	NNP	JJ	IN	DT	NN	.
+VMOD	ROOT	NMOD	OBJ	VMOD	VMOD	NMOD	PMOD	P
+2	0	4	2	2	5	8	6	2
+-	-	PERSON-B	PERSON-I	-	-	-	-	-
+
+What	is	the	name	of	the	first	space	shuttle	?
+WP	VBZ	DT	NN	IN	DT	JJ	NN	NN	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	9	9	9	5	2
+-	-	-	-	-	-	ORDINAL-B	PRODUCT_DESC-B	PRODUCT_DESC-I	-
+
+When	was	the	first	flight	of	the	Columbia	shuttle	?
+WRB	VBD	DT	JJ	NN	IN	DT	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	P
+2	0	5	5	2	5	9	9	6	2
+-	-	-	ORDINAL-B	-	-	-	PRODUCT-B	PRODUCT_DESC-B	-
+
+When	was	the	Challenger	space	shuttle	disaster	?
+WRB	VBD	DT	NNP	NN	NN	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	SUB	P
+2	0	7	7	7	7	2	2
+-	-	-	ORGANIZATION-B	-	-	-	-
+
+How	many	members	were	in	the	crew	of	the	Challenger	?
+NNP	JJ	NNS	VBD	IN	DT	NN	IN	DT	NNP	.
+NMOD	NMOD	SUB	ROOT	VMOD	NMOD	PMOD	NMOD	NMOD	PMOD	P
+3	3	4	0	4	7	5	7	10	8	4
+-	-	PER_DESC-B	-	-	-	PER_DESC-B	-	-	ORGANIZATION-B	-
+
+How	long	did	the	Challenger	flight	last	before	it	exploded	?
+NNP	RB	VBD	DT	NNP	NN	JJ	IN	PRP	VBD	.
+SUB	VMOD	ROOT	NMOD	NMOD	SUB	NMOD	VMOD	SUB	SBAR	P
+3	3	0	6	6	3	6	3	10	8	3
+-	-	-	-	ORGANIZATION-B	-	-	-	-	-	-
+

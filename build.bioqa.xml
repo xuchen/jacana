@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project jacana with Jar-in-Jar Loader">
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="jacana-bioqa.jar">
+            <manifest>
+                <attribute name="Main-Class" value="org.eclipse.jdt.internal.jarinjarloader.JarRsrcLoader"/>
+                <attribute name="Rsrc-Main-Class" value="edu.jhu.jacana.bioqa.VulcanQA"/>
+                <attribute name="Class-Path" value="."/>
+                <attribute name="Rsrc-Class-Path" value="./ snowball.jar commons-logging.jar weka.jar commons-cli-1.2.jar opennlp-maxent-2.4.0.jar opennlp-tools-1.3.jar trove-1.1b5.jar stanford-corenlp-2012-07-09.jar xom.jar lingpipe-4.1.0.jar jgrapht-jdk1.6.jar commons-lang3-3.1.jar cleartk-ml-crfsuite-0.2.0.jar commons-io-2.4.jar de.tudarmstadt.ukp.dkpro.core.api.resources-asl-1.3.0.jar spring-core-3.1.0.RELEASE.jar uimaj-core-2.4.0.jar ant-1.8.1.jar stax-utils.jar"/>
+            </manifest>
+            <zipfileset src="jar-in-jar-loader.zip"/>
+            <fileset dir="bin"/>
+            <!--<zipgroupfileset dir="lib" includes="*.jar"/>-->
+            <zipfileset src="lib/snowball.jar"/>
+            <zipfileset src="lib/commons-logging.jar"/>
+        	<!--<zipfileset src="lib/weka.jar"/>-->
+            <zipfileset src="lib/commons-cli-1.2.jar"/>
+        	<!--<zipfileset src="lib/opennlp-maxent-2.4.0.jar"/>-->
+            <!--<zipfileset src="lib/opennlp-tools-1.3.jar"/>-->
+        	<zipfileset src="lib/trove-3.0.3.jar"/>
+            <zipfileset src="lib/stanford-corenlp-2012-07-09.jar"/>
+            <zipfileset src="lib/xom.jar"/>
+            <zipfileset src="lib/lingpipe-4.1.0.jar"/>
+        	<zipfileset src="lib/jgrapht-jdk1.6.jar"/>
+            <zipfileset src="lib/commons-lang3-3.1.jar"/>
+            <zipfileset src="lib/cleartk-ml-crfsuite-0.2.0.jar"/>
+            <zipfileset src="lib/commons-io-2.4.jar"/>
+            <zipfileset src="lib/de.tudarmstadt.ukp.dkpro.core.api.resources-asl-1.3.0.jar"/>
+        	<zipfileset src="lib/spring-core-3.1.0.RELEASE.jar"/>
+        	<zipfileset src="lib/uimaj-core-2.4.0.jar"/>
+        	<zipfileset src="lib/ant-1.8.1.jar"/>
+            <zipfileset src="lib/stax-utils.jar"/>
+        </jar>
+    </target>
+</project>

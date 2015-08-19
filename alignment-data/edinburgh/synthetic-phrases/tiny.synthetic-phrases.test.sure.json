@@ -1,0 +1,19 @@
+[
+    {
+	"id": "0",
+	"name": "0",
+	"source": "John King loves Mary .",
+	"target": "Mary likes John King .",
+	"sureAlign": "0-2 0-3 1-2 1-3 2-1 3-0 4-4",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "616",
+	"name": "616",
+	"source": "Heavy rain flooded parts of the site , with dozens of tents lost under water , while lightning strikes affected the stages and knocked out power lines .",
+	"target": "100 tents had been washed away .",
+	"sureAlign": "11-1 14-4 27-6",
+	"possibleAlign": ""
+	}
+]

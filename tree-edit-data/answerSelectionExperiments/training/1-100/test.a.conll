@@ -1,0 +1,29 @@
+1	the	_	DT	_	_	3	NMOD	_	_
+2	IRON	_	NNP	_	_	3	NMOD	_	_
+3	LADY	_	NNP	_	_	6	NMOD	_	_
+4	;	_	:	_	_	6	P	_	_
+5	A	_	DT	_	_	6	NMOD	_	_
+6	Biography	_	NN	_	_	0	ROOT	_	_
+7	of	_	IN	_	_	6	NMOD	_	_
+8	Margaret	_	NNP	_	_	9	NMOD	_	_
+9	Thatcher	_	NNP	_	_	7	PMOD	_	_
+10	by	_	IN	_	_	6	NMOD	_	_
+11	Hugo	_	NNP	_	_	12	NMOD	_	_
+12	Young	_	NNP	_	_	10	PMOD	_	_
+13	-LRB-	_	-LRB-	_	_	18	P	_	_
+14	Farrar	_	NNP	_	_	18	NMOD	_	_
+15	,	_	,	_	_	18	P	_	_
+16	Straus	_	NNP	_	_	18	NMOD	_	_
+17	&	_	CC	_	_	18	NMOD	_	_
+18	Giroux	_	NNP	_	_	10	PMOD	_	_
+19	-RRB-	_	-RRB-	_	_	18	P	_	_
+
+1	each	_	DT	_	_	3	NMOD	_	_
+2	Nobel	_	NNP	_	_	3	NMOD	_	_
+3	Prize	_	NNP	_	_	4	SUB	_	_
+4	is	_	VBZ	_	_	0	ROOT	_	_
+5	worth	_	DT	_	_	7	NMOD	_	_
+6	$	_	$	_	_	7	P	_	_
+7	<num>	_	CD	_	_	4	PRD	_	_
+8	.	_	.	_	_	4	P	_	_
+

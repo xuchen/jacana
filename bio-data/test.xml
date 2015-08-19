@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<retrieved-sentences-set>
+  <name>Dummy name</name>
+  <date>11/1/2012 12:49.9</date>
+  <q-and-retrieved-sentences>
+    <qid>990</qid>
+    <question>In the absence of other forces, a substance will diffuse from where it is more concentrated to where it is less concentrated.&quot; What process does this quote describe?</question>
+     <answers>
+      <answer>Diffusion</answer>
+      <answer>diffusion</answer>
+      <answer>passive movement</answer>
+      <answer>passive transport</answer>
+     </answers>
+    <retrieved-sentences>
+      <sentence>
+        <sid>1.7.3.6.1</sid>
+        <sentence-string>We can now state a simple rule of diffusion: In the absence of other forces, a substance will diffuse from where it is more concentrated to where it is less concentrated.</sentence-string>
+        <rank>1</rank>
+        <relevance>109.742714</relevance>
+      </sentence>
+      <sentence>
+        <sid>1.7.3.1.1.3</sid>
+        <sentence-string>Water molecules move randomly and may cross in either direction, but overall, water diffuses from the solution with less concentrated solute to that with more concentrated solute.</sentence-string>
+        <rank>2</rank>
+        <relevance>84.369095</relevance>
+      </sentence>
+      <sentence>
+        <sid>1.7.3.1.2.8</sid>
+        <sentence-string>In the end, the effect is the same: Water diffuses across the membrane from the region of lower solute concentration (higher free water concentration) to that of higher solute concentration (lower free water concentration) until the solute concentrations on both sides of the membrane are equal.</sentence-string>
+        <rank>3</rank>
+        <relevance>80.36225</relevance>
+      </sentence>
+      <sentence>
+        <sid>4.1462.1.1</sid>
+        <sentence-string>A diffusion is the spontaneous movement of a substance down its concentration gradient, from a region where it is more concentrated to a region where it is less concentrated.</sentence-string>
+        <rank>4</rank>
+        <relevance>78.892426</relevance>
+      </sentence>
+      <sentence>
+        <sid>1.36.3.3.2.5.2</sid>
+        <sentence-string>Because water moves from areas of higher water potential to areas of lower water potential, the more negative pressure potential at the air-water interface causes water in xylem cells to be &quot;pulled&quot; into mesophyll cells, which lose water to the air spaces, the water diffusing out through stomata.</sentence-string>
+        <rank>5</rank>
+        <relevance>75.43315</relevance>
+      </sentence>
+    </retrieved-sentences>
+  </q-and-retrieved-sentences>
+  <q-and-retrieved-sentences>
+    <qid>28</qid>
+    <question>In a eukaryotic cell, what kind of cell division results in a haploid cell from a diploid cell?</question>
+     <answers>
+      <answer>Meiosis</answer>
+     </answers>
+    <retrieved-sentences>
+      <sentence>
+        <sid>4.1662.1.1</sid>
+        <sentence-string>An embryo is a multicellular diploid eukaryote in its earliest stage of development, from the time of first cell division until birth, hatching, or germination.</sentence-string>
+        <rank>1</rank>
+        <relevance>77.26775</relevance>
+      </sentence>
+      <sentence>
+        <sid>1.24.2.2.1.2.3</sid>
+        <sentence-string>In plants, for example, a failure of cell division could double a cell&#039;s chromosome number from the diploid number (2n) to a tetraploid number (4n).</sentence-string>
+        <rank>2</rank>
+        <relevance>72.065605</relevance>
+      </sentence>
+      <sentence>
+        <sid>1.13.3.1.1.2</sid>
+        <sentence-string>After the chromosomes duplicate in interphase, the diploid cell divides twice, yielding four haploid daughter cells.</sentence-string>
+        <rank>3</rank>
+        <relevance>70.46052</relevance>
+      </sentence>
+      <sentence>
+        <sid>1.13.3.2.5.1</sid>
+        <sentence-string>Meiosis I is called the reductional division because it halves the number of chromosome sets per cell: a reduction from two sets (the diploid state) to one set (the haploid state).</sentence-string>
+        <rank>4</rank>
+        <relevance>68.17001</relevance>
+      </sentence>
+      <sentence>
+        <sid>1.13.5.8.1</sid>
+        <sentence-string>13.3 Meiosis reduces the number of chromosome sets from diploid to haploid (pp. 253-257) The two cell divisions of meiosis, meiosis I and meiosis II, produce four haploid daughter cells.</sentence-string>
+        <rank>5</rank>
+        <relevance>68.17001</relevance>
+      </sentence>
+    </retrieved-sentences>
+  </q-and-retrieved-sentences>
+  <q-and-retrieved-sentences>
+    <qid>17</qid>
+    <question>What do growth factors stimulate in the cell cycle?</question>
+     <answers>
+      <answer>Cell division</answer>
+     </answers>
+    <retrieved-sentences>
+      <sentence>
+        <sid>1.12.3.3.2.3</sid>
+        <sentence-string>They may make a required growth factor themselves, or they may have an abnormality in the signaling pathway that conveys the growth factor&#039;s signal to the cell cycle control system even in the absence of that factor.</sentence-string>
+        <rank>1</rank>
+        <relevance>69.75422</relevance>
+      </sentence>
+      <sentence>
+        <sid>4.2623.1.1</sid>
+        <sentence-string>An induction is the process in which one group of embryonic cells influences the development of another, usually by causing changes in gene expression.</sentence-string>
+        <rank>2</rank>
+        <relevance>69.35736</relevance>
+      </sentence>
+      <sentence>
+        <sid>1.12.3.2.2.2.5</sid>
+        <sentence-string>As mentioned in Chapter 11, a growth factor is a protein released by certain cells that stimulates other cells to divide.</sentence-string>
+        <rank>3</rank>
+        <relevance>63.462784</relevance>
+      </sentence>
+      <sentence>
+        <sid>1.15.4.3.3.8.2</sid>
+        <sentence-string>Review the discussion of cell cycle control and cancer in Concept 12.3 (pp. 242-243), and explain how the activation of this gene could contribute to the development of cancer.</sentence-string>
+        <rank>4</rank>
+        <relevance>63.198242</relevance>
+      </sentence>
+      <sentence>
+        <sid>1.12.3.2.2.4.4</sid>
+        <sentence-string>Follow-up studies revealed that the binding of a cell-surface protein to its counterpart on an adjoining cell sends a growth-inhibiting signal to both cells, preventing them from moving forward in the cell cycle, even in the presence of growth factors.</sentence-string>
+        <rank>5</rank>
+        <relevance>60.648605</relevance>
+      </sentence>
+    </retrieved-sentences>
+  </q-and-retrieved-sentences>
+</retrieved-sentences-set>

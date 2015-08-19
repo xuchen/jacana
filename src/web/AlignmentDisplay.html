@@ -1,0 +1,685 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=MacRoman" />
+<title>The Jacana Alignment Browser</title>
+</head>
+<body>
+
+	<style type="text/css" media="screen">
+<!--
+.square {
+	width: 144px;
+	height: 144px;
+	background: #f0f;
+	margin-right: 48px;
+	float: left;
+}
+
+.transformed {
+	-webkit-transform: rotate(15deg) scale(1.25, 0.5);
+	-moz-transform: rotate(15deg) scale(1.25, 0.5);
+	-ms-transform: rotate(15deg) scale(1.25, 0.5);
+	transform: rotate(15deg) scale(1.25, 0.5);
+}
+
+body,td,div,.p,a {
+	font-family: arial, sans-serif
+}
+
+div,td {
+	color: #000
+}
+
+.f,.fl:link {
+	color: #6f6f6f
+}
+
+a:link,.w,a.w:link,.w a:link {
+	color: #00c
+}
+
+a:visited,.fl:visited {
+	color: #551a8b
+}
+
+a:active,.fl:active {
+	color: #f00
+}
+
+.t a:link,.t a:active,.t a:visited,.t {
+	color: #000
+}
+
+.t {
+	background-color: #e5ecf9
+}
+
+.k {
+	background-color: #36c
+}
+
+.j {
+	width: 34em
+}
+
+.h {
+	color: #36c
+}
+
+.i,.i:link {
+	color: #a90a08
+}
+
+.a,.a:link {
+	color: #008000
+}
+
+.z {
+	display: none
+}
+
+div.n {
+	margin-top: 1ex
+}
+
+.n a {
+	font-size: 10pt;
+	color: #000
+}
+
+.n .i {
+	font-size: 10pt;
+	font-weight: bold
+}
+
+.q a:visited,.q a:link,.q a:active,.q {
+	color: #00c;
+}
+
+.b {
+	font-size: 12pt;
+	color: #00c;
+	font-weight: bold
+}
+
+.ch {
+	cursor: pointer;
+	cursor: hand
+}
+
+.e {
+	margin-top: .75em;
+	margin-bottom: .75em
+}
+
+.g {
+	margin-top: 1em;
+	margin-bottom: 1em
+}
+
+td.topborder {
+	text-align: center;
+	background-color: #E2FAFA;
+	border-left: solid 3px #000000;
+	border-right: solid 3px #000000;
+	border-top: solid 3px #000000;
+}
+
+td.middleborder {
+	text-align: center;
+	background-color: #E2FAFA;
+	border-left: solid 3px #000000;
+	border-right: solid 3px #000000;
+}
+
+td.bottomborder {
+	text-align: center;
+	background-color: #E2FAFA;
+	border-left: solid 3px #000000;
+	border-right: solid 3px #000000;
+	border-bottom: solid 3px #000000;
+}
+
+.blacklink A:link {
+	text-decoration: none;
+	color: black;
+}
+
+.blacklink A:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.blacklink A:active {
+	text-decoration: none;
+	color: black;
+}
+
+.blacklink A:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+td.black {
+	background-color: black;
+}
+
+td.white {
+	background-color: #CCCCCC;
+}
+
+td.gray {
+	background-color: gray;
+}
+
+td.highlight {
+	background-color: #FF00FF;
+}
+
+table { 
+    table-layout:fixed; width:600px;
+}
+-->
+</style>
+
+
+
+	<script type="text/Javascript">
+	// the URL directory where rotated word images are stored
+	var imageDirectory = "http://ironman.jhu.edu/wordImageServer/";
+
+	// specify whether the languages should be written right-to-left
+	var sourceIsRTL = false;
+	var targetIsRTL = false;
+
+	// indicates whether to switch the view from the source being 
+	// along top (default) or the target on top (transposed).
+	// The results still keep the same source / target names.
+	var viewTransposed =  true;
+
+
+	// read in the values for this sentence pair
+
+	// ${source} and ${target} should contain whitespace delimited words
+	var sourceString = "${source}";
+	var targetString = "${target}";
+	var initialSureAlignments = "${sureAlignments}";
+
+	// sure alignments should have the format "0-0 0-1 1-2" where the first number 
+	// in each pair is the index of the source word, and the second it the target
+	var initialPossAlignments = "${possAlignments}";
+
+
+	// indicates which rows and columns are highlighted 
+	var initialSourceHighlights = "${sourceHighlights}";
+	var initialTargetHighlights = "${targetHighlights}";
+
+
+<!--
+	// Here's an example input
+	var initialSureAlignments = "4-1 5-2 6-2 11-3 9-5 2-6 3-7 0-9";
+	var initialPossAlignments = "10-4 8-5 1-8 14-10";
+	var initialSourceHighlights = "";
+	var initialTargetHighlights = "";
+	var sourceString = "دھماکے کے فوراً بعد فائر برے گیڈ کا عملہ موقع پر پہنچ گیا تھا .";
+	var targetString = "The fire department reached the spot immediately after the explosion .";
+	var imageDirectory = "http://ironman.jhu.edu/wordImageServer/";
+	var viewTransposed = true;
+	var sourceIsRTL = true;
+	var targetIsRTL = false;
+//-->
+
+	if(viewTransposed) {
+		var tmp = sourceString;
+		sourceString = targetString;
+		targetString = tmp;
+		tmp = initialSourceHighlights;
+		initialSourceHighlights = initialTargetHighlights;
+		initialTargetHighlights = tmp;
+		tmp = sourceIsRTL;
+		sourceIsRTL = targetIsRTL;
+		targetIsRTL = tmp;
+
+		initialSureAlignments = transposeAlignments(initialSureAlignments);
+		initialPossAlignments = transposeAlignments(initialPossAlignments);
+	}
+
+
+	// split the source and target sentences into words
+	var whitespacePattern = /\s/;
+	var sourceWords = sourceString.split(whitespacePattern);
+	var targetWords = targetString.split(whitespacePattern);
+
+	var width = sourceWords.length;
+	var height = targetWords.length;
+	
+	// initialize the sureGrid and the probGrid
+	var sureGrid = initalizeBooleanGrid(width, height, initialSureAlignments);
+	var probGrid = initalizeBooleanGrid(width, height, initialPossAlignments);
+
+
+	// initialize the highlighted rows and columns
+	var sourceHighlights = initalizeBooleanArray(width, initialSourceHighlights);
+	var targetHighlights =  initalizeBooleanArray(height, initialTargetHighlights);
+
+
+	if(sourceIsRTL) {
+		writeHtmlAlignmentTableRTL(sourceWords, targetWords, sureGrid, probGrid, sourceHighlights, targetHighlights, imageDirectory);
+	} else {
+		writeHtmlAlignmentTable(sourceWords, targetWords, sureGrid, probGrid, sourceHighlights, targetHighlights, imageDirectory);
+	}
+
+
+
+	
+	// log the time...
+	date = new Date();
+	timeAtStart = date.getTime();
+	timeOfLastModification = date.getTime();
+	activeTime = 0;
+
+	// Transposes the string form of the alignment.  Changes each x-y into y-x
+	function transposeAlignments(alignmentString) {
+		var transposedAlignmentsString = "";
+		var whitespacePattern = /\s/;
+		var dash = '-';
+		var points = alignmentString.split(whitespacePattern);
+		for(i = 0; i < points.length; i++) {
+			if(points[i].indexOf(dash) > 0) {
+				var point = points[i].split(dash);
+				var x = point[0];
+				var y = point[1];
+				var transposedAlignmentsString = transposedAlignmentsString + y + "-" + x + " ";
+			}
+		}	
+		transposedAlignmentsString.replace(/\s$/, '');
+		return transposedAlignmentsString;
+	}
+
+	// Returns an initialized boolean grid.  Sets the points to true
+	// that are included in the alignmentString as "x-y".
+	function initalizeBooleanGrid(width, height, alignmentString) {
+		var grid = new Array(width);
+		for (i = 0; i < grid.length; i++) {
+			grid[i] = new Array(height);
+			for(j = 0; j < height; j++) {
+				grid[i][j] = false;
+			}
+		}
+		// Set the points in alignmentString to true
+		var whitespacePattern = /\s/;
+		var dash = '-';
+		var points = alignmentString.split(whitespacePattern);
+		for(i = 0; i < points.length; i++) {
+			if(points[i].indexOf(dash) > 0) {
+				var point = points[i].split(dash);
+				var x = point[0];
+				var y = point[1];
+				grid[x][y] = true;
+			}
+		}	
+		return grid;
+	}
+
+
+
+
+	// Returns an initialized boolean array
+	function initalizeBooleanArray(length, indexOfTruesString) {
+		// pad the indexOfTruesString with spaces
+		indexOfTruesString = " " + indexOfTruesString + " ";
+		var array = new Array(length);
+		for (i = 0; i < array.length; i++) {
+			array[i] = false;
+		}
+
+		// set the points in alignmentString to true
+		var whitespacePattern = /\s/;
+		var indicies = indexOfTruesString.split(whitespacePattern);
+		for(i = 0; i < indicies.length; i++) {
+			var index = indicies[i];
+			array[index] = true;
+		}	
+		return array;
+	}
+
+	// This method outputs the HTML table with clickable grid squares 
+	// that are indexed into the sure and prob alignment boolean grids.
+	// There is an alternate version for source languages that should be
+	// displayed right-to-left.
+	function writeHtmlAlignmentTable(sourceWords, targetWords, sureGrid, probGrid, 
+					 highlightedSourceWords, highlightedTargetWords, imageDirectory) {
+		var smallerFont = false;
+		var size = 20;
+		var fontSize = 0;
+		if(sourceWords.length > 20 || targetWords.length > 20) {
+			size = 15;
+			smallerFont = true;
+			fontSize = -1;
+		}
+			
+		document.write('<br>\n');
+		document.write('<br>\n');
+		
+		document.write('<table>\n');
+		// print the source words as a table header
+		document.write('<tr>\n');
+		
+		// write the source words
+		document.write('\t<td></td>\n');
+		for(i = 0; i < sourceWords.length; i++) {
+			var word = sourceWords[i];
+			document.write('\t<td valign="bottom" align="center">');
+//			document.write('<a href="javascript:clickColumn(' + i + ')">');
+			document.write('<div style="-webkit-transform: rotate(-45deg); -webkit-transform-origin: left bottom; -moz-transform: rotate(-45deg); -moz-transform-origin: left bottom; z-index:inherit; float:center">' + word + '</div>');
+//			document.write('<img src = "' + getImagePath(word, imageDirectory) + '" width="' + size + '" alt="' + word + '"' + ' title="' + word + '" border="0">');			
+//			document.write('</a>');
+			document.write('</td>\n');
+		}
+		document.write('\t<td></td>\n');
+		document.write('</tr>\n');
+
+		for(row = 0; row < targetWords.length; row++) {
+			// print the target word
+			document.write('<tr>\n');	
+			var targetWord = targetWords[row];
+			if(!targetIsRTL) {
+				document.write('<td>');	
+			} else {
+				document.write('<td dir="rtl">');	
+			}
+			if(smallerFont) { 
+				document.write('<font size=' + fontSize + '>');
+			}
+			document.write('<span class="blacklink">');
+			//document.write('<a href="javascript:clickRow(' + row + ')">');
+			document.write(targetWord);
+			//document.write('<a href="javascript:clickRow(' + row + ')"></span>');
+			if(smallerFont) document.write('</font>');
+			document.write('</td>\n\t');
+			// print this row
+			for(column = 0; column < sourceWords.length; column++) {
+				if(sureGrid[column][row]) {
+					document.write('<td class="black" id="button.' + column + '.' + row + '">');
+				} else if(probGrid[column][row]) {
+					document.write('<td class="gray" id="button.' + column + '.' + row + '">');
+				} else {
+					if(highlightedSourceWords[column] || highlightedTargetWords[row]) {
+						document.write('<td class="highlight" id="button.' + column + '.' + row + '">');
+					} else {
+						document.write('<td class="white" id="button.' + column + '.' + row + '">');
+					}
+				}
+//				document.write('<a href="javascript:clickButton(' + column + ',' + row + ')">');
+//				document.write('<img src= "'+ imageDirectory + 'clearpixel.gif" border="0" ');
+//				document.write('title="' + targetWords[row] + ', ' + sourceWords[column]+ '" ');
+//				document.write('width="' + size + '" height="' + size + '"></a>');
+				document.write('</td>\n');	
+			}
+			
+			// print the target word again
+			if(!targetIsRTL) {
+				document.write('<td>');	
+			} else {
+				document.write('<td dir="rtl">');	
+			}
+			if(smallerFont) document.write('<font size=' + fontSize + '>');
+			document.write('<span class="blacklink">');
+			//document.write('<a href="javascript:clickRow(' + row + ')">');
+			document.write(targetWord);
+			//document.write('<a href="javascript:clickRow(' + row + ')"></span>');
+			if(smallerFont) document.write('</font>');
+			document.write('</td>\n\t');
+			
+			document.write('</tr>');	
+			document.write('\n');
+		}
+		
+
+		// write the source words again
+		document.write('\t<td></td>\n');
+		for(i = 0; i < sourceWords.length; i++) {
+			var word = sourceWords[i];
+			document.write('\t<td valign="top" align="center">');
+			//document.write('<a href="javascript:clickColumn(' + i + ')">');
+			document.write('<div style="transform: rotate(-30deg); transform-origin: right bottom; -webkit-transform: rotate(-45deg); -webkit-transform-origin: right bottom; -moz-transform: rotate(-45deg); -moz-transform-origin: right bottom; z-index:inherit; float:center">' + word + '</div>');
+			//document.write('<div align="center" style="z-index:inherit; float:center">' + word + '</div>');
+			//document.write('<img src = "' + getImagePath(word, imageDirectory) + '" width="' + size + '" alt="' + word + '"' + ' title="' + word + '" border="0">');
+			
+			//document.write('</a>');
+			document.write('</td>\n');
+		}
+		document.write('\t<td></td>\n');
+		document.write('</tr>\n');
+
+		document.write('</table>\n');
+	}
+
+
+	// An alternate version of writeHtmlAlignmentTable which displays the
+	// source language in a right to left (RTL) fashion. 
+	function writeHtmlAlignmentTableRTL(sourceWords, targetWords, sureGrid, probGrid, 
+					 highlightedSourceWords, highlightedTargetWords, imageDirectory) {
+		var smallerFont = false;
+		var size = 15;
+		var fontSize = 0;
+		if(sourceWords.length > 20 || targetWords.length > 20) {
+			size = 11;
+			smallerFont = true;
+			fontSize = -1;
+		}
+			
+		document.write('<table>\n');
+		// print the source words as a table header
+		document.write('<tr>\n');
+		
+		// write the source words
+		document.write('\t<td></td>\n');
+		for(i = sourceWords.length-1; i >= 0; i--) {
+			var word = sourceWords[i];
+			document.write('\t<td valign="bottom">');
+			document.write('<a href="javascript:clickColumn(' + i + ')">');
+
+			document.write('<div style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); z-index:inherit; float:left">' + word + '</div>');
+//			document.write('<img src = "' + getImagePath(word, imageDirectory) + '" width="' + size + '" alt="' + word + '"' + ' title="' + word + '" border="0">');
+			
+			document.write('</a>');
+			document.write('</td>\n');
+		}
+		document.write('\t<td></td>\n');
+		document.write('</tr>\n');
+
+		for(row = 0; row < targetWords.length; row++) {
+			// print the target word
+			document.write('<tr>\n');	
+			var targetWord = targetWords[row];
+			document.write('<td>');	
+			if(smallerFont) { 
+				document.write('<font size=' + fontSize + '>');
+			}
+			document.write('<span class="blacklink"><a href="javascript:clickRow(' + row + ')">');
+			document.write(targetWord);
+			document.write('<a href="javascript:clickRow(' + row + ')"></span>');
+			if(smallerFont) document.write('</font>');
+			document.write('</td>\n\t');
+			// print this row
+			for(column = sourceWords.length-1; column >= 0; column--) {
+				if(sureGrid[column][row]) {
+					document.write('<td class="black" id="button.' + column + '.' + row + '">');
+				} else if(probGrid[column][row]) {
+					document.write('<td class="gray" id="button.' + column + '.' + row + '">');
+				} else {
+					if(highlightedSourceWords[column] || highlightedTargetWords[row]) {
+						document.write('<td class="highlight" id="button.' + column + '.' + row + '">');
+					} else {
+						document.write('<td class="white" id="button.' + column + '.' + row + '">');
+					}
+				}
+				document.write('<a href="javascript:clickButton(' + column + ',' + row + ')">');
+				document.write('<img src= "'+ imageDirectory + 'clearpixel.gif" border="0" ');
+				document.write('title="' + targetWords[row] + ', ' + sourceWords[column]+ '" ');
+				document.write('width="' + size + '" height="' + size + '"></a>');
+				document.write('</td>\n');	
+			}
+			
+			// print the target word again
+			document.write('<td>');	
+			if(smallerFont) document.write('<font size=' + fontSize + '>');
+			document.write('<span class="blacklink"><a href="javascript:clickRow(' + row + ')">');
+			document.write(targetWord);
+			document.write('<a href="javascript:clickRow(' + row + ')"></span>');
+			if(smallerFont) document.write('</font>');
+			document.write('</td>\n\t');
+			
+			document.write('</tr>');	
+			document.write('\n');
+		}
+		
+
+		// write the source words again
+		document.write('\t<td></td>\n');
+		for(i = sourceWords.length-1; i >= 0; i--) {
+			var word = sourceWords[i];
+			document.write('\t<td valign="top">');
+			document.write('<a href="javascript:clickColumn(' + i + ')">');
+
+			document.write('<div style="-webkit-transform: rotate(-90deg); -moz-transform: rotate(-90deg); z-index:inherit; float:left">' + word + '</div>');
+//			document.write('<img src = "' + getImagePath(word, imageDirectory) + '" width="' + size + '" alt="' + word + '"' + ' title="' + word + '" border="0">');
+			
+			document.write('</a>');
+			document.write('</td>\n');
+		}
+		document.write('\t<td></td>\n');
+		document.write('</tr>\n');
+
+		document.write('</table>\n');
+	}
+
+
+
+	// Writes the path to the image of a word.  Expects an image server like
+	// http://ironman.jhu.edu/wordImageServer/getImage?word=pureba&rotate=-90
+	// We use images because rotated text is not supported in cross-platform HTML.
+	function getImagePath(word, imageDirectory) {
+		return imageDirectory + "getImage?word=" + word + "&rotate=-90";
+	}
+
+	
+	function clickButton(x, y) { 
+		updateTime();
+		var button = document.getElementById("button."+x+"."+y);
+		if(sureGrid[x][y] == false && probGrid[x][y] == false) {
+			sureGrid[x][y] = true;	
+			probGrid[x][y] = false;
+			button.className = "black";
+		} else {
+			if(probGrid[x][y] == false) {
+				sureGrid[x][y] = false;
+				probGrid[x][y] = true;
+				button.className = "gray";
+			} else {
+				sureGrid[x][y] = false;
+				probGrid[x][y] = false;	
+				if(sourceHighlights[x] || targetHighlights[y]) {
+					button.className = "highlight";
+				} else {	
+					button.className = "white";
+				}
+			}
+		}
+		document.mturk_form.sureAlignments.value = boolGridToString(sureGrid);
+		document.mturk_form.possAlignments.value = boolGridToString(probGrid);
+	}
+	
+	
+	
+	function clickRow(y) { 
+		updateTime();
+		targetHighlights[y] = (!targetHighlights[y]);
+		var x = 0;
+		for(x = 0; x < width; x++) {
+			var button = document.getElementById("button."+x+"."+y);
+			if(sureGrid[x][y] == false && probGrid[x][y] == false) {
+				if(sourceHighlights[x] || targetHighlights[y]) {
+					button.className = "highlight";
+				} else {	
+					button.className = "white";
+				}
+			} 
+		}
+		document.mturk_form.targetHighlights.value = highlightsToString(targetHighlights);
+		document.mturk_form.sourceHighlights.value = highlightsToString(sourceHighlights);
+	}
+	
+	function clickColumn(x) { 
+		updateTime();
+		sourceHighlights[x] = (!sourceHighlights[x]);
+		var y = 0;
+		for(y = 0; y < height; y++) {
+			var button = document.getElementById("button."+x+"."+y);
+			if(sureGrid[x][y] == false && probGrid[x][y] == false) {
+				if(sourceHighlights[x] || targetHighlights[y]) {
+					button.className = "highlight";
+				} else {	
+					button.className = "white";
+				}
+			} 
+		}
+		document.mturk_form.sourceHighlights.value = highlightsToString(sourceHighlights);
+		document.mturk_form.targetHighlights.value = highlightsToString(targetHighlights);
+	}
+	
+	
+	function boolGridToString(grid) {
+		var gridString = "";
+		for(i = 0; i < grid.length; i++) {
+			row = grid[i];
+			for(j = 0; j < row.length; j++) {
+				if(grid[i][j]) {
+					gridString += i + "-" + j + " ";
+				}
+			}
+		}
+		// remove the training space
+		gridString = gridString.substring(0, gridString.length-1);
+
+		if(viewTransposed) {
+			gridString = transposeAlignments(gridString);
+		}
+		return gridString;
+	}
+	
+	// Converts an array of highlights into a string
+	function highlightsToString(array) {
+		var arrayString = "";
+		for(i = 0; i < array.length; i++) {
+			if(array[i]) {
+				arrayString += i + " ";
+			}
+		}
+		// remove the training space
+		arrayString = arrayString.substring(0, arrayString.length-1);
+		return arrayString;
+	}
+	
+	// Updates the activeTime and timeOfLastModification
+	function updateTime() {
+		var date = new Date();
+		var currTime = date.getTime();
+		var timeElapse = currTime - timeOfLastModification;
+		timeOfLastModification = currTime;
+		
+		// only increment the active time if the time since 
+		// the last modification is less than 5 minutes...
+		if(timeElapse < 300000) {
+			activeTime += timeElapse;
+		}
+		document.mturk_form.startTime.value = timeAtStart;
+		document.mturk_form.endTime.value = timeOfLastModification;
+		document.mturk_form.activeTime.value = activeTime;
+	}
+</script>
+
+
+</body>
+</html>

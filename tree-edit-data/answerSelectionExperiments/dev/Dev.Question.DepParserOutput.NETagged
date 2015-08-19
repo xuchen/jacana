@@ -1,0 +1,492 @@
+What	ethnic	group	/	race	are	Crip	members	?
+WP	JJ	NN	IN	NN	VBP	JJ	NNS	.
+VMOD	NMOD	NMOD	NMOD	PMOD	ROOT	NMOD	PRD	P
+6	3	1	1	4	0	8	6	6
+-	-	PER_DESC-B	-	PER_DESC-B	-	ORGANIZATION-B	PER_DESC-B	-
+
+What	is	Crips	'	gang	color	?
+WP	VBZ	NNS	POS	NN	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	PRD	P
+2	0	4	6	6	2	2
+-	-	ORGANIZATION-B	-	PER_DESC-B	-	-
+
+What	is	the	name	of	Durst	's	group	?
+WP	VBZ	DT	NN	IN	NNP	POS	NN	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	7	8	5	2
+-	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	ORG_DESC-B	-
+
+What	record	company	is	Durst	with	?
+WP	NN	NN	VBZ	VBN	IN	.
+VMOD	NMOD	SUB	ROOT	VC	VMOD	P
+4	3	4	0	4	5	4
+-	-	ORG_DESC-B	-	ORGANIZATION-B	-	-
+
+Where	was	Durst	born	?
+RB	VBD	JJ	NN	.
+VMOD	ROOT	NMOD	PRD	P
+2	0	4	2	2
+-	-	PERSON-B	-	-
+
+When	was	the	Hale	Bopp	comet	discovered	?
+WRB	VBD	DT	JJ	NNP	NN	VBD	.
+VMOD	ROOT	NMOD	NMOD	NMOD	SUB	VMOD	P
+2	0	6	6	6	2	2	2
+-	-	-	PERSON-B	PERSON-I	-	-	-
+
+How	often	does	the	Hale	Bopp	comet	approach	the	earth	?
+NNP	RB	VBZ	DT	JJ	NNP	NN	NN	DT	NN	.
+SUB	VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	SUB	NMOD	OBJ	P
+3	3	0	8	8	8	8	3	10	8	3
+-	-	-	-	PERSON-B	PERSON-I	-	-	-	LOCATION-B	-
+
+When	did	James	Dean	die	?
+WRB	VBD	NNP	NNP	FW	.
+VMOD	ROOT	NMOD	SUB	VMOD	P
+2	0	4	2	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+How	did	James	Dean	die	?
+NNP	VBD	NNP	NNP	FW	.
+SUB	ROOT	NMOD	OBJ	VMOD	P
+2	0	4	2	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+Which	was	the	first	movie	that	James	Dean	was	in	?
+NNP	VBD	DT	JJ	NN	IN	NNP	NNP	VBD	IN	.
+SUB	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	SUB	SBAR	VMOD	P
+2	0	5	5	2	5	8	9	6	9	2
+-	-	-	ORDINAL-B	-	-	PERSON-B	PERSON-I	-	-	-
+
+What	does	AARP	stand	for	?
+WP	VBZ	NNP	NN	IN	.
+VMOD	ROOT	NMOD	SUB	NMOD	P
+2	0	4	2	4	2
+-	-	-	-	-	-
+
+When	was	the	organization	AARP	started	?
+WRB	VBD	DT	NN	NNP	VBD	.
+VMOD	ROOT	NMOD	VMOD	SUB	NMOD	P
+2	0	4	2	6	4	2
+-	-	-	ORG_DESC-B	-	-	-
+
+Where	is	AARP	's	headquarters	?
+RB	VBZ	NNP	POS	NNS	.
+PRD	ROOT	NMOD	NMOD	PRD	P
+2	0	4	5	2	2
+-	-	ORGANIZATION-B	-	FAC_DESC-B	-
+
+Who	is	AARP	's	top	official	or	CEO	?
+NNP	VBZ	NNP	POS	JJ	NN	CC	NN	.
+SUB	ROOT	NMOD	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	4	8	8	8	8	2	2
+-	-	ORGANIZATION-B	-	-	PER_DESC-B	-	PER_DESC-B	-
+
+How	long	does	one	study	as	a	Rhodes	scholar	?
+NNP	RB	VBZ	CD	NN	IN	DT	NNPS	NN	.
+SUB	VMOD	ROOT	NMOD	OBJ	NMOD	NMOD	NMOD	PMOD	P
+3	3	0	5	3	5	9	9	6	3
+-	-	-	-	-	-	-	ORGANIZATION-B	PER_DESC-B	-
+
+Where	do	Rhodes	scholars	study	?
+RB	VBP	NNPS	NNS	NN	.
+VMOD	ROOT	NMOD	NMOD	OBJ	P
+2	0	5	5	2	2
+-	-	NATIONALITY-B	PER_DESC-B	-	-
+
+What	kind	of	animal	is	an	agouti	?
+WP	NN	IN	NN	VBZ	DT	NN	.
+VMOD	NMOD	NMOD	PMOD	ROOT	NMOD	PRD	P
+5	1	1	3	0	7	5	5
+-	-	-	-	-	-	-	-
+
+Who	founded	the	Black	Panthers	organization	?
+NNP	VBD	DT	NNP	NNPS	NN	.
+SUB	ROOT	NMOD	NMOD	NMOD	OBJ	P
+2	0	6	6	6	2	2
+-	-	-	ORGANIZATION-B	ORGANIZATION-I	ORG_DESC-B	-
+
+When	was	the	Black	Panthers	founded	?
+WRB	VBD	DT	NNP	NNPS	VBD	.
+VMOD	ROOT	NMOD	NMOD	SUB	VMOD	P
+2	0	5	5	6	2	2
+-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-
+
+Where	was	the	Black	Panthers	founded	?
+RB	VBD	DT	NNP	NNPS	VBD	.
+VMOD	VMOD	NMOD	NMOD	SUB	ROOT	P
+2	6	5	5	6	0	6
+-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-
+
+What	is	Insane	Clown	Posse	's	style	of	music	?
+WP	VBZ	NNP	NNP	NNP	POS	NN	IN	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	NMOD	PMOD	P
+2	0	6	6	6	7	2	7	8	2
+-	-	PERSON-B	PERSON-I	PERSON-I	-	-	-	-	-
+
+What	are	prions	made	of	?
+WP	VBP	NNS	VBN	IN	.
+VMOD	ROOT	PRD	NMOD	VMOD	P
+2	0	2	3	4	2
+-	-	-	-	-	-
+
+Who	discovered	prions	?
+NNP	VBD	NNS	.
+SUB	ROOT	OBJ	P
+2	0	2	2
+-	-	-	-
+
+Who	is	the	lead	singer	/	musician	in	Nirvana	?
+NNP	VBZ	DT	JJ	NN	IN	JJ	IN	NNP	.
+SUB	ROOT	NMOD	NMOD	PRD	NMOD	PMOD	NMOD	PMOD	P
+2	0	5	5	2	5	6	5	8	2
+-	-	-	-	PER_DESC-B	-	PER_DESC-B	-	GPE-B	-
+
+What	style	of	music	does	Nirvana	play	?
+WP	NN	IN	NN	VBZ	RB	VB	.
+NMOD	SUB	NMOD	PMOD	ROOT	VMOD	VC	P
+2	5	2	3	0	5	5	5
+-	-	-	-	-	PERSON-B	-	-
+
+What	industry	is	Rohm	and	Haas	in	?
+WP	NN	VBZ	NNP	CC	NNP	IN	.
+VMOD	NMOD	ROOT	NMOD	NMOD	PRD	VMOD	P
+3	1	0	6	6	3	3	3
+-	-	-	ORGANIZATION-B	-	ORGANIZATION-B	-	-
+
+Where	is	the	company	Rohm	and	Haas	located	?
+RB	VBZ	DT	NN	NNP	CC	NNP	VBD	.
+VMOD	VMOD	NMOD	NMOD	NMOD	NMOD	SUB	ROOT	P
+2	8	4	7	7	7	8	0	8
+-	-	-	ORG_DESC-B	ORGANIZATION-B	-	ORGANIZATION-B	-	-
+
+What	is	Rohm	and	Haas	's	annual	revenue	?
+WP	VBZ	NNP	CC	NNP	POS	JJ	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	8	8	6	8	8	2	2
+-	-	ORGANIZATION-B	-	ORGANIZATION-B	-	-	-	-
+
+What	film	introduced	Jar	Jar	Binks	?
+WP	VBP	VBN	NNP	NNP	NNS	.
+VMOD	ROOT	VC	NMOD	NMOD	OBJ	P
+2	0	2	6	6	3	3
+-	-	-	PRODUCT-B	PRODUCT-I	PRODUCT-I	-
+
+What	actor	is	used	as	Jar	Jar	Binks	'	voice	?
+WP	NN	VBZ	VBN	IN	NNP	NNP	NNS	POS	NN	.
+VMOD	NMOD	ROOT	VC	VMOD	NMOD	NMOD	NMOD	NMOD	PMOD	P
+3	1	0	3	4	9	9	9	10	5	3
+-	PER_DESC-B	-	-	-	PERSON-B	PERSON-I	PERSON-I	-	-	-
+
+To	what	alien	race	does	Jar	Jar	Binks	belong	?
+TO	WP	VBN	NN	VBZ	NNP	NNP	NNPS	NN	.
+VMOD	PMOD	NMOD	SUB	ROOT	NMOD	NMOD	NMOD	SUB	P
+5	1	4	5	0	9	9	9	5	5
+-	-	-	PER_DESC-B	-	PERSON-B	PERSON-I	PERSON-I	-	-
+
+Horus	is	the	god	of	what	?
+NNP	VBZ	DT	NN	IN	WP	.
+SUB	ROOT	NMOD	PRD	NMOD	PMOD	P
+2	0	4	2	4	5	2
+ORGANIZATION-B	-	-	-	-	-	-
+
+What	country	is	Horus	associated	with	?
+WP	NN	VBZ	NNP	VBN	IN	.
+VMOD	NMOD	ROOT	PRD	PRD	VMOD	P
+3	1	0	3	3	5	3
+-	GPE_DESC-B	-	-	-	-	-
+
+Who	was	Horus	's	mother	?
+NNP	VBD	NNP	POS	NN	.
+SUB	ROOT	NMOD	NMOD	PRD	P
+2	0	4	5	2	2
+-	-	PERSON-B	-	PER_DESC-B	-
+
+Who	was	Horus	's	father	?
+NNP	VBD	NNP	POS	NN	.
+SUB	ROOT	NMOD	NMOD	PRD	P
+2	0	4	5	2	2
+-	-	PERSON-B	-	PER_DESC-B	-
+
+Who	coined	the	name	Rat	Pack	?
+NNP	VBD	DT	NN	NN	NNP	.
+SUB	ROOT	NMOD	NMOD	NMOD	OBJ	P
+2	0	6	6	6	2	2
+-	-	-	-	PRODUCT-B	PRODUCT-I	-
+
+What	Las	Vegas	hotel	was	made	famous	by	the	Rat	Pack	?
+WP	NNP	NNP	NNP	VBD	VBN	JJ	IN	DT	NNP	NNP	.
+VMOD	NMOD	NMOD	SUB	ROOT	VC	VMOD	VMOD	NMOD	NMOD	PMOD	P
+5	4	4	5	0	5	6	6	11	11	8	5
+-	GPE-B	GPE-I	ORG_DESC-B	-	-	-	-	-	ANIMAL-B	ANIMAL-I	-
+
+What	is	the	primary	symptom	of	a	cataract	?
+WP	VBZ	DT	JJ	NN	IN	DT	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	PMOD	P
+2	0	5	5	2	5	8	6	2
+-	-	-	-	-	-	-	-	-
+
+How	is	cataract	treated	?
+NNP	VBZ	VBN	JJ	.
+SUB	ROOT	VC	VMOD	P
+2	0	2	3	2
+-	-	-	-	-
+
+When	was	the	International	Criminal	Court	established	?
+WRB	VBD	DT	NNP	NNP	NNP	VBD	.
+VMOD	VMOD	NMOD	NMOD	NMOD	SUB	ROOT	P
+2	7	6	6	6	7	0	7
+-	-	-	ORGANIZATION-B	ORGANIZATION-I	ORGANIZATION-I	-	-
+
+What	kind	of	cases	does	the	International	Criminal	Court	try	?
+WP	NN	IN	NNS	VBZ	DT	NNP	NNP	NNP	NN	.
+VMOD	NMOD	NMOD	PMOD	ROOT	NMOD	NMOD	NMOD	NMOD	SUB	P
+5	1	1	3	0	10	10	10	10	5	5
+-	-	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	ORGANIZATION-I	-	-
+
+Who	is	the	sponsor	of	the	International	Criminal	Court	?
+NNP	VBZ	DT	NN	IN	DT	NNP	NNP	NNP	.
+SUB	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	9	9	9	5	2
+-	-	-	ORG_DESC-B	-	-	ORGANIZATION-B	ORGANIZATION-I	ORGANIZATION-I	-
+
+What	division	-LRB-	weight	-RRB-	did	boxer	Floyd	Patterson	win	?
+WP	NN	-LRB-	JJ	-RRB-	VBD	NN	NNP	NNP	NN	.
+VMOD	NMOD	P	NMOD	P	ROOT	NMOD	NMOD	NMOD	SUB	P
+6	1	4	2	4	0	10	10	10	6	6
+-	ORG_DESC-B	-	-	-	-	PER_DESC-B	PERSON-B	PERSON-I	-	-
+
+Who	beat	Floyd	Patterson	to	take	the	title	away	?
+NNP	NN	NNP	NNP	TO	VB	DT	NN	NN	.
+NMOD	NMOD	NMOD	SUB	VMOD	ROOT	NMOD	NMOD	OBJ	P
+4	4	4	6	6	0	9	9	6	6
+-	-	PERSON-B	PERSON-I	-	-	-	-	-	-
+
+What	kind	of	a	community	is	a	Kibbutz	?
+WP	NN	IN	DT	NN	VBZ	DT	NNP	.
+VMOD	NMOD	NMOD	NMOD	PMOD	ROOT	NMOD	PRD	P
+6	1	1	5	3	0	8	6	6
+-	-	-	-	-	-	-	GPE-B	-
+
+With	what	country	are	the	Kibbutz	associated	?
+IN	WP	NN	VBP	DT	NNP	VBD	.
+VMOD	PMOD	NMOD	SBAR	NMOD	SUB	ROOT	P
+7	1	2	1	6	7	0	7
+-	-	GPE_DESC-B	-	-	ORGANIZATION-B	-	-
+
+When	was	the	first	Kibbutz	founded	?
+WRB	VBD	DT	JJ	NNP	VBD	.
+VMOD	VMOD	NMOD	NMOD	SUB	ROOT	P
+2	6	5	5	2	0	6
+-	-	-	-	PERSON-B	-	-
+
+Where	was	the	first	Kibbutz	founded	?
+RB	VBD	DT	JJ	NNP	VBD	.
+VMOD	VMOD	NMOD	NMOD	SUB	ROOT	P
+2	6	5	5	6	0	6
+-	-	-	-	PERSON-B	-	-
+
+How	many	Kibbutzs	are	there	now	?
+NNP	JJ	NNS	VBP	RB	RB	.
+NMOD	NMOD	SUB	ROOT	VMOD	VMOD	P
+3	3	4	0	4	4	4
+-	-	NATIONALITY-B	-	-	-	-
+
+In	what	year	did	the	first	Concorde	passenger	flight	take	place	?
+IN	WP	NN	VBD	DT	JJ	NNP	NN	TO	VB	NN	.
+VMOD	PMOD	VMOD	ROOT	NMOD	NMOD	NMOD	OBJ	VMOD	NMOD	OBJ	P
+4	1	4	0	8	8	8	4	10	8	10	4
+-	-	-	-	-	-	PRODUCT-B	-	-	-	-	-
+
+How	many	seats	are	in	the	cabin	of	a	Concorde	?
+NNP	JJ	NNS	VBP	IN	DT	NN	IN	DT	NNP	.
+NMOD	NMOD	SUB	ROOT	VMOD	NMOD	PMOD	NMOD	NMOD	PMOD	P
+3	3	4	0	4	7	5	7	10	8	4
+-	-	-	-	-	-	FAC_DESC-B	-	-	PRODUCT-B	-
+
+How	fast	does	the	Concorde	fly	?
+NNP	RB	VBZ	DT	NNP	NN	.
+SUB	VMOD	ROOT	NMOD	NMOD	SUB	P
+3	3	0	6	6	3	3
+-	-	-	-	PRODUCT-B	-	-
+
+How	many	Club	Med	vacation	spots	are	there	worldwide	?
+NNP	JJ	NN	VBD	NN	NNS	VBP	RB	VB	.
+NMOD	NMOD	SUB	ROOT	NMOD	SUB	VMOD	VMOD	VC	P
+3	3	4	0	6	7	4	7	7	4
+-	-	NATIONALITY-B	NATIONALITY-I	-	-	-	-	-	-
+
+Where	was	Franz	Kafka	born	?
+RB	VBD	NNP	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	P
+2	0	5	5	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+When	was	Franz	Kafka	born	?
+WRB	VBD	NNP	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	SUB	P
+2	0	5	5	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+What	is	Franz	Kafka	's	ethnic	background	?
+WP	VBZ	NNP	NNP	POS	JJ	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	7	7	2	2
+-	-	PERSON-B	PERSON-I	-	-	-	-
+
+In	what	film	is	Gordon	Gekko	the	main	character	?
+IN	WP	NN	VBZ	VBN	IN	DT	NN	NN	.
+VMOD	PMOD	SUB	ROOT	VC	VMOD	NMOD	NMOD	PMOD	P
+4	1	4	0	4	5	9	9	6	4
+-	-	-	-	PERSON-B	PERSON-I	-	-	PER_DESC-B	-
+
+Who	plays	the	role	of	Gordon	Gekko	?
+NNP	VBZ	DT	NN	IN	NNP	NNP	.
+SUB	ROOT	NMOD	OBJ	NMOD	NMOD	PMOD	P
+2	0	4	2	4	7	5	2
+-	-	-	-	-	PERSON-B	PERSON-I	-
+
+What	year	was	the	movie	Wall	Street	released	?
+WP	NN	VBD	DT	NN	NNP	NNP	VBD	.
+VMOD	NMOD	ROOT	NMOD	PRD	NMOD	SUB	NMOD	P
+3	1	0	5	3	7	8	5	3
+-	-	-	-	-	-	-	-	-
+
+What	was	Gekko	's	profession	?
+WP	VBD	NNP	POS	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	P
+2	0	4	5	2	2
+-	-	PERSON-B	-	-	-
+
+When	was	architect	Frank	Gehry	born	?
+WRB	VBD	JJ	NNP	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	PRD	P
+2	0	6	6	6	2	2
+-	-	PER_DESC-B	PERSON-B	PERSON-I	-	-
+
+What	nationality	is	Frank	Gehry	?
+WP	NN	VBZ	NNP	NNP	.
+VMOD	NMOD	ROOT	NMOD	PRD	P
+3	1	0	5	3	3
+-	-	-	PERSON-B	PERSON-I	-
+
+What	sport	do	the	Harlem	Globetrotters	play	?
+WP	NN	VBP	DT	NNP	NNPS	VB	.
+VMOD	NMOD	ROOT	NMOD	NMOD	SUB	VMOD	P
+3	1	0	6	6	7	3	3
+-	-	-	-	LOCATION-B	PER_DESC-B	-	-
+
+When	were	the	Harlem	Globetrotters	founded	?
+WRB	VBD	DT	NNP	NNPS	VBD	.
+VMOD	VMOD	NMOD	NMOD	SUB	ROOT	P
+2	6	5	5	6	0	6
+-	-	-	LOCATION-B	PER_DESC-B	-	-
+
+By	whom	were	the	Harlem	Globetrotters	founded	?
+JJ	NN	VBD	DT	NNP	NNPS	VBD	.
+NMOD	SUB	ROOT	NMOD	NMOD	SUB	VC	P
+2	3	0	6	6	7	3	3
+-	-	-	-	LOCATION-B	PER_DESC-B	-	-
+
+What	kind	of	singer	is	Ice	T	?
+WP	NN	IN	NN	VBZ	NNP	NNP	.
+VMOD	NMOD	NMOD	PMOD	ROOT	NMOD	PRD	P
+5	1	1	3	0	7	5	5
+-	-	-	PER_DESC-B	-	ORGANIZATION-B	ORGANIZATION-I	-
+
+What	was	Ice	T	's	original	name	?
+WP	VBD	NNP	NNP	POS	JJ	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	7	7	2	2
+-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	-
+
+Where	was	Ice-T	born	?
+RB	VBD	JJ	NN	.
+VMOD	ROOT	NMOD	PRD	P
+2	0	4	2	2
+-	-	-	-	-
+
+What	sport	does	Jennifer	Capriati	play	?
+WP	NN	VBZ	RB	NNP	VB	.
+VMOD	NMOD	ROOT	VMOD	SUB	VMOD	P
+3	1	0	3	6	3	3
+-	-	-	PERSON-B	PERSON-I	-	-
+
+Who	is	Jennifer	Capriati	's	coach	?
+NNP	VBZ	NNP	NNP	POS	NN	.
+SUB	ROOT	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	6	2	2
+-	-	PERSON-B	PERSON-I	-	PER_DESC-B	-
+
+When	was	Jennifer	Capriati	born	?
+WRB	VBD	NNP	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	SUB	P
+2	0	5	5	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+What	kind	of	business	is	Abercrombie	and	Fitch	?
+WP	NN	IN	NN	VBZ	NNP	CC	NNP	.
+VMOD	NMOD	NMOD	PMOD	ROOT	NMOD	NMOD	PRD	P
+5	1	1	3	0	8	8	5	5
+-	-	-	-	-	PERSON-B	-	ORGANIZATION-B	-
+
+When	was	Abercrombie	and	Fitch	established	?
+WRB	VBD	NNP	CC	NNP	VBD	.
+VMOD	VMOD	NMOD	NMOD	SUB	ROOT	P
+2	6	5	5	2	0	6
+-	-	PERSON-B	-	ORGANIZATION-B	-	-
+
+Where	was	Abercrombie	and	Fitch	established	?
+RB	VBD	NNP	CC	NNP	VBD	.
+VMOD	VMOD	NMOD	NMOD	SUB	ROOT	P
+2	6	5	5	6	0	6
+-	-	PERSON-B	-	ORGANIZATION-B	-	-
+
+How	many	Abercrombie	and	Fitch	stores	are	there	?
+NNP	JJ	NNP	CC	NNP	NNS	VBP	RB	.
+NMOD	NMOD	NMOD	NMOD	NMOD	SUB	ROOT	VMOD	P
+6	6	6	6	6	7	0	7	7
+-	-	NATIONALITY-B	-	ORGANIZATION-B	ORG_DESC-B	-	-	-
+
+Why	is	the	'Tale	of	Genji	'	famous	?
+NNP	VBZ	DT	NN	IN	NNP	POS	JJ	.
+SUB	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	P
+2	0	4	2	4	7	8	4	2
+-	-	-	-	-	ORGANIZATION-B	-	PER_DESC-B	-
+
+Who	wrote	the	'Tale	of	Genji	'	?
+NNP	VBD	DT	NN	IN	NNP	POS	.
+SUB	ROOT	NMOD	OBJ	NMOD	NMOD	PMOD	P
+2	0	4	2	4	7	5	2
+-	-	-	-	-	ORGANIZATION-B	-	-
+
+When	was	the	'Tale	of	Genji	'	written	?
+WRB	VBD	DT	NN	IN	NNP	POS	NN	.
+VMOD	ROOT	NMOD	SUB	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	7	8	5	2
+-	-	-	-	-	ORGANIZATION-B	-	-	-
+
+What	is	Al	Jolson	's	real	name	?
+WP	VBZ	DT	NNP	POS	JJ	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	7	7	2	2
+-	-	PERSON-B	PERSON-I	-	-	-	-
+
+When	did	Jean	Harlow	die	?
+WRB	VBD	NNP	NNP	FW	.
+VMOD	ROOT	NMOD	SUB	VMOD	P
+2	0	4	2	2	2
+-	-	PERSON-B	PERSON-I	-	-
+
+How	old	was	Jean	Harlow	when	she	died	?
+NNP	JJ	VBD	NNP	NNP	WRB	PRP	VBD	.
+SUB	NMOD	ROOT	NMOD	SUB	VMOD	SUB	SBAR	P
+3	1	0	5	3	3	8	6	3
+-	-	-	PERSON-B	PERSON-I	-	-	-	-
+
+What	did	Jean	Harlow	die	of	?
+WP	VBD	NNP	NNP	NN	IN	.
+VMOD	ROOT	NMOD	NMOD	SUB	NMOD	P
+2	0	5	5	2	5	2
+-	-	PERSON-B	PERSON-I	-	-	-
+

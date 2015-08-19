@@ -1,0 +1,101 @@
+[
+	{
+	"id": "news-common:2143",
+	"name": "news-common:2143",
+	"source": "Hackett and Rossignol did not know each other and Hackett had no connection to Colby , Doyle said .",
+	"target": "state police Lt. Timothy Doyle said Hackett and Rossignol did not know each other , and that Hackett had no connection to the college .",
+	"sureAlign": "0-6 1-7 2-8 3-9 3-10 3-11 4-9 4-10 4-11 5-9 5-10 5-11 6-12 7-13 8-15 9-17 10-18 11-19 11-20 12-19 12-20 13-21 16-4 17-5 18-24",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "news-common:723",
+	"name": "news-common:723",
+	"source": "'' the woman was taken to New Charing Cross Hospital by ambulance and her condition is critical .",
+	"target": "she was taken to Charing Cross Hospital , where she remained critically ill last night .",
+	"sureAlign": "3-1 3-2 4-1 4-2 5-3 7-4 8-5 9-6 17-15",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "news-common:1629",
+	"name": "news-common:1629",
+	"source": "there 's also a flaw that results because IE does not implement an appropriate block on a file download dialog box .",
+	"target": "the second vulnerability is a result of IE not implementing a block on a file download dialog box .",
+	"sureAlign": "4-2 6-3 6-4 6-5 8-7 9-9 10-8 11-9 12-10 14-11 15-12 16-13 16-14 16-15 16-16 16-17 17-13 17-14 17-15 17-16 17-17 18-13 18-14 18-15 18-16 18-17 19-13 19-14 19-15 19-16 19-17 20-13 20-14 20-15 20-16 20-17 21-18",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "news-common:510",
+	"name": "news-common:510",
+	"source": "world economic leaders hailed signs of a global revival on Tuesday but agreed it had to be handled with care to prevent any setback .",
+	"target": "Dubai , September 23 : the world economic leaders hailed on Tuesday signs of a global revival but agreed it had to be handled with care to prevent any setback .",
+	"sureAlign": "0-6 1-7 2-8 3-9 4-12 5-13 6-14 6-15 6-16 7-14 7-15 7-16 8-14 8-15 8-16 9-10 10-11 11-17 12-18 13-19 14-20 14-21 14-22 14-23 15-20 15-21 15-22 15-23 16-20 16-21 16-22 16-23 17-20 17-21 17-22 17-23 18-24 19-25 20-26 20-27 21-26 21-27 22-28 22-29 23-28 23-29 24-30",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "news-common:943",
+	"name": "news-common:943",
+	"source": "'' the bank requires growth from elsewhere in the economy and needs the economy to rebalance '' , he said in an interview with the Press Association news agency .",
+	"target": "the Bank of England '' requires growth from elsewhere in the economy and needs the economy to rebalance '' , he told the Press Association news agency .",
+	"sureAlign": "0-4 1-0 1-1 2-0 2-1 3-5 4-6 5-7 6-8 7-9 8-10 8-11 9-10 9-11 10-12 11-13 12-14 13-15 14-16 15-17 16-18 17-19 18-20 19-21 20-21 21-21 22-21 23-21 24-22 24-23 24-24 24-25 24-26 25-22 25-23 25-24 25-25 25-26 26-22 26-23 26-24 26-25 26-26 27-22 27-23 27-24 27-25 27-26 28-22 28-23 28-24 28-25 28-26 29-27",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "news-common:2214",
+	"name": "news-common:2214",
+	"source": "nor has it said how many astronauts will be on board , through there reportedly will be between one and three .",
+	"target": "nor has it said how many astronauts will be on board , through there reportedly could be as many as three .",
+	"sureAlign": "0-0 1-1 2-2 3-3 4-4 5-5 5-6 6-5 6-6 7-7 7-8 8-7 8-8 9-9 10-10 11-11 12-12 13-13 13-14 14-13 14-14 20-20 21-21",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "news-common:1696",
+	"name": "news-common:1696",
+	"source": "still , Mauresmo has the confidence of having beaten Serena for the first time and also is buoyed by Venus Williams ' upset loss Sunday to Vera Zvonareva .",
+	"target": "she has the confidence of having beaten her for the first time and she is buoyed by Venus Williams ' upset loss of two days ago .",
+	"sureAlign": "3-1 4-2 4-3 5-2 5-3 6-4 7-5 8-6 10-8 11-9 11-10 11-11 12-9 12-10 12-11 13-9 13-10 13-11 14-12 16-14 16-15 17-14 17-15 18-16 19-17 20-18 21-19 22-20 23-21 28-26",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "news-common:2001",
+	"name": "news-common:2001",
+	"source": "'' they were an inspirational couple , selfless and courageous '' , said the Oscar-winning film director .",
+	"target": "he said : '' they were an inspirational couple , selfless and courageous .",
+	"sureAlign": "0-3 1-4 2-5 3-6 3-7 4-6 4-7 5-8 6-9 7-10 8-11 9-12 12-1 17-13",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "news-common:2127",
+	"name": "news-common:2127",
+	"source": "'' we make no apologies for finding every legal way possible to protect the American public from further terrorist attacks '' , she said .",
+	"target": "'' we make no apologies for finding every legal way possible to protect the American public from further terrorist attack '' , said Barbara Comstock , Justice Department spokeswoman .",
+	"sureAlign": "0-0 0-1 1-0 1-1 2-2 3-3 3-4 4-3 4-4 5-5 6-6 6-7 6-8 6-9 7-6 7-7 7-8 7-9 8-6 8-7 8-8 8-9 9-6 9-7 9-8 9-9 10-10 11-11 11-12 12-11 12-12 13-13 13-14 14-13 14-14 15-15 16-16 17-17 18-18 19-19 20-20 21-21 23-22 24-29",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "news-common:442",
+	"name": "news-common:442",
+	"source": "Volodymyr Gorbanovsky , deputy general director of the plane 's owners , Mediterranean Airlines , said it appeared to have veered from its flight path because of the fog .",
+	"target": "Volodymyr Gorbanovsky , deputy general director of the plane 's owners , Mediterranean Airlines , said initial information indicated it had veered from its flight path because of fog .",
+	"sureAlign": "0-0 0-1 0-2 0-3 0-4 0-5 1-0 1-1 1-2 1-3 1-4 1-5 2-0 2-1 2-2 2-3 2-4 2-5 3-0 3-1 3-2 3-3 3-4 3-5 4-0 4-1 4-2 4-3 4-4 4-5 5-0 5-1 5-2 5-3 5-4 5-5 6-6 7-7 7-8 8-7 8-8 9-9 9-10 10-9 10-10 11-11 12-12 12-13 13-12 13-13 14-14 15-15 16-19 17-17 17-18 19-20 20-21 21-22 22-23 22-24 22-25 23-23 23-24 23-25 24-23 24-24 24-25 25-26 25-27 26-26 26-27 28-28 29-29",
+	"possibleAlign": ""
+	}
+	,
+	{
+	"id": "news-common:2718",
+	"name": "news-common:2718",
+	"source": "the retailer said it came to the decision after hearing the opinions of customers and associates .",
+	"target": "the decision came after '' listening to our customers and associates '' , Melissa Berryhill , a spokeswoman for Wal-Mart , said .",
+	"sureAlign": "0-19 1-19 4-2 6-0 6-1 7-0 7-1 8-3 9-4 13-8 14-9 15-10 16-22",
+	"possibleAlign": ""
+	}
+
+]

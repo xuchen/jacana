@@ -1,0 +1,35 @@
+1	Who	_	NNP	_	_	2	SUB	_	_
+2	is	_	VBZ	_	_	0	ROOT	_	_
+3	the	_	DT	_	_	4	NMOD	_	_
+4	author	_	NN	_	_	2	PRD	_	_
+5	of	_	IN	_	_	4	NMOD	_	_
+6	the	_	DT	_	_	7	NMOD	_	_
+7	book	_	NN	_	_	5	PMOD	_	_
+8	,	_	,	_	_	15	P	_	_
+9	``	_	``	_	_	15	P	_	_
+10	The	_	DT	_	_	12	NMOD	_	_
+11	Iron	_	JJ	_	_	12	NMOD	_	_
+12	Lady	_	NN	_	_	15	NMOD	_	_
+13	:	_	:	_	_	15	P	_	_
+14	A	_	DT	_	_	15	NMOD	_	_
+15	Biography	_	NN	_	_	7	NMOD	_	_
+16	of	_	IN	_	_	15	NMOD	_	_
+17	Margaret	_	NNP	_	_	18	NMOD	_	_
+18	Thatcher	_	NNP	_	_	16	PMOD	_	_
+19	''	_	''	_	_	18	P	_	_
+20	?	_	.	_	_	2	P	_	_
+
+1	What	_	WP	_	_	2	VMOD	_	_
+2	was	_	VBD	_	_	0	ROOT	_	_
+3	the	_	DT	_	_	5	NMOD	_	_
+4	monetary	_	JJ	_	_	5	NMOD	_	_
+5	value	_	NN	_	_	2	PRD	_	_
+6	of	_	IN	_	_	5	NMOD	_	_
+7	the	_	DT	_	_	10	NMOD	_	_
+8	Nobel	_	NNP	_	_	10	NMOD	_	_
+9	Peace	_	NNP	_	_	10	NMOD	_	_
+10	Prize	_	NNP	_	_	6	PMOD	_	_
+11	in	_	IN	_	_	2	VMOD	_	_
+12	<num>	_	CD	_	_	11	PMOD	_	_
+13	?	_	.	_	_	2	P	_	_
+

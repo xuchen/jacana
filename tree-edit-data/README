@@ -1,0 +1,13 @@
+This is the dataset first used in the following paper:
+
+Mengqiu Wang, Noah A. Smith and Teruko Mitamura, What is the Jeopardy Model? A Quasi-Synchronous Grammar for Question Answering, In Proceedings of EMNLP '07, 2007
+
+and later enriched, re-organized by Michael Heilman:
+
+M. Heilman and N. A. Smith. 2010. Tree Edit Models for Recognizing Textual Entailments, Paraphrases, and Answers to Questions. In Proc. of NAACL/HLT
+
+The data format is pseudo-xml. That means you can't use any XML processing libraries to read it (some characters are not escaped). To process it, just read the file line by line.
+
+The data was POS-tagged via MXPOST, parsed via MSTParser and NER-tagged via BBN Identifinder. These tools are not easily availble anymore. Thus I re-processed them with the Stanford Parser (for POS and parsing) and the UIUC NETagger (look inside the "stanford-parsed" folder in each sub-folder).
+
+Xuchen Yao

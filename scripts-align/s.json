@@ -1,0 +1,11 @@
+[
+	{
+	"name": "1",
+	"id": "",
+	"source": "John loves Mary .",
+	"target": "Mary likes John too .",
+	"score": "10.828343391418457",
+	"sureAlign": "0-2 1-1 2-0 3-4",
+	"possibleAlign": ""
+	}
+]

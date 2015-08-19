@@ -1,0 +1,10 @@
+orig -> converted: ConvertMicrosoftGoldAlignments 
+
+    mainly conform tokenization with Stanford standard 
+
+converted -> one-to-one: MicrosoftGoldAlignmentFile
+
+    assignly each alignment pair with its original RTE id.
+    merge output from annotators A/B/C to M by majority vote.
+    convert alignment into MANLI-reachable format (one-to-one). See the original MANLI paper, page 3, right column.
+    output merged results in new .xml format

@@ -1,0 +1,82 @@
+[
+    {
+        "possibleAlign": "",
+        "sureAlign": "0-19 1-19 4-2 6-0 7-1 8-3 9-4 13-8 14-9 15-10 16-22",
+        "target": "the decision came after '' listening to our customers and associates '' , Melissa Berryhill , a spokeswoman for Wal-Mart , said .",
+        "source": "the retailer said it came to the decision after hearing the opinions of customers and associates .",
+        "id": "news-common:2718",
+        "name": "news-common:2718"
+    },
+    {
+        "possibleAlign": "",
+        "sureAlign": "1-0 2-1 3-2 4-3 5-4 6-5 7-6 8-7 9-8 10-9 11-10 12-11 13-12 14-13 15-14 16-23 20-15 21-29 22-30",
+        "target": "we will accede to the request while we explore all of our options '' , said Russell Lewis , executive vice president of VeriSign 's Naming and Directory Services Group .",
+        "source": "'' we will accede to the request while we explore all of our options '' , VeriSign spokesman Tom Galvin told Reuters .",
+        "id": "news-common:1296",
+        "name": "news-common:1296"
+    },
+    {
+        "possibleAlign": "",
+        "sureAlign": "0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-13 15-14 17-15 18-16 19-17 20-18 21-20 22-23 23-24 24-25 25-26 26-27 27-28 29-29 30-30",
+        "target": "two Atlanta-based companies that have not been accused of wrongdoing -- Delta Air Lines and Home Depot -- were also mentioned by witnesses as having excessive pay packages for CEOs .",
+        "source": "two Atlanta companies that have not been accused of wrongdoing -- Delta Air Lines Inc. and the Home Depot -- were mentioned as having excessive pay packages for its CEOs .",
+        "id": "news-common:1411",
+        "name": "news-common:1411"
+    },
+    {
+        "possibleAlign": "",
+        "sureAlign": "0-17 1-17 2-17 3-17 4-18 6-0 7-1 8-2 9-3 10-4 11-5 12-6 13-7 14-8 15-9 16-10 17-11 18-12 19-13 20-14 21-15 22-19",
+        "target": "'' we believe the long-term prospects for the energy sector in the UK remain attractive '' , Goldman said .",
+        "source": "the US investment bank said : '' we believe the long-term prospects for the energy sector in the UK remain attractive '' .",
+        "id": "news-common:2006",
+        "name": "news-common:2006"
+    },
+    {
+        "possibleAlign": "",
+        "sureAlign": "4-1 6-9 7-10 8-11 9-12 10-13 11-14 12-15 13-16 14-17 15-18 16-19 17-20 18-21 19-22 22-23 23-25",
+        "target": "the 14-year-old national spelling finalist who attends school in Belmont , N.C. , got a word that sounded like '' zistee '' during competition Wednesday .",
+        "source": "Tom Kasmer , a 14-year-old from Belmont , N.C. , got a word that sounded like '' zistee '' during yesterday 's competition .",
+        "id": "news-common:963",
+        "name": "news-common:963"
+    },
+    {
+        "possibleAlign": "",
+        "sureAlign": "0-12 1-12 2-13 3-14 4-15 5-16 7-3 8-4 9-5 10-6 11-10 12-18 13-19 14-20 16-1 17-21",
+        "target": "in math , 16 percent of elementary and middle school students and 9.6 percent of high school students must be proficient .",
+        "source": "about 10 percent of high school and 16 percent of elementary students must be proficient at math .",
+        "id": "news-common:1486",
+        "name": "news-common:1486"
+    },
+    {
+        "possibleAlign": "",
+        "sureAlign": "0-0 1-1 8-3 9-4 10-5 11-6 12-8 13-9 14-10 15-11 16-12 17-13 18-14 19-15 20-16",
+        "target": "they said the police officers also entered various private wards at the clinic and attacked patients .",
+        "source": "they said many had been beaten , and police officers also stormed private wards at the hospital and harassed patients .",
+        "id": "news-common:2988",
+        "name": "news-common:2988"
+    },
+    {
+        "possibleAlign": "",
+        "sureAlign": "0-0 1-1 5-8 9-2 9-3 9-6 10-2 10-3 10-6 12-10 13-11",
+        "target": "the Pentagon has begun an official investigation into Boykin 's remarks .",
+        "source": "the Pentagon , saying that Boykin requested it , is investigating his remarks .",
+        "id": "news-common:3006",
+        "name": "news-common:3006"
+    },
+    {
+        "possibleAlign": "",
+        "sureAlign": "0-0 1-1 2-2 3-3 4-4 7-9 8-10 9-11 11-13 12-14 13-15 23-17",
+        "target": "the technology-laced Nasdaq Composite index .ixic was down 1.55 points , or 0.09 percent , at 1,744.91 .",
+        "source": "the technology-heavy Nasdaq Composite Index gained 25.75 points , or 1.5 percent , to 1,746.46 , its highest close in about 15 months .",
+        "id": "news-common:2951",
+        "name": "news-common:2951"
+    },
+    {
+        "possibleAlign": "",
+        "sureAlign": "0-0 1-1 2-2 3-3 4-4 5-5 6-6 7-7 8-8 9-9 10-10 11-11 12-12 13-13 14-14 15-15 16-16 17-17 18-18 19-19 20-20 21-21 22-21 27-21 28-22 29-23 30-24",
+        "target": "writing in the journal Geophysical Research Letters , Vincent 's team said all of the fresh water poured out of the 20-mile-long Disraeli fjord .",
+        "source": "writing in the journal Geophysical Research Letters , Vincent 's team said all of the fresh water poured out of the 20 mile -lrb- 30 km -rrb- long Disraeli fjord .",
+        "id": "news-C:2651",
+        "name": "news-C:2651"
+    }
+]

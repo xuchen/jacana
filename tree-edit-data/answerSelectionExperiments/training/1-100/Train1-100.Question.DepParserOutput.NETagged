@@ -1,0 +1,564 @@
+Who	is	the	author	of	the	book	,	``	The	Iron	Lady	:	A	Biography	of	Margaret	Thatcher	''	?
+NNP	VBZ	DT	NN	IN	DT	NN	,	``	DT	JJ	NN	:	DT	NN	IN	NNP	NNP	''	.
+SUB	ROOT	NMOD	PRD	NMOD	NMOD	PMOD	P	P	NMOD	NMOD	NMOD	P	NMOD	NMOD	NMOD	NMOD	PMOD	P	P
+2	0	4	2	4	7	5	15	15	12	12	15	15	15	7	15	18	16	18	2
+-	-	-	PER_DESC-B	-	-	-	-	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	-	PERSON-B	PERSON-I	-	-
+
+What	was	the	monetary	value	of	the	Nobel	Peace	Prize	in	<num>	?
+WP	VBD	DT	JJ	NN	IN	DT	NNP	NNP	NNP	IN	CD	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	PMOD	VMOD	PMOD	P
+2	0	5	5	2	5	10	10	10	6	2	11	2
+-	-	-	-	-	-	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	-	DATE-B	-
+
+What	does	the	Peugeot	company	manufacture	?
+WP	VBZ	DT	NNP	NN	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	OBJ	P
+2	0	6	6	6	2	2
+-	-	-	ORGANIZATION-B	ORG_DESC-B	-	-
+
+How	much	did	Mercury	spend	on	advertising	in	<num>	?
+NNP	RB	VBD	RB	VB	IN	NN	IN	CD	.
+SUB	VMOD	ROOT	VMOD	VC	VMOD	PMOD	VMOD	PMOD	P
+3	3	0	3	3	5	6	5	8	3
+-	-	-	ORGANIZATION-B	-	-	-	-	DATE-B	-
+
+What	is	the	name	of	the	managing	director	of	Apricot	Computer	?
+WP	VBZ	DT	NN	IN	DT	VBG	NN	IN	DT	NNP	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	8	8	5	8	11	9	2
+-	-	-	-	-	-	PER_DESC-B	PER_DESC-I	-	ORGANIZATION-B	ORGANIZATION-I	-
+
+Why	did	David	Koresh	ask	the	FBI	for	a	word	processor	?
+NNP	VBD	NNP	NNP	IN	DT	NNP	IN	DT	NN	NN	.
+SUB	ROOT	NMOD	OBJ	VMOD	NMOD	PMOD	VMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	2	7	5	2	11	11	8	2
+-	-	PERSON-B	PERSON-I	-	-	ORGANIZATION-B	-	-	-	-	-
+
+What	debts	did	Qintex	group	leave	?
+WP	VBZ	VBD	NNP	NN	NN	.
+VMOD	SBAR	ROOT	NMOD	NMOD	SUB	P
+3	1	0	6	6	3	3
+-	-	-	ORGANIZATION-B	ORG_DESC-B	-	-
+
+What	is	the	name	of	the	rare	neurological	disease	with	symptoms	such	as	:	involuntary	movements	-LRB-	tics	-RRB-	,	swearing	,	and	incoherent	vocalizations	-LRB-	grunts	,	shouts	,	etc.	-RRB-	?
+WP	VBZ	DT	NN	IN	DT	NN	JJ	NN	IN	NNS	JJ	IN	:	NN	NNS	-LRB-	NNS	-RRB-	,	NN	,	CC	NN	NNS	-LRB-	NNS	,	NNS	,	NNS	-RRB-	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	PMOD	NMOD	PMOD	PMOD	NMOD	P	NMOD	NMOD	NMOD	NMOD	NMOD	P	NMOD	P	NMOD	NMOD	NMOD	P	NMOD	P	NMOD	P	NMOD	P	P
+2	0	4	2	4	9	9	9	5	9	10	13	11	31	16	25	25	25	25	25	25	25	25	25	31	31	31	31	31	31	9	31	2
+-	-	-	-	-	-	-	DISEASE-B	DISEASE-I	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+
+How	far	is	Yaroslavl	from	Moscow	?
+NNP	RB	VBZ	NNP	IN	NNP	.
+SUB	VMOD	ROOT	PRD	VMOD	PMOD	P
+3	3	0	3	3	5	3
+-	-	-	ORGANIZATION-B	-	GPE-B	-
+
+Name	the	designer	of	the	shoe	that	spawned	millions	of	plastic	imitations	,	known	as	``	jellies	''	.
+NNP	DT	NN	IN	DT	NN	WDT	VBD	NNS	IN	JJ	NNS	,	VBN	IN	``	NNS	''	.
+NMOD	NMOD	SUB	NMOD	NMOD	PMOD	NMOD	SBAR	OBJ	NMOD	NMOD	PMOD	P	ROOT	VMOD	P	PMOD	P	P
+3	3	14	3	6	4	6	7	8	9	12	10	3	0	14	17	15	15	14
+-	-	PER_DESC-B	-	-	-	-	-	CARDINAL-B	-	-	-	-	-	-	-	-	-	-
+
+Who	was	President	Cleveland	's	wife	?
+NNP	VBD	NNP	NNP	POS	NN	.
+SUB	ROOT	NMOD	NMOD	NMOD	PRD	P
+2	0	5	5	6	2	2
+-	-	PER_DESC-B	PERSON-B	-	PER_DESC-B	-
+
+How	much	did	Manchester	United	spend	on	players	in	<num>	?
+NNP	RB	VBD	NNP	NNP	NN	IN	NNS	IN	CD	.
+SUB	VMOD	ROOT	NMOD	NMOD	SUB	NMOD	PMOD	NMOD	PMOD	P
+3	3	0	6	6	3	6	7	8	9	3
+-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	PER_DESC-B	-	DATE-B	-
+
+How	much	could	you	rent	a	Volkswagen	bug	for	in	<num>	?
+NNP	RB	MD	PRP	NN	DT	NN	NN	IN	IN	CD	.
+SUB	VMOD	ROOT	SUB	SUB	NMOD	NMOD	OBJ	NMOD	PMOD	PMOD	P
+3	3	0	3	3	8	8	5	8	9	10	3
+-	-	-	-	-	-	ORGANIZATION-B	-	-	-	DATE-B	-
+
+What	country	is	the	biggest	producer	of	tungsten	?
+WP	NN	VBZ	DT	JJS	NN	IN	NN	.
+VMOD	NMOD	ROOT	NMOD	NMOD	PRD	NMOD	PMOD	P
+3	1	0	6	6	3	6	7	3
+-	GPE_DESC-B	-	-	-	ORG_DESC-B	-	-	-
+
+When	was	London	's	Docklands	Light	Railway	constructed	?
+WRB	VBD	NNP	POS	NNPS	NNP	NNP	VBD	.
+VMOD	SBAR	NMOD	NMOD	NMOD	NMOD	SUB	ROOT	P
+8	1	4	7	7	7	8	0	8
+-	-	GPE-B	-	ORGANIZATION-B	ORGANIZATION-I	ORGANIZATION-I	-	-
+
+What	two	US	biochemists	won	the	Nobel	Prize	in	medicine	in	<num>	?
+WP	CD	NNS	NNS	VBP	DT	NNP	NNP	IN	NN	IN	CD	.
+VMOD	NMOD	NMOD	SUB	ROOT	NMOD	NMOD	OBJ	VMOD	PMOD	NMOD	PMOD	P
+5	4	4	5	0	8	8	5	5	9	10	11	5
+-	CARDINAL-B	GPE-B	PER_DESC-B	-	-	WORK_OF_ART-B	WORK_OF_ART-I	-	SUBSTANCE-B	-	DATE-B	-
+
+How	long	did	the	Charles	Manson	murder	trial	last	?
+NNP	RB	VBD	DT	NNS	NNP	NN	NN	JJ	.
+SUB	VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	SUB	NMOD	P
+3	3	0	8	8	8	8	3	8	3
+-	-	-	-	PERSON-B	PERSON-I	-	-	-	-
+
+Who	was	the	first	Taiwanese	President	?
+NNP	VBD	DT	JJ	JJ	NN	.
+SUB	ROOT	NMOD	NMOD	NMOD	PRD	P
+2	0	6	6	6	2	2
+-	-	-	ORDINAL-B	NATIONALITY-B	PER_DESC-B	-
+
+Who	was	the	leader	of	the	Branch	Davidian	Cult	confronted	by	the	FBI	in	Waco	,	Texas	in	<num>	?
+NNP	VBD	DT	NN	IN	DT	NNP	NNP	NNP	VBN	IN	DT	NNP	IN	NNP	,	NNP	IN	CD	.
+SUB	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	PMOD	NMOD	VMOD	NMOD	PMOD	VMOD	NMOD	P	PMOD	NMOD	PMOD	P
+2	0	4	2	4	9	9	9	5	4	10	13	11	10	17	17	14	17	18	2
+-	-	-	PER_DESC-B	-	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	-	-	-	ORGANIZATION-B	-	GPE-B	-	GPE-B	-	DATE-B	-
+
+Who	was	the	first	American	in	space	?
+NNP	VBD	DT	JJ	JJ	IN	NN	.
+SUB	ROOT	NMOD	NMOD	PRD	VMOD	PMOD	P
+2	0	5	5	2	2	6	2
+-	-	-	ORDINAL-B	NATIONALITY-B	-	-	-
+
+When	did	the	Jurassic	Period	end	?
+WRB	VBD	DT	NNP	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	SUB	P
+2	0	6	6	6	2	2
+-	-	-	DATE-B	DATE-I	DATE-I	-
+
+When	did	Spain	and	Korea	start	ambassadorial	relations	?
+WRB	VBD	NNP	CC	NNP	NN	JJ	NNS	.
+VMOD	ROOT	NMOD	NMOD	NMOD	SUB	NMOD	SUB	P
+2	0	6	6	6	2	8	2	2
+-	-	GPE-B	-	GPE-B	-	-	-	-
+
+When	did	Nixon	visit	China	?
+WRB	VBD	RB	VB	NNP	.
+VMOD	ROOT	VMOD	VC	OBJ	P
+2	0	2	2	4	2
+-	-	PERSON-B	-	GPE-B	-
+
+Who	was	the	lead	actress	in	the	movie	``	Sleepless	in	Seattle	''	?
+NNP	VBD	DT	NN	NN	IN	DT	NN	``	JJ	IN	NN	''	.
+SUB	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	PMOD	P	NMOD	AMOD	PMOD	P	P
+2	0	5	5	2	5	8	6	8	8	10	11	8	2
+-	-	-	-	PER_DESC-B	-	-	-	-	WORK_OF_ART-B	-	GPE-B	-	-
+
+What	is	the	name	of	the	``	female	''	counterpart	to	El	Nino	,	which	results	in	cooling	temperatures	and	very	dry	weather	?
+WP	VBZ	DT	NN	IN	DT	``	JJ	''	NN	TO	NNP	NNP	,	WDT	VBZ	IN	VBG	NNS	CC	RB	JJ	NN	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	P	NMOD	P	PMOD	NMOD	NMOD	PMOD	P	NMOD	SBAR	VMOD	PMOD	NMOD	NMOD	AMOD	NMOD	OBJ	P
+2	0	4	2	4	10	10	10	10	5	4	13	11	13	13	15	16	17	23	23	22	23	18	2
+-	-	-	-	-	-	-	-	-	PER_DESC-B	-	EVENT-B	EVENT-I	-	-	-	-	-	-	-	-	-	-	-
+
+Where	did	the	6th	annual	meeting	of	Indonesia-Malaysia	forest	experts	take	place	?
+RB	VBD	DT	JJ	JJ	NN	IN	NNP	JJS	NNS	VB	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	OBJ	NMOD	NMOD	NMOD	PMOD	NMOD	OBJ	P
+2	0	6	6	6	2	6	10	10	7	10	11	2
+-	-	-	ORDINAL-B	DATE-B	-	-	-	-	PER_DESC-B	-	-	-
+
+Who	may	be	best	known	for	breaking	the	color	line	in	baseball	?
+NNP	MD	VB	RBS	VBN	IN	VBG	DT	NN	NN	IN	NN	.
+SUB	ROOT	VC	VMOD	VC	VMOD	PMOD	NMOD	NMOD	OBJ	VMOD	PMOD	P
+2	0	2	5	3	5	6	10	10	7	7	11	2
+-	-	-	-	-	-	-	-	-	-	-	GAME-B	-
+
+What	is	the	brightest	star	visible	from	Earth	?
+WP	VBZ	DT	JJS	JJ	NN	IN	NNP	.
+VMOD	ROOT	NMOD	NMOD	NMOD	PRD	NMOD	PMOD	P
+2	0	6	6	6	2	6	7	2
+-	-	-	-	PER_DESC-B	-	-	LOCATION-B	-
+
+What	are	the	Valdez	Principles	?
+WP	VBP	DT	NNP	NNPS	.
+VMOD	ROOT	NMOD	NMOD	PRD	P
+2	0	5	5	2	2
+-	-	-	EVENT-B	EVENT-I	-
+
+Where	was	Ulysses	S.	Grant	born	?
+RB	VBD	NNS	IN	NNP	NN	.
+VMOD	ROOT	PRD	NMOD	NMOD	PMOD	P
+2	0	2	3	6	4	2
+-	-	PERSON-B	PERSON-I	PERSON-I	-	-
+
+Who	received	the	Will	Rogers	Award	in	<num>	?
+NNP	VBD	DT	NNP	NNPS	NNP	IN	CD	.
+SUB	ROOT	NMOD	NMOD	NMOD	OBJ	VMOD	PMOD	P
+2	0	6	6	6	2	2	7	2
+-	-	-	PERSON-B	PERSON-I	PERSON-I	-	DATE-B	-
+
+What	is	the	largest	city	in	Germany	?
+WP	VBZ	DT	JJS	NN	IN	NNP	.
+VMOD	ROOT	NMOD	NMOD	PRD	VMOD	PMOD	P
+2	0	5	5	2	2	6	2
+-	-	-	-	GPE_DESC-B	-	GPE-B	-
+
+What	is	the	name	of	the	highest	mountain	in	Africa	?
+WP	VBZ	DT	NN	IN	DT	JJS	NN	IN	NNP	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	NMOD	PMOD	P
+2	0	4	2	4	8	8	5	8	9	2
+-	-	-	-	-	-	-	-	-	LOCATION-B	-
+
+What	was	the	name	of	the	US	helicopter	pilot	shot	down	over	North	Korea	?
+WP	VBD	DT	NN	IN	DT	NNP	NN	NN	VBD	RB	IN	NNP	NNP	.
+VMOD	SBAR	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	PMOD	ROOT	VMOD	VMOD	NMOD	PMOD	P
+10	1	4	2	4	9	9	9	5	0	10	10	14	12	10
+-	-	-	-	-	-	ORGANIZATION-B	-	PER_DESC-B	-	-	-	GPE-B	GPE-I	-
+
+Where	was	George	Washington	born	?
+RB	VBD	JJ	NNP	NN	.
+VMOD	ROOT	NMOD	NMOD	PRD	P
+2	0	5	5	2	2
+-	-	ORGANIZATION-B	ORGANIZATION-I	-	-
+
+Who	was	chosen	to	be	the	first	black	chairman	of	the	military	Joint	Chiefs	of	Staff	?
+NNP	VBD	VBN	TO	VB	DT	JJ	JJ	NN	IN	DT	JJ	NNP	NNP	IN	NNP	.
+SUB	ROOT	VC	VMOD	VMOD	NMOD	NMOD	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	PMOD	NMOD	PMOD	P
+2	0	2	5	3	9	9	9	5	9	14	14	14	10	14	15	2
+-	-	-	-	-	-	ORDINAL-B	-	PER_DESC-B	-	-	-	ORGANIZATION-B	ORGANIZATION-I	ORGANIZATION-I	ORGANIZATION-I	-
+
+Who	won	the	Nobel	Peace	Prize	in	<num>	?
+NNP	VBD	DT	NNP	NNP	NNP	IN	CD	.
+SUB	ROOT	NMOD	NMOD	NMOD	OBJ	VMOD	PMOD	P
+2	0	6	6	6	2	2	7	2
+-	-	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	-	DATE-B	-
+
+What	is	the	legal	blood	alcohol	limit	for	the	state	of	California	?
+WP	VBZ	DT	JJ	NN	NN	NN	IN	DT	NN	IN	NNP	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	NMOD	NMOD	PMOD	NMOD	PMOD	P
+2	0	7	7	7	7	2	7	10	8	10	11	2
+-	-	-	-	SUBSTANCE-B	SUBSTANCE-I	-	-	-	GPE_DESC-B	-	GPE-B	-
+
+What	was	the	target	rate	for	M3	growth	in	<num>	?
+WP	VBD	DT	NN	NN	IN	CD	NN	IN	CD	.
+VMOD	ROOT	NMOD	NMOD	PRD	VMOD	NMOD	PMOD	NMOD	PMOD	P
+2	0	5	5	2	2	8	6	8	9	2
+-	-	-	-	-	-	DATE-B	-	-	DATE-B	-
+
+What	costume	designer	decided	that	Michael	Jackson	should	only	wear	one	glove	?
+WP	NN	NN	VBD	IN	NNP	NNP	MD	RB	JJ	CD	NN	.
+VMOD	NMOD	SUB	ROOT	VMOD	NMOD	SUB	SBAR	NMOD	NMOD	NMOD	SUB	P
+4	3	4	0	4	7	8	5	12	12	12	8	4
+-	-	PER_DESC-B	-	-	PERSON-B	PERSON-I	-	-	-	-	-	-
+
+Who	is	the	director	of	the	international	group	called	the	Human	Genome	Organization	-LRB-	HUGO	-RRB-	that	is	trying	to	coordinate	gene-mapping	research	worldwide	?
+NNP	VBZ	DT	NN	IN	DT	JJ	NN	VBD	DT	NNP	NNP	NNP	-LRB-	NNP	-RRB-	WDT	VBZ	VBG	TO	VB	JJ	NN	NN	.
+SUB	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	NMOD	NMOD	NMOD	NMOD	VMOD	P	NMOD	P	NMOD	SBAR	VC	VMOD	VMOD	NMOD	NMOD	OBJ	P
+2	0	4	2	4	8	8	5	8	13	13	13	9	15	13	15	13	17	18	21	19	24	24	21	2
+-	-	-	PER_DESC-B	-	-	-	ORG_DESC-B	-	-	ORGANIZATION-B	ORGANIZATION-I	ORGANIZATION-I	-	EVENT-B	-	-	-	-	-	-	-	-	-	-
+
+Who	is	the	mayor	of	Marbella	?
+NNP	VBZ	DT	NN	IN	NNP	.
+SUB	ROOT	NMOD	PRD	NMOD	PMOD	P
+2	0	4	2	4	5	2
+-	-	-	PER_DESC-B	-	GPE-B	-
+
+What	company	is	the	largest	Japanese	ship	builder	?
+WP	NN	VBZ	DT	JJS	JJ	NN	NN	.
+VMOD	NMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	P
+3	1	0	8	8	8	8	3	3
+-	ORG_DESC-B	-	-	-	NATIONALITY-B	-	ORG_DESC-B	-
+
+Where	is	the	massive	North	Korean	nuclear	complex	located	?
+RB	VBZ	DT	JJ	NNP	JJ	JJ	NN	VBD	.
+VMOD	VMOD	NMOD	NMOD	AMOD	NMOD	NMOD	SUB	ROOT	P
+2	9	8	8	6	8	8	9	0	9
+-	-	-	-	NATIONALITY-B	NATIONALITY-I	-	FAC_DESC-B	-	-
+
+Who	fired	Maria	Ybarra	from	her	position	in	San	Diego	council	?
+NNP	VBD	NNP	NNP	IN	PRP$	NN	IN	NNP	NNP	NN	.
+SUB	ROOT	NMOD	OBJ	VMOD	NMOD	PMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	2	7	5	7	11	11	8	2
+-	-	PERSON-B	PERSON-I	-	-	-	-	GPE-B	GPE-I	ORG_DESC-B	-
+
+When	was	Dubai	's	first	concrete	house	built	?
+WRB	VBD	NNP	POS	JJ	JJ	NN	VBD	.
+VMOD	VMOD	NMOD	NMOD	NMOD	NMOD	SUB	ROOT	P
+8	8	4	7	7	7	8	0	8
+-	-	GPE-B	-	-	-	FAC_DESC-B	-	-
+
+Who	is	the	president	of	Stanford	University	?
+NNP	VBZ	DT	NN	IN	NNP	NNP	.
+SUB	ROOT	NMOD	PRD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	7	5	2
+-	-	-	PER_DESC-B	-	ORGANIZATION-B	ORGANIZATION-I	-
+
+Who	invented	the	road	traffic	cone	?
+NNP	VBD	DT	NN	NN	NN	.
+SUB	ROOT	NMOD	NMOD	NMOD	OBJ	P
+2	0	6	6	6	2	2
+-	-	-	-	-	-	-
+
+Who	was	the	first	doctor	to	successfully	transplant	a	liver	?
+NNP	VBD	DT	JJ	NN	TO	RB	VB	DT	NN	.
+SUB	ROOT	NMOD	NMOD	PRD	VMOD	VMOD	NMOD	NMOD	OBJ	P
+2	0	5	5	2	8	8	5	10	8	2
+-	-	-	ORDINAL-B	PER_DESC-B	-	-	-	-	SUBSTANCE-B	-
+
+When	did	Nixon	die	?
+WRB	VBD	NNP	FW	.
+VMOD	ROOT	SUB	VMOD	P
+2	0	2	2	2
+-	-	PERSON-B	-	-
+
+Where	is	Microsoft	's	corporate	headquarters	located	?
+RB	VBZ	NNP	POS	JJ	NNS	VBD	.
+PRD	ROOT	NMOD	NMOD	NMOD	SUB	PRD	P
+2	0	4	6	6	7	2	2
+-	-	ORGANIZATION-B	-	-	ORG_DESC-B	-	-
+
+How	many	calories	are	there	in	a	Big	Mac	?
+NNP	JJ	NNS	VBP	RB	IN	DT	NNP	NNP	.
+NMOD	NMOD	SUB	ROOT	VMOD	VMOD	NMOD	NMOD	PMOD	P
+3	3	4	0	4	4	9	9	6	4
+-	-	-	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-
+
+What	is	the	acronym	for	the	rating	system	for	air	conditioner	efficiency	?
+WP	VBZ	DT	NN	IN	DT	NN	NN	IN	NN	NN	NN	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	8	8	5	8	12	12	9	2
+-	-	-	-	-	-	-	-	-	-	-	-	-
+
+Name	a	film	that	has	won	the	Golden	Bear	in	the	Berlin	Film	Festival	?
+NNP	DT	NN	WDT	VBZ	VBN	DT	NNP	NNP	IN	DT	NNP	NNP	NNP	.
+NMOD	NMOD	ROOT	NMOD	SBAR	VC	NMOD	NMOD	OBJ	VMOD	NMOD	NMOD	NMOD	PMOD	P
+3	3	0	3	4	5	9	9	6	6	14	14	14	10	5
+-	-	-	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	EVENT-B	EVENT-I	EVENT-I	-
+
+Who	was	President	of	Costa	Rica	in	<num>	?
+NNP	VBD	NN	IN	NNP	NNP	IN	CD	.
+SUB	ROOT	PRD	NMOD	NMOD	PMOD	VMOD	PMOD	P
+2	0	2	3	6	4	2	7	2
+-	-	PER_DESC-B	-	GPE-B	GPE-I	-	DATE-B	-
+
+What	is	the	fare	cost	for	the	round	trip	between	New	York	and	London	on	Concorde	?
+WP	VBZ	DT	JJ	NN	IN	DT	NN	NN	IN	NNP	NNP	CC	NNP	IN	NNP	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	NMOD	NMOD	NMOD	NMOD	PMOD	NMOD	PMOD	P
+2	0	5	5	2	5	9	9	6	9	12	14	14	10	9	15	2
+-	-	-	-	-	-	-	-	-	-	GPE-B	GPE-I	-	GPE-B	-	PRODUCT-B	-
+
+What	brand	of	white	rum	is	still	made	in	Cuba	?
+WP	NN	IN	JJ	NN	VBZ	RB	VBN	IN	NNP	.
+VMOD	NMOD	NMOD	NMOD	PMOD	ROOT	VMOD	VC	VMOD	PMOD	P
+6	1	1	5	3	0	6	6	8	9	6
+-	-	-	-	SUBSTANCE-B	-	-	-	-	GPE-B	-
+
+What	is	the	name	of	the	chronic	neurological	autoimmune	disease	which	attacks	the	protein	sheath	that	surrounds	nerve	cells	causing	a	gradual	loss	of	movement	in	the	body	?
+WP	VBZ	DT	NN	IN	DT	JJ	JJ	NN	NN	WDT	VBZ	DT	NN	NN	WDT	VBZ	JJ	NNS	VBG	DT	JJ	NN	IN	NN	IN	DT	NN	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	NMOD	PMOD	NMOD	SBAR	NMOD	NMOD	OBJ	NMOD	SBAR	NMOD	OBJ	NMOD	NMOD	NMOD	OBJ	NMOD	PMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	10	10	10	10	5	10	11	15	15	12	15	16	19	17	19	23	23	20	23	24	23	28	26	2
+-	-	-	-	-	-	-	-	-	DISEASE-B	-	-	-	SUBSTANCE-B	SUBSTANCE-I	-	-	-	-	-	-	-	-	-	-	-	-	ORG_DESC-B	-
+
+What	nuclear-powered	Russian	submarine	sank	in	the	Norwegian	Sea	on	April	<num>	,	<num>	?
+WP	VBD	JJ	NN	NN	IN	DT	JJ	NN	IN	NNP	CD	,	CD	.
+VMOD	ROOT	NMOD	NMOD	OBJ	VMOD	NMOD	NMOD	PMOD	NMOD	PMOD	NMOD	P	NMOD	P
+2	0	5	5	2	2	9	9	6	9	10	11	11	11	2
+-	-	NATIONALITY-B	PRODUCT_DESC-B	-	-	-	NATIONALITY-B	LOCATION-B	-	DATE-B	DATE-I	DATE-I	DATE-I	-
+
+Who	is	the	voice	of	Miss	Piggy	?
+NNP	VBZ	DT	NN	IN	NNP	NNP	.
+SUB	ROOT	NMOD	PRD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	7	5	2
+-	-	-	-	-	GPE-B	GPE-I	-
+
+Name	a	country	that	is	developing	a	magnetic	levitation	railway	system	?
+IN	DT	NN	WDT	VBZ	VBG	DT	JJ	NN	NN	NN	.
+ROOT	NMOD	PMOD	NMOD	SBAR	VC	NMOD	NMOD	NMOD	NMOD	OBJ	P
+0	3	1	3	4	5	11	11	11	11	6	1
+-	-	GPE_DESC-B	-	-	-	-	-	-	-	-	-
+
+Name	the	first	private	citizen	to	fly	in	space	.
+IN	DT	JJ	JJ	NN	TO	VB	IN	NN	.
+VMOD	NMOD	NMOD	NMOD	SUB	VMOD	ROOT	VMOD	PMOD	P
+7	5	5	5	7	7	0	7	8	7
+-	-	-	-	PER_DESC-B	-	-	-	-	-
+
+What	is	the	longest	river	in	the	United	States	?
+WP	VBZ	DT	JJS	NN	IN	DT	NNP	NNPS	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	P
+2	0	5	5	2	5	9	9	6	2
+-	-	-	-	-	-	-	GPE-B	GPE-I	-
+
+What	does	El	Nino	mean	in	spanish	?
+WP	VBZ	NNP	NNP	NN	IN	JJ	.
+VMOD	ROOT	NMOD	SUB	SUB	VMOD	PMOD	P
+2	0	4	2	2	2	6	2
+-	-	EVENT-B	EVENT-I	-	-	LANGUAGE-B	-
+
+Who	came	up	with	the	name	,	El	Nino	?
+NNP	VBD	RP	IN	DT	NN	,	NNP	NNP	.
+SUB	ROOT	VMOD	VMOD	NMOD	NMOD	P	NMOD	PMOD	P
+2	0	2	2	6	9	9	9	4	2
+-	-	-	-	-	-	-	EVENT-B	EVENT-I	-
+
+How	many	lives	were	lost	in	the	China	Airlines	'	crash	in	Nagoya	,	Japan	?
+NNP	JJ	NNS	VBD	VBN	IN	DT	NNP	NNPS	POS	NN	IN	NNP	,	NNP	.
+NMOD	NMOD	SUB	ROOT	VC	VMOD	NMOD	NMOD	NMOD	NMOD	PMOD	NMOD	NMOD	P	PMOD	P
+3	3	4	0	4	5	10	10	10	11	6	11	15	15	12	4
+-	-	-	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	GPE-B	-	GPE-B	-
+
+In	what	year	did	Joe	DiMaggio	compile	his	56-game	hitting	streak	?
+IN	WP	NN	VBD	NNP	NNP	VB	PRP$	JJ	VBG	NN	.
+VMOD	PMOD	VMOD	ROOT	NMOD	SUB	VMOD	NMOD	NMOD	NMOD	OBJ	P
+4	1	4	0	6	7	4	11	11	11	7	4
+-	-	-	-	PERSON-B	PERSON-I	-	-	-	-	-	-
+
+When	did	the	original	Howdy	Doody	show	go	off	the	air	?
+WRB	VBD	DT	JJ	NNP	NNP	VB	VB	RP	DT	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	SUB	VMOD	VMOD	VMOD	NMOD	OBJ	P
+2	0	6	6	6	2	2	7	8	11	8	2
+-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	-	-	-
+
+Where	is	the	Taj	Mahal	?
+RB	VBZ	DT	NNP	NNP	.
+VMOD	ROOT	NMOD	NMOD	SUB	P
+2	0	5	5	2	2
+-	-	-	FAC-B	FAC-I	-
+
+Who	leads	the	star	ship	Enterprise	in	Star	Trek	?
+NNP	VBZ	DT	JJ	NN	NN	IN	NNP	NNP	.
+SUB	ROOT	NMOD	NMOD	NMOD	OBJ	NMOD	NMOD	PMOD	P
+2	0	6	6	6	2	6	9	7	2
+-	-	-	-	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	-
+
+What	cancer	is	commonly	associated	with	AIDS	?
+WP	NN	VBZ	RB	VBN	IN	NNP	.
+VMOD	NMOD	ROOT	VMOD	VC	VMOD	PMOD	P
+3	1	0	3	3	5	6	3
+-	DISEASE-B	-	-	-	-	DISEASE-B	-
+
+In	which	year	was	New	Zealand	excluded	from	the	ANZUS	alliance	?
+IN	WDT	NN	VBD	NNP	NNP	VBD	IN	DT	NNP	NN	.
+VMOD	PMOD	VMOD	SBAR	NMOD	SUB	ROOT	VMOD	NMOD	NMOD	PMOD	P
+7	1	4	1	6	7	0	7	11	11	8	7
+-	-	DATE-B	-	GPE-B	GPE-I	-	-	-	ORGANIZATION-B	ORG_DESC-B	-
+
+Which	large	U.S.	city	had	the	highest	murder	rate	for	<num>	?
+NNP	JJ	NNP	NN	VBD	DT	JJS	NN	NN	IN	CD	.
+AMOD	NMOD	NMOD	SUB	ROOT	NMOD	NMOD	NMOD	OBJ	VMOD	PMOD	P
+2	4	4	5	0	9	9	9	5	5	10	5
+-	-	GPE-B	GPE_DESC-B	-	-	-	-	-	-	DATE-B	-
+
+What	did	Shostakovich	write	for	Rostropovich	?
+WP	VBD	NNP	VB	IN	NNP	.
+VMOD	ROOT	SUB	VMOD	VMOD	PMOD	P
+2	0	2	2	4	5	2
+-	-	PERSON-B	-	-	ORGANIZATION-B	-
+
+What	is	the	name	of	the	promising	anticancer	compound	derived	from	the	pacific	yew	tree	?
+WP	VBZ	DT	NN	IN	DT	VBG	NN	NN	VBD	IN	DT	JJ	NN	NN	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	PMOD	NMOD	VMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	9	9	9	5	9	10	15	15	15	11	2
+-	-	-	-	-	-	-	-	-	-	-	-	PLANT-B	PLANT-I	PLANT-I	-
+
+How	many	inhabitants	live	in	the	town	of	Ushuaia	?
+NNP	JJ	NNS	VBP	IN	DT	NN	IN	NNP	.
+NMOD	NMOD	SUB	ROOT	VMOD	NMOD	PMOD	NMOD	PMOD	P
+3	3	4	0	4	7	5	7	8	4
+-	-	PER_DESC-B	-	-	-	GPE_DESC-B	-	GPE-B	-
+
+How	many	consecutive	baseball	games	did	Lou	Gehrig	play	?
+NNP	JJ	JJ	NN	NNS	VBD	NNP	NNP	VB	.
+NMOD	NMOD	NMOD	NMOD	SUB	ROOT	NMOD	SUB	VMOD	P
+5	5	5	5	6	0	8	9	6	6
+-	-	-	GAME-B	-	-	DISEASE-B	DISEASE-I	-	-
+
+What	is	the	tallest	building	in	Japan	?
+WP	VBZ	DT	JJS	NN	IN	NNP	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	PMOD	P
+2	0	5	5	2	5	6	2
+-	-	-	-	FAC_DESC-B	-	GPE-B	-
+
+Which	country	is	Australia	's	largest	export	market	?
+NNP	NN	VBZ	NNP	POS	JJS	NN	NN	.
+NMOD	SUB	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	3	0	5	8	8	8	3	3
+-	GPE_DESC-B	-	GPE-B	-	-	-	-	-
+
+Which	former	Ku	Klux	Klan	member	won	an	elected	office	in	the	U.S.	?
+NNP	JJ	NNP	NNP	NNP	NN	VBD	DT	VBD	NN	IN	DT	NNP	.
+NMOD	NMOD	NMOD	NMOD	NMOD	SUB	ROOT	SUB	VMOD	OBJ	VMOD	NMOD	PMOD	P
+6	6	6	6	6	7	0	9	7	9	9	13	11	7
+-	-	ORGANIZATION-B	ORGANIZATION-I	ORGANIZATION-I	PER_DESC-B	-	-	-	ORG_DESC-B	-	-	GPE-B	-
+
+Who	won	two	gold	medals	in	skiing	in	the	Olympic	Games	in	Calgary	?
+NNP	VBD	CD	NN	NNS	IN	NN	IN	DT	JJ	NNS	IN	NNP	.
+SUB	ROOT	NMOD	NMOD	OBJ	VMOD	PMOD	NMOD	NMOD	NMOD	PMOD	NMOD	PMOD	P
+2	0	5	5	2	2	6	7	11	11	8	11	12	2
+-	-	CARDINAL-B	-	-	-	-	-	-	EVENT-B	EVENT-I	-	GPE-B	-
+
+Who	followed	Willy	Brandt	as	chancellor	of	the	Federal	Republic	of	Germany	?
+NNP	VBD	RB	JJ	IN	NN	IN	DT	NNP	NNP	IN	NNP	.
+SUB	ROOT	AMOD	OBJ	AMOD	PMOD	NMOD	NMOD	NMOD	PMOD	NMOD	PMOD	P
+2	0	4	2	4	5	6	10	10	7	10	11	2
+-	-	PERSON-B	PERSON-I	-	PER_DESC-B	PER_DESC-I	PER_DESC-I	ORGANIZATION-B	ORGANIZATION-I	-	GPE-B	-
+
+What	is	Grenada	's	main	commodity	export	?
+WP	VBZ	NNP	POS	NN	NN	NN	.
+VMOD	ROOT	NMOD	NMOD	NMOD	NMOD	PRD	P
+2	0	4	7	7	7	2	2
+-	-	GPE-B	-	-	-	-	-
+
+At	what	age	did	Rossini	stop	writing	opera	?
+IN	WP	NN	VBD	NNP	VB	VBG	NN	.
+VMOD	PMOD	NMOD	ROOT	SUB	VMOD	VMOD	OBJ	P
+4	1	2	0	6	4	6	7	4
+-	-	-	-	PERSON-B	-	-	-	-
+
+Who	is	the	founder	of	Scientology	?
+NNP	VBZ	DT	NN	IN	NN	.
+SUB	ROOT	NMOD	PRD	NMOD	PMOD	P
+2	0	4	2	4	5	2
+-	-	-	PER_DESC-B	-	ORGANIZATION-B	-
+
+Which	city	in	China	has	the	largest	number	of	foreign	financial	companies	?
+NNP	NN	IN	NNP	VBZ	DT	JJS	NN	IN	JJ	JJ	NNS	.
+NMOD	SUB	NMOD	PMOD	ROOT	NMOD	NMOD	OBJ	NMOD	NMOD	NMOD	PMOD	P
+2	5	2	3	0	8	8	5	8	12	12	9	5
+-	GPE_DESC-B	-	GPE-B	-	-	-	-	-	-	-	ORG_DESC-B	-
+
+Who	released	the	Internet	worm	in	the	late	1980s	?
+NNP	VBD	DT	JJ	NN	IN	DT	JJ	NNS	.
+SUB	ROOT	NMOD	NMOD	OBJ	VMOD	NMOD	NMOD	PMOD	P
+2	0	5	5	2	2	9	9	6	2
+-	-	-	-	ANIMAL-B	-	DATE-B	DATE-I	DATE-I	-
+
+Who	first	circumnavigated	the	globe	?
+NNP	RB	VBD	DT	NN	.
+SUB	VMOD	ROOT	NMOD	OBJ	P
+3	3	0	5	3	3
+-	-	-	-	-	-
+
+Who	wrote	the	song	,	``	Stardust	''	?
+NNP	VBD	DT	NN	,	``	JJ	''	.
+SUB	ROOT	NMOD	OBJ	P	P	VMOD	P	P
+2	0	4	2	2	7	2	2	2
+-	-	-	-	-	-	WORK_OF_ART-B	-	-
+
+What	country	is	the	worlds	leading	supplier	of	cannabis	?
+WP	NN	VBZ	DT	NNS	VBG	NN	IN	NN	.
+VMOD	NMOD	ROOT	NMOD	NMOD	NMOD	PRD	NMOD	PMOD	P
+3	1	0	5	7	7	3	7	8	3
+-	GPE_DESC-B	-	-	-	-	ORG_DESC-B	-	-	-
+
+How	large	is	the	Arctic	refuge	to	preserve	unique	wildlife	and	wilderness	value	on	Alaska	's	north	coast	?
+NNP	JJ	VBZ	DT	JJ	NN	TO	VB	JJ	NN	CC	NN	NN	IN	NNP	POS	JJ	NN	.
+SUB	NMOD	ROOT	NMOD	NMOD	PRD	VMOD	NMOD	NMOD	NMOD	NMOD	NMOD	OBJ	NMOD	NMOD	NMOD	NMOD	PMOD	P
+3	1	0	6	6	3	8	6	13	13	13	13	8	13	16	18	18	14	3
+-	-	-	-	LOCATION-B	LOCATION-I	-	-	-	ANIMAL-B	-	-	-	-	GPE-B	-	LOCATION-B	LOCATION-I	-
+
+Where	is	the	highest	point	in	Japan	?
+RB	VBZ	DT	JJS	NN	IN	NNP	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	PMOD	P
+2	0	5	5	2	5	6	2
+-	-	-	-	-	-	GPE-B	-
+
+What	is	the	term	for	the	sum	of	all	genetic	material	in	a	given	organism	?
+WP	VBZ	DT	NN	IN	DT	NN	IN	DT	JJ	NN	IN	DT	JJ	NN	.
+VMOD	ROOT	NMOD	PRD	NMOD	NMOD	PMOD	NMOD	NMOD	NMOD	PMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	4	2	4	7	5	7	11	11	8	11	15	15	12	2
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	SUBSTANCE-B	-
+
+What	is	considered	the	costliest	disaster	the	insurance	industry	has	ever	faced	?
+WP	VBZ	VBN	DT	JJS	NN	DT	NN	NN	VBZ	RB	VBN	.
+VMOD	SBAR	VC	NMOD	NMOD	VMOD	NMOD	NMOD	SUB	ROOT	VMOD	VC	P
+10	1	2	6	6	3	9	9	10	0	10	10	10
+-	-	-	-	-	-	-	-	-	-	-	-	-
+

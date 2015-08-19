@@ -1,0 +1,343 @@
+<QApairs id='27.1'>
+<question>
+What	sport	does	Jennifer	Capriati	play	?
+WP	NN	VBZ	RB	NNP	VB	.
+VMOD	NMOD	ROOT	VMOD	SUB	VMOD	P
+3	1	0	3	6	3	3
+-	-	-	PERSON-B	PERSON-I	-	-
+</question>
+<positive>
+Tennis	player	Jennifer	Capriati	is	23	.
+NNP	NN	NNP	NNP	VBZ	CD	.
+NMOD	NMOD	NMOD	SUB	ROOT	PRD	P
+4	4	4	5	0	5	5
+GAME-B	PER_DESC-B	PERSON-B	PERSON-I	-	CARDINAL-B	-
+Tennis	
+1	
+</positive>
+<positive>
+Jennifer	Capriati	,	who	is	on	the	comeback	trail	after	a	battle	with	personal	problems	,	will	play	in	the	A	&	P	Tennis	Classic	July	12-18	.
+NNP	NNP	,	WP	VBZ	IN	DT	NN	NN	IN	DT	NN	IN	JJ	NNS	,	MD	VB	IN	DT	NNP	CC	NNP	NNP	NNP	NNP	CD	.
+NMOD	SUB	P	NMOD	SBAR	PRD	NMOD	NMOD	PMOD	VMOD	NMOD	PMOD	NMOD	NMOD	PMOD	P	ROOT	VC	VMOD	NMOD	NMOD	NMOD	NMOD	NMOD	OBJ	VMOD	NMOD	P
+2	17	2	2	4	5	9	9	6	5	12	10	12	15	13	2	0	17	18	21	25	25	25	25	18	18	26	17
+PERSON-B	PERSON-I	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	PRODUCT-B	PRODUCT-I	PRODUCT-I	PRODUCT-I	PRODUCT-I	DATE-B	DATE-I	-
+Tennis	
+24	
+</positive>
+<positive>
+Stolle	is	a	late	bloomer	in	the	world	of	tennis	,	a	sport	in	which	Jennifer	Capriati	enjoyed	professional	success	at	age	15	.
+NNP	VBZ	DT	JJ	NN	IN	DT	NN	IN	NN	,	DT	NN	IN	WDT	NNP	NNP	VBN	JJ	NN	IN	JJ	CD	.
+SUB	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	PMOD	NMOD	PMOD	P	NMOD	PMOD	NMOD	PMOD	NMOD	SUB	SBAR	NMOD	OBJ	VMOD	NMOD	PMOD	P
+2	0	5	5	2	5	8	6	8	9	13	13	9	13	14	17	18	14	20	18	18	23	21	2
+ORGANIZATION-B	-	-	-	-	-	-	-	-	GAME-B	-	-	-	-	-	PERSON-B	PERSON-I	-	-	-	-	DATE-B	DATE-I	-
+tennis	
+10	
+</positive>
+<positive>
+MELBOURNE	_	Ten	years	ago	,	13-year-old	Lindsay	Davenport	admired	Jennifer	Capriati	,	the	tennis	player	:	``	We	're	the	exact	same	age	,	but	Jennifer	's	out	of	my	league	.	''
+NNP	,	CD	NNS	RB	,	JJ	NNP	NNP	VBD	NNP	NNP	,	DT	NN	NN	:	``	PRP	VBP	DT	JJ	JJ	NN	,	CC	NNP	POS	RP	IN	PRP$	NN	.	''
+NMOD	P	NMOD	AMOD	NMOD	P	NMOD	NMOD	SUB	ROOT	NMOD	NMOD	P	NMOD	NMOD	OBJ	P	P	SUB	NMOD	NMOD	NMOD	NMOD	PRD	P	NMOD	NMOD	NMOD	PRD	NMOD	NMOD	PMOD	P	P
+9	1	4	5	1	1	9	9	10	0	12	16	16	16	16	10	20	20	20	16	24	24	24	20	28	28	28	24	28	28	32	30	10	10
+GPE-B	-	DATE-B	DATE-I	DATE-I	-	DATE-B	PERSON-B	PERSON-I	PERSON-I	PERSON-I	PERSON-I	-	-	GAME-B	PER_DESC-B	-	-	-	-	-	-	-	-	-	-	PERSON-B	-	-	-	-	ORG_DESC-B	-	-
+tennis	
+15	
+</positive>
+<positive>
+PARIS	,	February	5	-LRB-	Xinhua	-RRB-	--	American	teenager	Jennifer	Capriati	will	return	to	tennis	next	week	after	an	absence	of	more	than	a	year	,	organisers	of	the	Paris	Women	's	Open	said	on	Monday	.
+NNP	,	NNP	CD	-LRB-	NNP	-RRB-	:	JJ	NN	NNP	NNP	MD	VB	TO	VB	JJ	NN	IN	DT	NN	IN	JJR	IN	DT	NN	,	NNS	IN	DT	NNP	NNP	POS	NNP	VBD	IN	NNP	.
+SUB	P	NMOD	NMOD	P	NMOD	P	P	NMOD	NMOD	NMOD	SUB	VMOD	VC	VMOD	VMOD	NMOD	VMOD	VMOD	NMOD	PMOD	NMOD	PMOD	NMOD	NMOD	PMOD	P	SUB	NMOD	NMOD	NMOD	NMOD	NMOD	PMOD	ROOT	VMOD	PMOD	P
+13	13	12	3	6	3	6	3	12	12	12	13	35	13	16	14	18	16	16	21	19	21	22	23	26	24	35	35	28	33	33	33	34	29	0	35	36	35
+GPE-B	-	DATE-B	DATE-I	-	ORGANIZATION-B	-	-	NATIONALITY-B	PER_DESC-B	PERSON-B	PERSON-I	-	-	-	GAME-B	DATE-B	DATE-I	-	-	-	-	DATE-B	DATE-I	DATE-I	DATE-I	-	-	-	-	EVENT-B	PER_DESC-B	-	-	-	-	DATE-B	-
+tennis	
+16	
+</positive>
+<positive>
+Capriati	,	19	,	who	has	not	played	competitive	tennis	since	November	1994	,	has	been	given	a	wild	card	to	take	part	in	the	Paris	tournament	which	starts	on	February	13	.
+NNP	,	CD	,	WP	VBZ	RB	VBN	JJ	NN	IN	NNP	CD	,	VBZ	VBN	VBN	DT	JJ	NN	TO	VB	NN	IN	DT	NNP	NN	WDT	VBZ	IN	NNP	CD	.
+SUB	P	NMOD	P	NMOD	SBAR	VMOD	VC	NMOD	OBJ	VMOD	PMOD	NMOD	P	ROOT	VC	VC	NMOD	NMOD	OBJ	VMOD	NMOD	OBJ	VMOD	NMOD	NMOD	PMOD	NMOD	SBAR	VMOD	PMOD	NMOD	P
+15	1	1	3	3	5	6	6	10	8	8	11	12	1	0	15	16	20	20	17	22	20	22	22	27	27	24	27	28	29	30	31	15
+-	-	DATE-B	-	-	-	-	-	-	-	-	DATE-B	DATE-I	-	-	-	-	-	-	-	-	-	-	-	-	EVENT-B	-	-	-	-	DATE-B	DATE-I	-
+tennis	
+10	
+</positive>
+<negative>
+The	feeling	of	camaraderie	in	team	tennis	intrigues	him	,	so	he	wanted	to	play	a	part	,	no	matter	how	small	.
+DT	NN	IN	NN	IN	NN	NNS	VBZ	PRP	,	IN	PRP	VBD	TO	VB	DT	NN	,	DT	NN	WRB	JJ	.
+NMOD	SUB	NMOD	PMOD	NMOD	NMOD	PMOD	VMOD	OBJ	P	ROOT	SUB	VMOD	VMOD	VMOD	NMOD	OBJ	P	NMOD	OBJ	AMOD	VMOD	P
+2	8	2	3	4	7	5	11	8	11	0	13	11	15	13	17	15	20	20	15	22	15	11
+-	-	-	-	-	ORG_DESC-B	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+He	played	tennis	every	day	until	it	got	dark	,	and	suddenly	he	started	winning	.
+PRP	VBD	NN	NN	NN	IN	PRP	VBD	NN	,	CC	RB	PRP	VBD	VBG	.
+SUB	VMOD	NMOD	NMOD	VMOD	VMOD	SUB	SBAR	OBJ	P	VMOD	VMOD	SUB	ROOT	VMOD	P
+2	14	5	5	2	2	8	6	8	2	2	2	14	0	14	14
+-	-	-	DATE-B	DATE-I	-	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+Rain	delayed	the	first	day	of	play	at	the	U.S	.	Tennis	Center	in	New	York	.
+NNP	VBD	DT	JJ	NN	IN	VB	IN	DT	NNP	.	NNP	NNP	IN	NNP	NNP	.
+SUB	ROOT	NMOD	NMOD	OBJ	NMOD	VMOD	VMOD	NMOD	NMOD	P	NMOD	PMOD	NMOD	NMOD	PMOD	P
+2	0	5	5	2	5	2	7	13	13	13	13	8	13	16	14	2
+PERSON-B	-	DATE-B	DATE-I	DATE-I	-	-	-	-	GPE-B	GPE-I	ORGANIZATION-B	ORGANIZATION-I	-	GPE-B	GPE-I	-
+</negative>
+<negative>
+Capriati	was	leading	Gagliardi	6-4	,	1	-0	when	rain	delayed	the	first	day	of	play	at	the	U.S	.	Open	at	the	U.S	.	Tennis	Center	in	New	York	.
+NNP	VBD	VBG	NNP	CD	,	CD	CD	WRB	VB	VBN	DT	JJ	NN	IN	VB	IN	DT	NNP	.	VBN	IN	DT	NNP	.	NNP	NNP	IN	NNP	NNP	.
+SUB	ROOT	VC	NMOD	NMOD	P	AMOD	NMOD	VMOD	SBAR	VC	NMOD	NMOD	VMOD	NMOD	PMOD	VMOD	NMOD	PMOD	P	NMOD	VMOD	NMOD	NMOD	P	NMOD	PMOD	NMOD	NMOD	PMOD	P
+2	0	2	8	4	4	8	9	2	9	10	14	14	11	14	15	16	19	17	2	20	21	27	27	27	27	22	27	30	28	2
+-	-	-	CONTACT_INFO-B	CONTACT_INFO-I	CONTACT_INFO-I	CONTACT_INFO-I	CONTACT_INFO-I	-	-	-	DATE-B	DATE-I	DATE-I	-	-	-	-	GPE-B	GPE-I	-	-	-	GPE-B	GPE-I	ORGANIZATION-B	ORGANIZATION-I	-	GPE-B	GPE-I	-
+</negative>
+<negative>
+Tennis	was	reintroduced	as	an	Olympic	sport	only	in	1988	,	after	a	64-year	absence	.
+NNP	VBD	VBN	IN	DT	JJ	NN	RB	IN	CD	,	IN	DT	JJ	NN	.
+SUB	ROOT	VC	VMOD	NMOD	NMOD	PMOD	PMOD	NMOD	PMOD	P	VMOD	NMOD	NMOD	PMOD	P
+2	0	2	3	7	7	4	9	7	9	3	3	15	15	12	2
+GAME-B	-	-	-	-	EVENT-B	-	-	-	DATE-B	-	-	-	DATE-B	-	-
+</negative>
+<negative>
+Capriati	joined	a	field	that	includes	French	Open	champion	Steffi	Graf	,	defending	Wimbledon	champion	Jana	Novotna	,	Anna	Kournikova	and	Amanda	Coetzer	,	last	year	's	runner-up	here	to	Graf	.
+NNP	VBD	DT	NN	WDT	VBZ	JJ	NNP	NN	NNP	NNP	,	VBG	NNP	NN	NNP	NNP	,	NNP	NNP	CC	NNP	NNP	,	JJ	NN	POS	NN	RB	TO	NNP	.
+SUB	ROOT	NMOD	OBJ	NMOD	SBAR	NMOD	NMOD	NMOD	NMOD	OBJ	P	VMOD	NMOD	NMOD	NMOD	NMOD	P	NMOD	NMOD	NMOD	NMOD	NMOD	P	NMOD	NMOD	NMOD	OBJ	NMOD	VMOD	PMOD	P
+2	0	4	2	4	5	11	11	11	11	6	6	6	17	17	17	23	23	20	23	23	23	28	28	27	27	28	13	28	13	30	2
+ORGANIZATION-B	-	-	-	-	-	EVENT-B	EVENT-I	PER_DESC-B	PERSON-B	PERSON-I	-	-	EVENT-B	PER_DESC-B	PERSON-B	PERSON-I	-	PERSON-B	PERSON-I	-	PERSON-B	PERSON-I	-	DATE-B	DATE-I	-	-	-	-	ORGANIZATION-B	-
+</negative>
+<negative>
+Capriati	,	23	,	was	beaten	in	the	second	round	at	Wimbledon	on	Wednesday	by	Seda	Noorlander	of	the	Netherlands	6-1	,	6-3	.
+NNP	,	CD	,	VBD	VBN	IN	DT	JJ	NN	IN	NNP	IN	NNP	IN	NNP	NNP	IN	DT	NNPS	CD	,	CD	.
+NMOD	P	SUB	P	ROOT	VC	VMOD	NMOD	NMOD	PMOD	NMOD	PMOD	VMOD	PMOD	VMOD	NMOD	PMOD	NMOD	NMOD	PMOD	PMOD	P	PMOD	P
+3	1	5	3	0	5	6	10	10	7	10	11	6	13	6	17	15	17	20	18	18	17	15	5
+-	-	DATE-B	-	-	-	-	-	ORDINAL-B	-	-	ORGANIZATION-B	-	DATE-B	-	PERSON-B	PERSON-I	-	-	GPE-B	CONTACT_INFO-B	CONTACT_INFO-I	CONTACT_INFO-I	-
+</negative>
+<negative>
+This	will	be	Capriati	's	fifth	appearance	in	the	exhibition	event	,	which	she	won	in	1991	and	'93	.
+DT	MD	VB	NNP	POS	JJ	NN	IN	DT	NN	NN	,	WDT	PRP	NN	IN	CD	CC	CD	.
+SUB	ROOT	VC	NMOD	NMOD	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	P	NMOD	NMOD	PRD	NMOD	NMOD	NMOD	PMOD	P
+2	0	2	5	7	7	3	7	11	11	8	11	11	15	3	15	19	19	16	2
+-	-	-	ORGANIZATION-B	-	ORDINAL-B	-	-	-	-	-	-	-	-	-	-	DATE-B	-	CARDINAL-B	-
+</negative>
+<negative>
+``	Sport	is	in	general	.
+``	NN	VBZ	IN	NN	.
+P	SUB	ROOT	PRD	PMOD	P
+3	3	0	3	4	3
+-	ORGANIZATION-B	-	-	-	-
+</negative>
+<negative>
+Stolle	has	garnered	world	rankings	as	high	as	50	in	singles	play	and	14	in	doubles	.
+NNP	VBZ	VBN	NN	NNS	RB	JJ	IN	CD	IN	JJ	VB	CC	CD	IN	NNS	.
+SUB	ROOT	VC	NMOD	SUB	AMOD	VMOD	AMOD	PMOD	NMOD	NMOD	NMOD	NMOD	PMOD	NMOD	PMOD	P
+2	0	2	5	7	7	3	7	8	9	12	14	14	8	14	15	2
+ORGANIZATION-B	-	-	-	-	MONEY-B	MONEY-I	MONEY-I	MONEY-I	-	-	-	-	CARDINAL-B	-	-	-
+</negative>
+<negative>
+Suddenly	a	sport	that	had	never	been	a	top	priority	became	fun	.
+RB	DT	NN	WDT	VBD	RB	VBN	DT	JJ	NN	VBD	NN	.
+VMOD	NMOD	SUB	NMOD	SBAR	VMOD	VC	NMOD	NMOD	SUB	ROOT	PRD	P
+11	3	11	3	4	5	5	10	10	11	0	11	11
+-	-	-	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+Which	he	did	,	at	the	US	Open	,	and	emerged	successful	in	doubles	play	.
+NNP	PRP	VBD	,	IN	DT	NNP	NNP	,	CC	VBD	JJ	IN	NNS	VB	.
+VMOD	SUB	ROOT	P	VMOD	NMOD	NMOD	PMOD	P	VMOD	VMOD	VMOD	VMOD	PMOD	SBAR	P
+3	3	0	3	3	8	8	5	3	3	3	11	11	13	13	3
+-	-	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+``	You	play	these	matches	and	sometimes	you	get	so	involved	that	it	means	everything	,	''	Stolle	said	.
+``	PRP	VB	DT	NNS	CC	RB	PRP	VBP	RB	VBN	IN	PRP	VBZ	NN	,	''	NNP	VBD	.
+P	SUB	VMOD	NMOD	OBJ	VMOD	VMOD	SUB	VMOD	VMOD	VC	VMOD	SUB	SBAR	OBJ	P	P	SUB	ROOT	P
+19	3	9	5	3	9	9	9	19	9	9	11	14	12	14	19	19	19	0	19
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	PERSON-B	-	-
+</negative>
+<negative>
+A	few	years	later	,	Davenport	feared	Capriati	,	the	image	:	``	I	'm	gon	na	be	careful	.
+DT	JJ	NNS	RB	,	NNP	VBD	NNP	,	DT	NN	:	``	PRP	VBP	NN	MD	VB	NN	.
+NMOD	NMOD	AMOD	VMOD	P	SUB	ROOT	NMOD	P	NMOD	OBJ	P	P	SUB	NMOD	SUB	VMOD	VC	PRD	P
+3	3	4	7	7	7	0	11	11	11	7	7	17	15	16	17	7	17	18	7
+DATE-B	DATE-I	DATE-I	DATE-I	-	PERSON-B	-	ORGANIZATION-B	-	-	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+Davenport	said	,	``	It	's	really	strange	_	and	great	for	her	_	that	Jennifer	and	I	wound	up	in	the	Australian	Open	semifinals	.
+NNP	VBD	,	``	PRP	VBZ	RB	JJ	NN	CC	JJ	IN	PRP$	NN	IN	NNP	CC	PRP	VBD	RB	IN	DT	NNP	NNP	NNS	.
+SUB	ROOT	P	P	SUB	VMOD	AMOD	NMOD	PRD	AMOD	PRD	VMOD	NMOD	PMOD	NMOD	NMOD	NMOD	SUB	SBAR	VMOD	VMOD	NMOD	NMOD	NMOD	PMOD	P
+2	0	2	2	6	2	8	9	6	11	6	11	14	12	14	18	18	19	15	19	19	25	25	25	21	2
+PERSON-B	-	-	-	-	-	-	-	-	-	-	-	-	-	-	PERSON-B	-	-	-	-	-	-	EVENT-B	EVENT-I	PER_DESC-B	-
+</negative>
+<negative>
+Capriati	,	who	has	risen	from	No	.	101	to	No	.	21	in	two	years	,	was	matching	Davenport	's	firepower	,	shot	for	shot	.
+NNP	,	WP	VBZ	VBN	IN	DT	.	CD	TO	DT	.	CD	IN	CD	NNS	,	VBD	VBG	NNP	POS	NN	,	JJ	IN	NN	.
+SUB	P	NMOD	SBAR	VC	VMOD	PMOD	P	PMOD	VMOD	PMOD	P	NMOD	NMOD	NMOD	PMOD	P	ROOT	VC	NMOD	NMOD	OBJ	P	NMOD	AMOD	PMOD	P
+18	1	1	3	4	5	6	6	6	5	10	1	17	13	16	14	1	0	18	21	22	19	22	22	24	25	18
+-	-	-	-	-	-	-	-	CARDINAL-B	-	-	-	CARDINAL-B	-	DATE-B	DATE-I	-	-	-	PERSON-B	-	-	-	-	-	-	-
+</negative>
+<negative>
+But	in	the	tiebreaker	,	it	was	Davenport	's	harmless-looking	,	changeup	kicker	second	serve	that	did	Capriati	in	,	making	two	vital	points	.
+CC	IN	DT	NN	,	PRP	VBD	NNP	POS	NN	,	NN	NN	JJ	NN	WDT	VBD	NNP	IN	,	VBG	CD	JJ	NNS	.
+VMOD	VMOD	NMOD	PMOD	P	SUB	ROOT	NMOD	NMOD	NMOD	P	NMOD	NMOD	NMOD	PRD	NMOD	SBAR	SUB	VMOD	P	PMOD	NMOD	NMOD	VMOD	P
+7	7	4	2	7	7	0	9	10	15	15	13	15	15	7	15	16	17	17	19	19	24	24	21	7
+-	-	-	-	-	-	-	PERSON-B	-	-	-	-	-	ORDINAL-B	-	-	-	ORGANIZATION-B	-	-	-	CARDINAL-B	-	-	-
+</negative>
+<negative>
+Capriati	overhit	them	,	the	first	a	backhand	that	looked	a	winner	that	would	have	given	her	a	minibreak	_	but	it	just	missed	the	sideline	so	that	Davenport	was	at	3-3	.
+NNP	NNP	PRP	,	DT	JJ	DT	NN	WDT	VBD	DT	NN	WDT	MD	VB	VBN	PRP$	DT	NN	,	CC	PRP	RB	VBD	DT	NN	IN	DT	NNP	VBD	IN	CD	.
+NMOD	NMOD	NMOD	P	NMOD	NMOD	NMOD	SUB	NMOD	SBAR	NMOD	OBJ	NMOD	SBAR	VC	VC	NMOD	NMOD	OBJ	P	VMOD	SUB	VMOD	ROOT	NMOD	OBJ	VMOD	NMOD	SUB	SBAR	PRD	PMOD	P
+2	8	2	8	6	8	8	24	8	9	12	10	12	13	14	15	19	19	16	24	24	24	24	0	26	24	24	29	30	27	30	31	24
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	PERSON-B	-	-	CONTACT_INFO-B	-
+</negative>
+<negative>
+The	lone	mini	,	to	5-4	,	went	to	Davenport	on	Capriati	's	error	,	concluding	a	blistering	exchange	of	21	strokes	.
+DT	JJ	NN	,	TO	CD	,	VBD	TO	VB	IN	NNP	POS	NN	,	VBG	DT	VBG	NN	IN	CD	NNS	.
+NMOD	NMOD	SUB	P	VMOD	PMOD	P	ROOT	VMOD	VMOD	VMOD	NMOD	NMOD	PMOD	P	VMOD	NMOD	NMOD	OBJ	NMOD	NMOD	PMOD	P
+3	3	8	8	8	5	8	0	10	8	10	13	14	11	8	8	19	19	16	19	22	20	8
+-	-	PRODUCT_DESC-B	-	-	-	-	-	-	PERSON-B	-	ORGANIZATION-B	-	-	-	-	-	-	-	-	DISEASE-B	DISEASE-I	-
+</negative>
+<negative>
+Davenport	fooled	Capriati	with	another	slow	66	miles	per	hour	kicker	to	6	-4	.
+NNP	VBD	NNP	IN	DT	JJ	CD	NNS	VBP	NN	NN	TO	CD	CD	.
+SUB	ROOT	OBJ	VMOD	NMOD	NMOD	NMOD	PMOD	SBAR	NMOD	OBJ	VMOD	AMOD	PMOD	P
+2	0	2	2	8	8	8	4	4	11	9	2	14	12	2
+PERSON-B	PERSON-I	PERSON-I	-	-	-	QUANTITY-B	QUANTITY-I	QUANTITY-I	QUANTITY-I	-	-	CONTACT_INFO-B	CONTACT_INFO-I	CONTACT_INFO-I
+</negative>
+<negative>
+Nine	years	had	passed	since	the	ill-starred	Capriati	last	ventured	this	far	in	a	major	championship	,	the	US	Open	semifinal	that	she	barely	lost	to	Monica	Seles	.
+NNP	NNS	VBD	VBN	IN	DT	JJ	NNP	JJ	VBD	DT	RB	IN	DT	JJ	NN	,	DT	NNP	NNP	NN	IN	PRP	RB	VBD	TO	NNP	NNS	.
+NMOD	SUB	ROOT	VC	VMOD	NMOD	NMOD	SUB	VMOD	SBAR	OBJ	PMOD	VMOD	NMOD	NMOD	PMOD	P	NMOD	NMOD	NMOD	PMOD	NMOD	SUB	VMOD	SBAR	VMOD	NMOD	PMOD	P
+2	3	0	3	4	8	8	10	10	5	10	13	10	16	16	13	21	21	21	21	13	21	25	25	22	25	28	26	3
+DATE-B	DATE-I	-	-	-	-	-	ORGANIZATION-B	-	-	-	-	-	-	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	-	-	-	PERSON-B	PERSON-I	-
+</negative>
+<negative>
+In	23	minutes	,	Davenport	had	pocketed	the	opening	set	,	running	up	a	5	-	1	lead	and	splintered	Capriati	's	serve	to	start	the	second	.
+IN	CD	NNS	,	NNP	VBD	VBN	DT	VBG	NN	,	VBG	RP	DT	CD	NN	CD	NN	CC	VBD	NNP	POS	NN	TO	VB	DT	NN	.
+VMOD	NMOD	PMOD	P	SUB	ROOT	VC	NMOD	NMOD	OBJ	P	VMOD	VMOD	NMOD	NMOD	NMOD	NMOD	OBJ	VMOD	VMOD	NMOD	NMOD	OBJ	VMOD	NMOD	NMOD	OBJ	P
+6	3	1	6	6	0	6	10	10	7	7	7	12	18	16	18	18	12	6	6	22	23	20	25	23	27	25	6
+-	TIME-B	TIME-I	-	PERSON-B	-	-	-	-	-	-	-	-	-	CARDINAL-B	-	CARDINAL-B	-	-	-	ORGANIZATION-B	-	-	-	-	-	ORDINAL-B	-
+</negative>
+<negative>
+The	depth	of	Davenport	's	weighty	ground	strokes	and	her	dynamite	serve	killed	Capriati	.
+DT	NN	IN	NNP	POS	JJ	NN	NNS	CC	PRP$	JJ	NN	VBN	NNP	.
+NMOD	NMOD	NMOD	NMOD	NMOD	NMOD	NMOD	PMOD	NMOD	NMOD	NMOD	SUB	ROOT	OBJ	P
+2	12	2	5	8	8	8	3	12	12	12	13	0	13	13
+-	-	-	PERSON-B	-	-	-	-	-	-	-	-	-	ORGANIZATION-B	-
+</negative>
+<negative>
+But	Capriati	,	ever	a	fighter	,	came	roaring	back	to	score	her	first	service	break	2-1	at	the	half-hour	mark	,	subsided	2-4	,	then	began	to	outhit	her	faltering	foe	to	catch	her	at	4-4	.
+CC	NNP	,	RB	DT	NN	,	VBD	VBG	RB	TO	VB	PRP$	JJ	NN	NN	CD	IN	DT	NN	NN	,	JJ	CD	,	RB	VBD	TO	VB	PRP$	NN	NN	TO	VB	PRP$	IN	CD	.
+VMOD	NMOD	P	NMOD	NMOD	SUB	P	ROOT	VMOD	VMOD	VMOD	VMOD	NMOD	NMOD	NMOD	OBJ	NMOD	VMOD	NMOD	NMOD	PMOD	P	NMOD	AMOD	P	VMOD	VMOD	VMOD	VMOD	NMOD	NMOD	OBJ	VMOD	VMOD	OBJ	VMOD	PMOD	P
+8	6	6	6	6	8	8	0	8	9	12	9	16	16	16	12	16	12	21	21	18	24	24	21	12	27	8	29	27	32	32	29	34	29	34	34	36	8
+-	PERSON-B	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	TIME-B	TIME-I	-	-	-	CONTACT_INFO-B	-	-	-	-	-	-	-	PER_DESC-B	-	-	-	-	CONTACT_INFO-B	-
+</negative>
+<negative>
+``	Jennifer	had	me	going	.
+``	NNP	VBD	PRP	VBG	.
+P	SUB	ROOT	OBJ	VMOD	P
+3	3	0	3	3	3
+-	PERSON-B	-	-	-	-
+</negative>
+<negative>
+Jennifer	Capriati	was	a	Wimbledon	semifinalist	in	1991	,	while	Lindsay	Davenport	was	struggling	through	the	junior	draw	.
+NNP	NNP	VBD	DT	NN	NN	IN	CD	,	IN	NNP	NNP	VBD	VBG	IN	DT	JJ	NN	.
+NMOD	SUB	ROOT	NMOD	NMOD	PRD	VMOD	PMOD	P	VMOD	NMOD	SUB	SBAR	VC	VMOD	NMOD	NMOD	PMOD	P
+2	3	0	6	6	3	3	7	3	3	12	13	10	13	14	18	18	15	3
+PERSON-B	PERSON-I	-	-	ORGANIZATION-B	-	-	DATE-B	-	-	PERSON-B	PERSON-I	-	-	-	-	PER_DESC-B	-	-
+</negative>
+<negative>
+Capriati	also	was	playing	in	the	U.S	.	Open	semifinals	in	'91	,	one	year	before	Davenport	won	the	junior	title	on	those	same	courts	.
+NNP	RB	VBD	NN	IN	DT	NNP	.	CD	NNS	IN	CD	,	CD	NN	IN	NNP	VBD	DT	JJ	NN	IN	DT	JJ	NNS	.
+SUB	VMOD	ROOT	PRD	VMOD	NMOD	PMOD	P	NMOD	PMOD	VMOD	PMOD	P	NMOD	PMOD	VMOD	PMOD	SBAR	NMOD	NMOD	OBJ	NMOD	NMOD	NMOD	PMOD	P
+3	3	0	3	3	7	5	10	10	5	3	11	3	15	16	3	16	16	21	21	18	21	25	25	22	3
+ORGANIZATION-B	-	-	-	-	-	GPE-B	GPE-I	-	-	-	CARDINAL-B	-	DATE-B	DATE-I	-	PERSON-B	-	-	-	-	-	-	-	ORG_DESC-B	-
+</negative>
+<negative>
+But	though	Davenport	did	n't	turn	pro	until	three	years	after	her	colleague	_	and	with	much	less	fanfare	_	the	24-year-old	Californian	has	long	bypassed	Capriati	,	accomplishing	things	the	former	phenom	still	dreams	about	.
+CC	JJ	NN	VBD	RB	VB	JJ	IN	CD	NNS	IN	PRP$	NN	,	CC	IN	JJ	RBR	JJ	IN	DT	JJ	NNP	VBZ	RB	VBN	NNP	,	VBG	NNS	DT	JJ	NN	RB	VBZ	RB	.
+VMOD	NMOD	SUB	ROOT	VMOD	VC	PRD	VMOD	NMOD	PMOD	PMOD	NMOD	PMOD	P	VMOD	VMOD	PMOD	AMOD	NMOD	NMOD	NMOD	NMOD	SUB	SBAR	VMOD	VC	OBJ	P	VMOD	OBJ	NMOD	NMOD	SUB	VMOD	NMOD	VMOD	P
+4	3	4	0	4	4	6	6	10	11	8	13	11	24	24	24	16	19	17	17	23	23	24	8	24	24	26	26	26	29	33	33	35	35	30	35	4
+-	-	PERSON-B	-	-	-	-	-	DATE-B	DATE-I	-	-	PER_DESC-B	-	-	-	-	-	-	-	-	DATE-B	NATIONALITY-B	-	-	-	PERSON-B	-	-	-	-	-	PER_DESC-B	-	-	-	-
+</negative>
+<negative>
+On	Monday	,	Davenport	again	showed	her	dominance	,	ending	Capriati	's	best	Wimbledon	since	1993	with	a	6-3	,	6-3	victory	.
+IN	NNP	,	NNP	RB	VBD	PRP$	NN	,	VBG	NNP	POS	JJS	NNP	IN	CD	IN	DT	JJ	,	JJ	NN	.
+VMOD	PMOD	P	SUB	VMOD	ROOT	NMOD	OBJ	P	VMOD	NMOD	NMOD	NMOD	OBJ	VMOD	PMOD	VMOD	NMOD	NMOD	P	NMOD	PMOD	P
+6	1	6	6	6	0	8	6	6	6	12	14	14	10	10	15	10	22	22	22	22	17	6
+-	DATE-B	-	PERSON-B	-	-	-	-	-	-	GPE-B	-	-	ORGANIZATION-B	-	DATE-B	-	-	CONTACT_INFO-B	CONTACT_INFO-I	CONTACT_INFO-I	-	-
+</negative>
+<negative>
+Capriati	made	three	Grand	Slam	semifinal	appearances	in	1990	and	'91	,	then	reached	the	semis	this	year	in	Australia	.
+NNP	VBD	CD	NNP	NNP	JJ	NNS	IN	CD	CC	CD	,	RB	VBD	DT	NN	DT	NN	IN	NNP	.
+SUB	ROOT	NMOD	NMOD	NMOD	NMOD	OBJ	VMOD	NMOD	NMOD	PMOD	P	VMOD	VMOD	NMOD	OBJ	NMOD	OBJ	VMOD	PMOD	P
+2	0	7	7	7	7	2	2	11	11	8	2	2	2	16	14	18	14	14	19	2
+ORGANIZATION-B	-	QUANTITY-B	FAC-B	FAC-I	-	-	-	DATE-B	-	CARDINAL-B	-	-	-	-	-	DATE-B	DATE-I	-	GPE-B	-
+</negative>
+<negative>
+The	6	-	2	-LCB-	Davenport	drilled	seven	aces	past	Capriati	and	had	18	unreturnable	serves	.
+DT	CD	JJ	CD	-LRB-	NNP	VBD	VBN	NNS	JJ	NNP	CC	VBD	CD	JJ	NNS	.
+NMOD	NMOD	NMOD	NMOD	NMOD	SUB	ROOT	NMOD	OBJ	NMOD	AMOD	VMOD	VMOD	NMOD	NMOD	OBJ	P
+4	4	2	6	4	7	0	9	7	9	10	7	7	16	16	13	7
+-	CARDINAL-B	-	CARDINAL-B	-	PERSON-B	-	CARDINAL-B	-	-	ORGANIZATION-B	-	-	CARDINAL-B	-	-	-
+</negative>
+<negative>
+``	Hopefully	,	I	'll	have	another	opportunity	to	play	better	,	at	least	play	the	best	I	can.	''
+``	RB	,	PRP	MD	VB	DT	NN	TO	VB	JJR	,	IN	JJS	VB	DT	RBS	PRP	.	''
+P	VMOD	P	SUB	ROOT	VC	NMOD	OBJ	VMOD	NMOD	VMOD	P	VMOD	AMOD	VMOD	NMOD	VMOD	OBJ	P	P
+5	5	5	5	0	5	8	6	10	8	10	15	15	13	10	17	15	15	5	5
+-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+</negative>
+<negative>
+-LRB-	NYT5	-RRB-	NEW	YORK	--	Aug	.	28	,	2000	--	TEN-USOPEN-2	--	Emmanuelle	Gagliardi	returns	a	shot	to	Jennifer	Capriati	on	Monday	.
+-LRB-	NNP	-RRB-	NNP	NNP	:	NNP	.	CD	,	CD	:	JJ	:	NNP	NNP	VBZ	DT	JJ	TO	VB	NNP	IN	NNP	.
+P	NMOD	P	NMOD	NMOD	P	NMOD	P	NMOD	P	NMOD	P	NMOD	P	NMOD	SUB	ROOT	NMOD	OBJ	VMOD	NMOD	OBJ	VMOD	PMOD	P
+17	7	5	5	7	7	16	11	11	11	7	7	7	7	16	17	0	19	17	21	19	21	21	23	17
+-	MONEY-B	-	GPE-B	GPE-I	-	PERSON-B	-	DATE-B	DATE-I	DATE-I	-	SUBSTANCE-B	-	PERSON-B	PERSON-I	-	-	-	-	PERSON-B	PERSON-I	-	DATE-B	-
+</negative>
+<negative>
+-LRB-	NYT4	-RRB-	NEW	YORK	--	Aug	.	28	,	2000	--	BC-	TEN	--	USOPEN-1	--	Jennifer	Capriati	returns	a	shot	to	Emmanuelle	Gagliardi	on	Monday	.
+-LRB-	NNP	-RRB-	NNP	NNP	:	NNP	.	CD	,	CD	:	JJ	NNP	:	JJ	:	NNP	NNP	VBZ	DT	JJ	TO	VB	NNP	IN	NNP	.
+P	NMOD	P	NMOD	NMOD	P	NMOD	P	NMOD	P	NMOD	P	NMOD	NMOD	P	NMOD	P	NMOD	SUB	ROOT	NMOD	OBJ	VMOD	NMOD	OBJ	VMOD	PMOD	P
+20	7	5	5	7	7	19	19	14	14	14	14	14	18	16	14	16	19	20	0	22	20	24	22	24	24	26	20
+-	MONEY-B	-	GPE-B	GPE-I	-	PERSON-B	-	DATE-B	DATE-I	DATE-I	-	-	ORGANIZATION-B	-	SUBSTANCE-B	-	PERSON-B	PERSON-I	-	-	-	-	ORGANIZATION-B	ORGANIZATION-I	-	DATE-B	-
+</negative>
+<negative>
+NEW	YORK	_	As	other	key	members	of	the	U.S	.	men	's	Olympic	team	have	taken	unplanned	early	leaves	from	the	U.S	.	Open	,	Todd	Martin	remains	in	play	at	Flushing	Meadows	.
+NNP	NNP	NNP	IN	JJ	JJ	NNS	IN	DT	NNP	.	NNS	POS	NNP	NN	VBP	VBN	JJ	JJ	NNS	IN	DT	NNP	.	NNP	,	NNP	NNP	VBZ	IN	VB	IN	VBG	NNP	.
+NMOD	NMOD	NMOD	NMOD	NMOD	NMOD	SUB	NMOD	NMOD	NMOD	P	NMOD	NMOD	NMOD	PMOD	VMOD	VC	NMOD	NMOD	OBJ	VMOD	NMOD	NMOD	P	PMOD	P	NMOD	SUB	ROOT	VMOD	PMOD	VMOD	PMOD	OBJ	P
+3	3	7	7	7	7	16	7	13	13	13	13	15	15	8	29	16	20	20	17	17	23	25	25	21	29	28	29	0	29	30	29	32	33	29
+GPE-B	GPE-I	-	-	-	-	PER_DESC-B	-	-	GPE-B	GPE-I	PER_DESC-B	-	EVENT-B	ORG_DESC-B	-	-	-	-	-	-	-	GPE-B	GPE-I	-	-	PERSON-B	PERSON-I	-	-	-	-	PERSON-B	PERSON-I	-
+</negative>
+<negative>
+-LRB-	Jennifer	Capriati	won	singles	in	1992	and	the	doubles	team	of	Mary	Joe	Fernandez	and	Gigi	Fernandez	completed	the	gold	sweep	in	1996	.	-RRB-
+-LRB-	NNP	NNP	VBD	NNS	IN	CD	CC	DT	NNS	NN	IN	NNP	NNP	NNP	CC	NNP	NNP	VBD	DT	NN	NN	IN	CD	.	-RRB-
+P	NMOD	SUB	VMOD	OBJ	VMOD	PMOD	VMOD	NMOD	NMOD	SUB	NMOD	NMOD	NMOD	PMOD	VMOD	NMOD	SUB	ROOT	NMOD	NMOD	OBJ	VMOD	PMOD	P	P
+19	3	4	19	4	4	6	19	11	11	19	11	15	15	12	19	18	19	0	22	22	19	19	23	19	19
+-	PERSON-B	PERSON-I	-	PER_DESC-B	-	DATE-B	-	-	-	PER_DESC-B	-	PERSON-B	PERSON-I	PERSON-I	-	PERSON-B	PERSON-I	-	-	-	-	-	DATE-B	-	-
+</negative>
+<negative>
+Mary	Pierce	,	who	plays	for	France	in	Federation	Cup	,	lives	full	time	in	the	United	States	,	so	she	was	ineligible	to	play	for	France	.
+NNP	NNP	,	WP	VBZ	IN	NNP	IN	NNP	NNP	,	VBZ	JJ	NN	IN	DT	NNP	NNPS	,	RB	PRP	VBD	JJ	TO	VB	IN	NNP	.
+NMOD	SUB	P	NMOD	SBAR	VMOD	PMOD	VMOD	NMOD	PMOD	P	ROOT	NMOD	OBJ	VMOD	NMOD	NMOD	PMOD	P	VMOD	SUB	VMOD	PRD	VMOD	AMOD	VMOD	PMOD	P
+2	12	2	2	4	5	6	5	10	8	2	0	14	12	12	18	18	15	22	22	22	12	22	25	23	25	26	12
+PERSON-B	PERSON-I	-	-	-	-	GPE-B	-	ORGANIZATION-B	ORGANIZATION-I	-	-	-	-	-	-	GPE-B	GPE-I	-	-	-	-	-	-	-	-	GPE-B	-
+</negative>
+<negative>
+Martina	Navritalova	received	the	David	Gray	Special	Service	Award	for	her	contributions	to	the	sport	.
+NNP	NNP	VBD	DT	NNP	NNP	NNP	NNP	NNP	IN	PRP$	NNS	TO	DT	NN	.
+NMOD	SUB	ROOT	NMOD	NMOD	NMOD	NMOD	NMOD	OBJ	VMOD	NMOD	PMOD	NMOD	NMOD	PMOD	P
+2	3	0	9	9	9	9	9	3	3	12	10	12	15	13	3
+PERSON-B	PERSON-I	-	-	ORGANIZATION-B	ORGANIZATION-I	ORGANIZATION-I	ORGANIZATION-I	ORGANIZATION-I	-	-	-	-	-	-	-
+</negative>
+<negative>
+Jennifer	Capriati	and	Stephane	Simian	won	Comeback	Player	of	the	Year	and	Jimmy	Connors	took	home	the	men	's	Senior	Player	of	the	Year	award	.
+NNP	NNP	CC	NNP	JJ	NN	NNP	NNP	IN	DT	NNP	CC	NNP	NNP	VBD	NN	DT	NN	POS	NNP	NN	IN	DT	JJ	NN	.
+NMOD	NMOD	NMOD	NMOD	NMOD	NMOD	NMOD	SUB	NMOD	NMOD	PMOD	VMOD	NMOD	SUB	ROOT	VMOD	NMOD	NMOD	NMOD	NMOD	OBJ	NMOD	NMOD	NMOD	PMOD	P
+2	8	8	8	8	8	8	15	8	11	9	15	14	15	0	15	19	19	21	21	15	21	25	25	22	15
+PERSON-B	PERSON-I	-	ORGANIZATION-B	ORGANIZATION-I	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	-	PERSON-B	PERSON-I	-	-	-	PER_DESC-B	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	-	-
+</negative>
+<negative>
+Capriati	reached	the	fourth	round	of	the	French	Open	the	week	after	she	won	the	Strasbourg	tournament	.
+NNP	VBD	DT	JJ	NN	IN	DT	JJ	NNP	DT	NN	IN	PRP	VBP	DT	NNP	NN	.
+SUB	ROOT	NMOD	NMOD	OBJ	NMOD	NMOD	NMOD	PMOD	NMOD	VMOD	VMOD	SUB	SBAR	NMOD	NMOD	OBJ	P
+2	0	5	5	2	5	9	9	6	11	2	2	14	12	17	17	14	2
+-	-	-	ORDINAL-B	-	-	-	EVENT-B	EVENT-I	DATE-B	DATE-I	-	-	-	-	GPE-B	-	-
+</negative>
+</QApairs>

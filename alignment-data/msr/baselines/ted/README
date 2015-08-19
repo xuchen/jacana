@@ -1,0 +1,8 @@
+
+Alignment with a Tree Edit Distance model with WordNet
+
+Exact match          13.3   (106 of 800)
+Macro-averaged (reported in paper)):
+  Precision          79.9
+  Recall             79.0
+  F1                 79.4

@@ -1,0 +1,18 @@
+<QApairs id='7.1'>
+<question>
+What	kind	of	animal	is	an	agouti	?
+WP	NN	IN	NN	VBZ	DT	NN	.
+VMOD	NMOD	NMOD	PMOD	ROOT	NMOD	PRD	P
+5	1	1	3	0	7	5	5
+-	-	-	-	-	-	-	-
+</question>
+<positive>
+Birds	of	every	size	and	color	,	skinks	-LRB-	a	type	of	lizard	-RRB-	,	agoutis	-LRB-	rabbit-sized	nocturnal	rodents	-RRB-	,	deer	and	,	of	course	,	the	innumerable	monkeys	.
+NNS	IN	NN	NN	CC	NN	,	NNS	-LRB-	DT	NN	IN	NN	-RRB-	,	NN	-LRB-	VBN	JJ	NNS	-RRB-	,	NN	CC	,	IN	NN	,	DT	JJ	NNS	.
+NMOD	NMOD	NMOD	NMOD	NMOD	PMOD	P	NMOD	P	NMOD	NMOD	NMOD	PMOD	NMOD	P	PMOD	P	NMOD	NMOD	NMOD	P	P	PMOD	NMOD	P	NMOD	PMOD	P	NMOD	NMOD	ROOT	P
+31	1	4	6	6	2	31	31	11	11	31	11	12	16	16	12	20	20	20	16	20	16	12	11	26	11	26	31	31	31	0	31
+ANIMAL-B	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	ANIMAL-B	-	-	ANIMAL-B	-	-	-	-	-	-	-	-	-
+rodents	
+20	
+</positive>
+</QApairs>

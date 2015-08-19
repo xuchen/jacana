@@ -1,0 +1,5 @@
+Number of questions: 2032
+Average recall over questions: 0.465505288401
+Average precision over questions: 0.405432719348
+Average f1 over questions: 0.399401306141
+F1 of average recall and average precision: 0.433397264255

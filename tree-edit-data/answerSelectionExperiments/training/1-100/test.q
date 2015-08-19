@@ -1,0 +1,12 @@
+Who	is	the	author	of	the	book	,	``	The	Iron	Lady	:	A	Biography	of	Margaret	Thatcher	''	?
+NNP	VBZ	DT	NN	IN	DT	NN	,	``	DT	JJ	NN	:	DT	NN	IN	NNP	NNP	''	.
+SUB	ROOT	NMOD	PRD	NMOD	NMOD	PMOD	P	P	NMOD	NMOD	NMOD	P	NMOD	NMOD	NMOD	NMOD	PMOD	P	P
+2	0	4	2	4	7	5	15	15	12	12	15	15	15	7	15	18	16	18	2
+-	-	-	PER_DESC-B	-	-	-	-	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	WORK_OF_ART-I	-	PERSON-B	PERSON-I	-	-
+
+What	was	the	monetary	value	of	the	Nobel	Peace	Prize	in	<num>	?
+WP	VBD	DT	JJ	NN	IN	DT	NNP	NNP	NNP	IN	CD	.
+VMOD	ROOT	NMOD	NMOD	PRD	NMOD	NMOD	NMOD	NMOD	PMOD	VMOD	PMOD	P
+2	0	5	5	2	5	10	10	10	6	2	11	2
+-	-	-	-	-	-	-	WORK_OF_ART-B	WORK_OF_ART-I	WORK_OF_ART-I	-	DATE-B	-
+

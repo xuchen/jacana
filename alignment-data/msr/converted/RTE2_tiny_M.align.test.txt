@@ -1,0 +1,105 @@
+# sentence pair 36
+Police sources stated that during the bomb attack involving the Shining Path , two people were injured .
+NULL ({ / / }) Two ({ 14 / / }) people ({ 15 / / }) were ({ 16 / / }) wounded ({ 17 / / }) by ({ p5 p6 p7 p8 / / }) a ({ p5 p6 p7 p8 / / }) bomb ({ 7 p5 p6 p8 / / }) . ({ 18 / / }) 
+# sentence pair 37
+Although they were born on different planets , Oscar-winning actor Nicolas Cage 's new son and Superman have something in common - both were named Kal-el .
+NULL ({ / / }) Nicolas ({ 11 / / }) Cage ({ 12 / / }) 's ({ 13 / / }) new ({ 14 / / }) son ({ 15 / / }) was ({ p9 / / }) awarded ({ p9 / / }) an ({ p9 / / }) Oscar ({ p9 / / }) . ({ 27 / / }) 
+# sentence pair 38
+Olson , 62 , previously worked as a partner at Ernst & Young LLP , as a Minnesota bank president and as a congressional aide , before joining the Fed board in 2001 , to serve a term ending in 2010 .
+NULL ({ / / }) Olson ({ 1 / / }) is ({ p28 / / }) a ({ p28 / / }) member ({ 28 / / }) of ({ p28 / / }) the ({ 29 / / }) Fed ({ 30 / / }) board ({ 31 / / }) . ({ 42 / / }) 
+# sentence pair 39
+Valero Energy Corp. , on Monday , said it found `` extensive '' additional damage at its 250,000-barrel-per-day Port Arthur refinery .
+NULL ({ / / }) Valero ({ 1 / / }) Energy ({ 2 / / }) Corp. ({ 3 / / }) is ({ p17 / / }) the ({ p17 / / }) owner ({ 17 / / }) of ({ p17 / / }) Port ({ 19 / / }) Arthur ({ 20 / / }) refinery ({ 21 / / }) . ({ 22 / / }) 
+# sentence pair 40
+He said that his daughter was told that Clark had been cited to General Sessions Court .
+NULL ({ / / }) Clark ({ 9 / / }) is ({ / / }) employed ({ / / }) at ({ / / }) General ({ 14 / / }) Sessions ({ 15 / / }) Court ({ 16 / / }) . ({ 17 / / }) 
+# sentence pair 41
+Although Schneider 's father , Marvin , died of complications from diabetes only two weeks after `` Deuce Bigalow '' was released , his Filipino mother Pilar continues to live in Pacifica .
+NULL ({ / / }) Pilar ({ 27 / / }) is ({ p26 / / }) the ({ p26 / / }) mother ({ 26 / / }) of ({ p26 / / }) Schneider ({ 2 / / }) . ({ 33 / / }) 
+# sentence pair 42
+Meanwhile , in an exclusive interview with a TIME journalist , the first one-on-one session given to a Western print publication since his election as president of Iran earlier this year , Ahmadinejad attacked the `` threat '' to bring the issue of Iran 's nuclear activity to the UN Security Council by the US , France , Britain and Germany .
+NULL ({ / / }) Ahmadinejad ({ 33 / / }) is ({ / / }) a ({ 8 / / }) TIME ({ 9 / / }) magazine ({ 9 / / }) journalist ({ 10 / / }) . ({ 62 / / }) 
+# sentence pair 43
+Hinostroza 's children told police that four hooded individuals broke into the house and shot their mother after having insulted her .
+NULL ({ / / }) Hinostroza ({ 1 / / }) 's ({ 2 / / }) children ({ 3 / / }) attaked ({ 15 / / }) their ({ 16 / / }) mother ({ 17 / / }) with ({ p15 / / }) a ({ p15 / / }) gun ({ 15 / / }) . ({ 22 / / }) 
+# sentence pair 44
+Valero Energy Corp. , on Monday , said it found `` extensive '' additional damage at its 250,000-barrel-per-day Port Arthur refinery .
+NULL ({ / / }) Valero ({ 1 / / }) Energy ({ 2 / / }) Corp. ({ 3 / / }) caused ({ / / }) damages ({ 15 / / }) to ({ / / }) Port ({ 19 / / }) Arthur ({ 20 / / }) refinery ({ 21 / / }) . ({ 22 / / }) 
+# sentence pair 45
+Steve Jobs was attacked by Sculley and other Apple executives for not delivering enough hot new products and resigned from the company a few weeks later .
+NULL ({ / / }) Steve ({ 1 / / }) Jobs ({ 2 / / }) worked ({ p19 p20 / / }) for ({ p19 p20 / / }) Apple ({ 22 p21 / / }) . ({ 27 / / }) 
+# sentence pair 46
+The memo , written by Marc Allen Connelly -LRB- who was general counsel to the funeral services commission at the time -RRB- and sent to Dick McNeil -LRB- the Bush-appointed chairman of the funeral commission -RRB- stated that Connelly `` received information '' from Texas state officials that two of the funeral commissioners worked for SCI .
+NULL ({ / / }) Dick ({ 26 / / }) McNeil ({ 27 / / }) was ({ / / }) an ({ p30 p31 / / }) employee ({ p29 p30 p31 / / }) of ({ p29 p30 p31 / / }) Bush ({ p29 p30 p31 / / }) . ({ 57 / / }) 
+# sentence pair 47
+A Russian Soyuz spacecraft docked with the International Space Station , after a two-day flight from the Baikonur Cosmodrome in Kazakhstan .
+NULL ({ / / }) Soyuz ({ 3 / / }) spacecraft ({ 4 p1 / / }) were ({ p2 / / }) built ({ p2 / / }) by ({ p2 / / }) Russia ({ 2 / / }) . ({ 22 / / }) 
+# sentence pair 48
+But according to Dr. Williams , other members of the panel have championed other ideas , for example , that planets should be larger than 2,000 kilometers -LRB- or about 1,250 miles -RRB- in diameter -LRB- Pluto is about 1,500 miles -RRB- .
+NULL ({ / / }) The ({ / / }) diameter ({ 35 / / }) of ({ / / }) Pluto ({ 37 / / }) measures ({ 38 / / }) 1,500 ({ 40 p39 / / }) miles ({ 41 / / }) . ({ 43 / / }) 
+# sentence pair 49
+An Afghan interpreter , employed by the United States , was also wounded .
+NULL ({ / / }) An ({ 1 / / }) interpreter ({ 3 / / }) worked ({ 5 p6 / / }) for ({ p5 p6 / / }) Afghanistan ({ 2 / / }) . ({ 14 / / }) 
+# sentence pair 50
+The chaotic situation unleashed in Bogota last night , with the assasination of Justice Carlos Valencia , began on the 28th of July in Medellin , when motorized paid assasins murdered third public order Judge Maria Elena Diaz .
+NULL ({ / / }) Justice ({ 14 / / }) Carlos ({ 15 / / }) Valencia ({ 16 / / }) was ({ p11 p12 p13 / / }) killed ({ 12 p11 p13 / / }) in ({ 5 / / }) Colombia ({ p6 / / }) . ({ 39 / / }) 
+# sentence pair 51
+Fernandez , of FEMA , was on scene when Martin arrived at a FEMA base camp before going to the hospital .
+NULL ({ / / }) Fernandez ({ 1 / / }) works ({ p3 / / }) for ({ p3 / / }) FEMA ({ 4 / / }) . ({ 22 / / }) 
+# sentence pair 52
+As a result , peptic ulcer disease has been transformed from a chronic , frequently disabling condition to one that can be cured by a short regimen of antibiotics and other medicines .
+NULL ({ / / }) Antibiotics ({ 29 / / }) are ({ p22 p23 p24 / / }) used ({ p22 p23 p24 / / }) against ({ p22 p23 p24 / / }) peptic ({ 5 p7 / / }) ulcer ({ 6 p7 / / }) . ({ 33 / / }) 
+# sentence pair 53
+Alan Mulally , Boeing 's head of the unit , said at the start of the strike that it may cause delivery delays that would give Airbus SAS an advantage in what is the strongest commercial aircraft market in five years .
+NULL ({ / / }) Boeing ({ 4 / / }) is ({ / / }) a ({ / / }) subsidiary ({ / / }) of ({ / / }) Airbus ({ 27 / / }) SAS ({ 28 / / }) . ({ 42 / / }) 
+# sentence pair 54
+Oqueli was to fly to Nicaragua to join an international Socialist delegation , which will observe the Nicaraguan electoral campaign .
+NULL ({ / / }) Oqueli ({ 1 / / }) was ({ 2 / / }) a ({ / / }) member ({ / / }) of ({ / / }) the ({ / / }) Socialist ({ 11 / / }) party ({ / / }) . ({ 21 / / }) 
+# sentence pair 55
+Earlier this year , 78 local , state and federal agencies took part in a chemical attack drill , called Rotunda Thunda , at the Las Vegas Convention Center and the Strip .
+NULL ({ / / }) A ({ 15 / / }) chemical ({ 16 / / }) attack ({ 17 / / }) took ({ / / }) place ({ / / }) at ({ 24 / / }) the ({ 25 / / }) Las ({ 26 / / }) Vegas ({ 27 / / }) Convention ({ 28 / / }) Center ({ 29 / / }) and ({ 30 / / }) the ({ 31 / / }) Strip ({ 32 / / }) . ({ 33 / / }) 
+# sentence pair 56
+The National Assn. of Realtors reported that sales of existing homes had shot up to an annual rate of 7.29 million in August , 7.8 % higher than a year earlier .
+NULL ({ / / }) Sales ({ 8 / / }) of ({ 9 / / }) existing ({ 10 / / }) homes ({ 11 / / }) raised ({ 13 14 27 p12 / / }) 7.8 ({ 25 / / }) % ({ 26 / / }) . ({ 32 / / }) 
+# sentence pair 57
+Two persons were injured in dynamite attacks perpetrated this evening against two bank branches in this northwestern , Colombian city .
+NULL ({ / / }) Two ({ 12 / / }) bank ({ 13 / / }) branches ({ 14 / / }) were ({ 3 / / }) attacked ({ 7 p6 / / }) with ({ p6 p7 / / }) dynamite ({ 6 p7 / / }) . ({ 21 / / }) 
+# sentence pair 58
+The biopic of wannabe actor , Johnny Stompanato , may be directed by Adrian Lyne of `` Fatal Attraction '' and `` Indecent Proposal '' fame .
+NULL ({ / / }) Johnny ({ 7 / / }) Stomponato ({ 8 / / }) starred ({ / / }) in ({ / / }) Fatal ({ 18 / / }) Attraction ({ 19 / / }) . ({ 27 / / }) 
+# sentence pair 59
+Cage is a big fan of `` Superman '' -LRB- who was born on the fictional planet Krypton -RRB- and was to play the role in a film planned for the 1990s that never came to be .
+NULL ({ / / }) Cage ({ 1 / / }) played ({ 23 p21 p22 p24 p25 / / }) Superman ({ 8 / / }) . ({ 38 / / }) 
+# sentence pair 60
+Gen. Maza Marquez said that the fact that a payment is being offered for the capture of Pablo Escobar does not mean that other persons accused of being capos of the mafia are not being sought , and that if anyone being held in connection with the investigation of the killing of Luis Carlos Galan is released , that does not mean that the investigations are not proceeding well .
+NULL ({ / / }) Luis ({ 53 54 55 / / }) was ({ p50 p51 p52 / / }) killed ({ 51 p50 p52 / / }) by ({ / / }) the ({ / / }) capos ({ 29 / / }) of ({ 30 / / }) the ({ 31 / / }) mafia ({ 32 / / }) . ({ 70 / / }) 
+# sentence pair 61
+Second-half goals , from Danny Mills and Darius Vassell , lifted Manchester City to a 2-0 victory over Everton .
+NULL ({ / / }) Manchester ({ 12 / / }) was ({ / / }) beaten ({ 17 / / }) by ({ / / }) Everton ({ 19 / / }) . ({ 20 / / }) 
+# sentence pair 62
+The memo , written by Marc Allen Connelly -LRB- who was general counsel to the funeral services commission at the time -RRB- and sent to Dick McNeil -LRB- the Bush-appointed chairman of the funeral commission -RRB- , stated that Connelly `` received information '' from Texas state officials that two of the funeral commissioners worked for SCI .
+NULL ({ / / }) Marc ({ 6 / / }) Allen ({ 7 / / }) Connelly ({ 8 / / }) worked ({ 55 / / }) for ({ 56 / / }) SCI ({ 57 / / }) . ({ 58 / / }) 
+# sentence pair 63
+Speaking of Jean Charles de Menezes , who was chased by armed officers into the station and shot five times at close range , his cousin , Alex Pereira , hinted today that his family would sue Scotland Yard over the killing .
+NULL ({ / / }) Jean ({ 3 / / }) Charles ({ 4 / / }) de ({ 5 / / }) Menezes ({ 6 / / }) is ({ p25 p26 / / }) related ({ 26 p25 / / }) to ({ p25 p26 / / }) Alex ({ 28 / / }) Pereira ({ 29 / / }) . ({ 43 / / }) 
+# sentence pair 64
+Thanks to the recent acquisition of J.D. Edwards , Oracle will soon be able to run JDE apps on its Fusion Middleware platform , too .
+NULL ({ / / }) J.D.E. ({ 7 8 17 / / }) is ({ p5 / / }) the ({ p5 / / }) owner ({ 5 / / }) of ({ 6 / / }) Oracle ({ 10 / / }) . ({ 26 / / }) 
+# sentence pair 65
+Nancy Vine , who sells tickets at the Big Sky drive-in , seven nights a week , is a daughter of Donald and Dorothy LeGros - part of the extended family that operates the drive-in .
+NULL ({ / / }) Nancy ({ 1 / / }) Vine ({ 2 / / }) is ({ p5 p6 / / }) in ({ p5 p6 / / }) business ({ p5 p6 / / }) with ({ p5 p6 / / }) Donald ({ 22 / / }) and ({ 23 / / }) Dorothy ({ 24 / / }) LeGros ({ 25 / / }) . ({ 36 / / }) 
+# sentence pair 66
+Helena Brighton , an attorney for Eliza May who served as executive director of the Texas Funeral Services Commission - the state agency that regulates the funeral business - claimed that she was fired from her state job because she raised questions about SCI .
+NULL ({ / / }) Eliza ({ 7 / / }) May ({ 8 / / }) hired ({ p4 p5 p6 / / }) Helena ({ 1 / / }) Brighton ({ 2 / / }) . ({ 45 / / }) 
+# sentence pair 67
+The evidence for the continuing accretion of gas by the Milky Way involves high-velocity clouds , or HVCs -- mysterious clumps of hydrogen , moving rapidly through the outer regions of the galaxy .
+NULL ({ / / }) High-velocity ({ 14 / / }) clouds ({ 15 / / }) are ({ p21 / / }) made ({ p21 / / }) up ({ p21 / / }) of ({ 22 / / }) hydrogen ({ 23 / / }) . ({ 34 / / }) 
+# sentence pair 68
+Despite the turmoil in Israeli society , there is little doubt that Prime Minister Ariel Sharon will pull the nearly 9,000 Israeli settlers out of Gaza , now a closed military zone .
+NULL ({ / / }) 9,000 ({ 21 p20 / / }) settlers ({ 23 / / }) are ({ / / }) employed ({ / / }) by ({ / / }) Israel ({ 22 / / }) . ({ 33 / / }) 
+# sentence pair 69
+BAGHDAD , Iraq -LRB- CNN -RRB- - Australian Prime Minister , John Howard , has made an unannounced visit to Iraq , according to the office of Iraqi transitional Prime Minister Ibrahim al-Jaafari .
+NULL ({ / / }) Howard ({ 12 13 / / }) is ({ p9 p10 / / }) a ({ p9 p10 / / }) political ({ p9 p10 / / }) representative ({ p9 p10 / / }) of ({ p9 p10 / / }) Australia ({ 8 / / }) . ({ 34 / / }) 
+# sentence pair 70
+Earlier this year , Kai-Uwe Ricke , chief executive of Deutsche Telekom , floated the possibility that T-Mobile USA might be sold .
+NULL ({ / / }) Deutsche ({ 11 / / }) Telekom ({ 12 / / }) sold ({ 22 / / }) T-Mobile ({ 18 / / }) USA ({ 19 / / }) . ({ 23 / / }) 

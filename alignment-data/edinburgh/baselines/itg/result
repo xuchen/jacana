@@ -1,0 +1,16 @@
+Exact match          7.5   (23 of 306)
+Macro-averaged (reported in paper) :
+                    average (identical/non-identical):
+  Precision          90.0 (95.4/47.6)
+  Recall             72.7 (93.4/11.3)
+  F1                 80.4 (94.4/18.3)
+percentage of identical alignments in gold: 0.752(4335/5766)
+percentage of identical alignments in test: 0.932(4249/4557)
+
+Macro-averaged (reported in paper) :
+                    (token/phrase):
+  Precision               (94.1/0.0)
+  Recall                  (84.7/0.0)
+  F1                      (89.1/NaN)
+
+

@@ -1,0 +1,6 @@
+# sentence pair 341
+Genetic Engineering will end world hunger .
+NULL ({ / / }) Genetic ({ 1 / / }) technology ({ 2 / / }) provides ({ p3 p4 / / }) a ({ p3 p4 / / }) solution ({ p3 p4 / / }) to ({ p3 p4 / / }) hunger ({ 6 p5 / / }) . ({ 7 / / }) 
+# sentence pair 198
+`` The Extraditables '' have claimed responsibility for the murder of two employees of Bogota 's daily El Espectador perpetrated today in Medellin , where two other El Espectator people , Miguel Soler Rodriguez and Martha Luz Lopez , were killed today in separate attacks carried out by gunmen .
+NULL ({ / / }) Miguel ({ 32 / / }) Soler ({ 33 / / }) Rodriguez ({ 34 / / }) and ({ 35 / / }) Martha ({ 36 / / }) Luz ({ 37 / / }) Lopez ({ 38 / / }) were ({ 40 / / }) killed ({ 41 / / }) by ({ 48 / / }) two ({ 12 / / }) employees ({ 13 / / }) of ({ 14 / / }) Bogota ({ 15 / / }) 's ({ 16 / / }) daily ({ 17 / / }) El ({ 18 / / }) Espectador ({ 19 / / }) . ({ 50 / / }) 

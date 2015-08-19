@@ -1,0 +1,25 @@
+This is an experiment using GIZA++ to produce some baseline numbers.
+
+RTE2.s and RTE2.t (source and target) are the input to GIZA++, they consist of:
+
+    - identical lexicon mapping from the whole vocabulary of RTE2 dev/test
+    - sentence pairs from RTE2 dev/test
+
+
+Results are:
+    RTE2_test_M.align.giza.grow-diag-final.txt (with the GROW-DIAG-FINAL trick)
+        Exact match          0.0   (0 of 800)
+        Macro-averaged (reported in paper)):
+          Precision          22.6
+          Recall             87.9
+          F1                 36.0
+    RTE2_test_M.align.giza.intersect.txt (with the INTERSECTION trick)
+        Exact match          14.0   (112 of 800)
+        Macro-averaged (reported in paper)):
+          Precision          82.5
+          Recall             74.4
+          F1                 78.3
+
+The observation that the INTERSECTION trick works better than GROW-DIAG-FINAL is 
+consistant with the MANLI paper, except for that we are getting about 3.5% better
+(78.3 vs. 74.8 reported by MacCartney) in F1.

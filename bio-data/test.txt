@@ -1,0 +1,27 @@
+Q	The head of the phospholipid is polar or nonpolar?
+A	"polar"
+S	"polar"	+	1.5.3.2.1.2	A phospholipid has a hydrophilic (polar) head and two hydrophobic (nonpolar) tails.
+S		-	4.3783.1.2	The hydrocarbon chains of the fatty acids act as nonpolar, hydrophobic tails, while the rest of the molecule acts as a polar, hydrophilic head.
+S		-	1.7.2.1.1.2	However, the hydrophobic interior of the membrane impedes the direct passage of ions and polar molecules, which are hydrophilic, through the membrane.
+S		-	1.7.6.6.2	Hydrophobic substances are soluble in lipid and pass through membranes rapidly, whereas polar molecules and ions generally require specific transport proteins to cross the membrane.
+S		-	1.5.3.2.2.6	Additional small molecules, which are usually charged or polar, can be linked to the phosphate group to form a variety of phospholipids.
+S		-	1.7.2.2.1.1	Cell membranes are permeable to specific ions and a variety of polar molecules.
+S		-	1.2.5.12.1	In terms of electron sharing between atoms, compare nonpolar covalent bonds, polar covalent bonds, and the formation of ions.
+S		-	1.3.2.4.4.4	Many different kinds of polar compounds are dissolved (along with ions) in the water of such biological fluids as blood, the sap of plants, and the liquid within all cells.
+S		-	1.7.3.2.1.2	As mentioned earlier, many polar molecules and ions impeded by the lipid bilayer of the membrane diffuse passively with the help of transport proteins that span the membrane.
+S		-	1.3.2.4.4.1	A compound does not need to be ionic to dissolve in water; many compounds made up of nonionic polar molecules, such as sugars, are also water-soluble.
+
+Q	"During diarrhea, what ion in waste is not being reabsorbed and thus causing normal levels to fluctuate dramatically?"
+A	"sodium"
+S	"sodium"	+	1.7.4.3.3.2	Normally, sodium in waste is reabsorbed in the colon, maintaining constant levels in the body, but diarrhea expels waste so rapidly that reabsorption is not possible, and sodium levels fall precipitously.
+S		-	1.43.3.5.4.3	In industrialized nations, routine active immunization of infants and children has dramatically reduced the incidence of sometimes devastating diseases, such as polio, measles, and whooping cough.
+S		-	1.43.4.1.4.3.4	Acquired immunodeficiencies range from temporary states that may arise from physiological stress to the devastating acquired immunodeficiency syndrome (AIDS), which is caused by the human immunodeficiency virus (HIV).
+S		-	1.45.4.2.2.4.4	Aldosterone, in turn, stimulates cells in the kidneys to reabsorb sodium ions and water from filtrate, raising blood pressure and volume.
+S		-	1.44.4.3.4.2.1	The main function of kidneys in marine bony fishes is to get rid of divalent ions (those with a charge of 2+ or 2-') such as calcium (Ca2+), magnesium (Mg2+), and sulfate (SO42-').
+S		-	1.26.6.2.2.2	Because ribosomes are fundamental to the workings of the cell, rRNA genes have evolved so slowly that homologies between distantly related organisms can still be detected: making these genes very useful for determining evolutionary relationships between deep branches in the history of life.
+S		-	1.25.4.2.2.2.5	Even so, it is clear that losses to date have not reached those of the "big five" mass extinctions, in which large percentages of Earth's species became extinct.
+S		-	1.7.4.3.3.1	What we know about cotransport proteins in animal cells has helped us find more effective treatments for diarrhea, a serious problem in developing countries.
+S		-	1.50.5.1.3.4.3	Prolonged contraction can result in muscle fatigue due to the depletion of ATP and dissipation of ion gradients required for normal electrical signaling.
+S		-	4.5213.1.1	During protein synthesis, the third stage in the elongation cycle when the RNA carrying the growing polypeptide moves from the A site to the P site on the ribosome.
+
+

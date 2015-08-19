@@ -1,0 +1,105 @@
+# sentence pair 1
+ECB spokeswoman , Regina Schueller , declined to comment on a report in Italy 's La Repubblica newspaper that the ECB council will discuss Mr. Fazio 's role in the takeover fight at its Sept. 15 meeting .
+NULL ({ / / }) Regina ({ 4 p1 p2 / / }) Shueller ({ 5 p1 p2 / / }) works ({ / / }) for ({ / / }) Italy ({ 14 / / }) 's ({ 15 / / }) La ({ 16 / / }) Repubblica ({ 17 / / }) newspaper ({ 18 / / }) . ({ 38 / / }) 
+# sentence pair 2
+Meanwhile , in an exclusive interview with a TIME journalist , the first one-on-one session given to a Western print publication since his election as president of Iran earlier this year , Ahmadinejad attacked the `` threat '' to bring the issue of Iran 's nuclear activity to the UN Security Council by the US , France , Britain and Germany .
+NULL ({ / / }) Ahmedinejad ({ 33 / / }) was ({ / / }) attacked ({ 34 / / }) by ({ 53 / / }) the ({ 54 / / }) US ({ 55 / / }) , ({ 56 / / }) France ({ 57 / / }) , ({ 58 / / }) Britain ({ 59 / / }) and ({ 60 / / }) Germany ({ 61 / / }) . ({ 62 / / }) 
+# sentence pair 3
+The chaotic situation unleashed in Bogota last night , with the assasination of Justice Carlos Valencia , began on 28 July in Medellin , when motorized paid assasins murdered third public order Judge Maria Elena Diaz .
+NULL ({ / / }) Justice ({ 14 / / }) Carlos ({ 15 / / }) Valencia ({ 16 / / }) was ({ p11 p12 p13 / / }) killed ({ 12 p11 p13 / / }) on ({ 19 / / }) 28 ({ 20 / / }) July ({ 21 / / }) . ({ 37 / / }) 
+# sentence pair 4
+He met U.S. President , George W. Bush , in Washington and British Prime Minister , Tony Blair , in London .
+NULL ({ / / }) Washington ({ 11 / / }) is ({ / / }) part ({ / / }) of ({ / / }) London ({ 21 / / }) . ({ 22 / / }) 
+# sentence pair 5
+Sunday 's earthquake was felt in the southern Indian city of Madras on the mainland , as well as other parts of south India . The Naval meteorological office in Port Blair said it was the second biggest aftershock after the Dec. 26 earthquake .
+NULL ({ / / }) The ({ 7 / / }) city ({ 10 / / }) of ({ 11 / / }) Madras ({ 12 / / }) is ({ p6 / / }) located ({ p6 / / }) in ({ 6 / / }) Southern ({ 8 23 / / }) India ({ 9 24 / / }) . ({ 45 / / }) 
+# sentence pair 6
+A powerful bomb , hidden in a truck , exploded outside the headquarters of Colombia 's secret police , Wednesday , causing severe damage , Bogota mayor Andres Pastrana said .
+NULL ({ / / }) An ({ / / }) attempt ({ / / }) on ({ / / }) Andres ({ 28 / / }) Pastrana ({ 29 / / }) 's ({ / / }) life ({ / / }) was ({ / / }) carried ({ / / }) out ({ / / }) using ({ / / }) a ({ 1 / / }) powerful ({ 2 / / }) bomb ({ 3 / / }) . ({ 31 / / }) 
+# sentence pair 7
+Muslims make up some 3.2 million of Germany 's 82 million people , and Turks represent two thirds of the minority .
+NULL ({ / / }) 82 ({ 10 / / }) million ({ 11 / / }) people ({ 12 / / }) live ({ p9 / / }) in ({ p9 / / }) Germany ({ 8 / / }) . ({ 22 / / }) 
+# sentence pair 8
+A.C. Milan is in second place with 13 points , after two first-half goals from captain Paolo Maldini earned them a 2-1 victory over Reggina .
+NULL ({ / / }) Paolo ({ 17 / / }) Maldini ({ 18 / / }) plays ({ p16 / / }) for ({ p16 / / }) Reggina ({ 25 / / }) . ({ 26 / / }) 
+# sentence pair 9
+On 12 August , the San Carlos Battalion came across mines placed in their path and one soldier was killed while two were seriously injured . Meanwhile on 10 August , urban commandos took a patrol car by surprise and dropped a grenade inside the car , injuring four and partially destroying the vehicle .
+NULL ({ / / }) Four ({ 49 / / }) people ({ 49 / / }) were ({ p48 / / }) injured ({ 48 / / }) by ({ / / }) a ({ 42 / / }) grenade ({ 43 / / }) . ({ 55 / / }) 
+# sentence pair 10
+During that time , Wilson received the best-play Tony Award for `` Fences , '' plus best-play Tony nominations for six of his other plays , the Pulitzer Prize for both `` Fences '' and `` The Piano Lesson , '' and -LRB- a record -RRB- seven New York Drama Critics ' Circle prizes .
+NULL ({ / / }) Wilson ({ 5 / / }) was ({ 6 / / }) awarded ({ 6 / / }) the ({ 27 / / }) Pulitzer ({ 28 / / }) Prize ({ 29 54 / / }) . ({ 55 / / }) 
+# sentence pair 11
+Muslims make up some 3.2 million of Germany 's 82 million people , and Turks represent two thirds of the minority .
+NULL ({ / / }) 3.2 ({ 5 / / }) million ({ 6 / / }) Muslims ({ 1 / / }) live ({ p2 p3 / / }) in ({ p2 p3 / / }) Germany ({ 8 / / }) . ({ 22 / / }) 
+# sentence pair 12
+`` The capacity people have to adjust and make peace with a new situation , even if they feel vulnerable , is really remarkable , '' said Randy Quevillon , chair of the psychology department and the Disaster Mental Health Institute at the University of South Dakota .
+NULL ({ / / }) Randy ({ 28 / / }) Quevillon ({ 29 / / }) is ({ p31 / / }) employed ({ p31 / / }) at ({ 42 / / }) the ({ 43 / / }) University ({ 44 / / }) of ({ 45 / / }) South ({ 46 / / }) Dakota ({ 47 / / }) . ({ 48 / / }) 
+# sentence pair 13
+Meanwhile , in an exclusive interview with a TIME journalist , the first one-on-one session given to a Western print publication since his election as president of Iran earlier this year , Ahmadinejad attacked the `` threat '' to bring the issue of Iran 's nuclear activity to the UN Security Council by the US , France , Britain and Germany .
+NULL ({ / / }) Ahmadinejad ({ 33 / / }) attacked ({ 34 / / }) the ({ 49 / / }) UN ({ 50 / / }) Security ({ 51 / / }) Council ({ 52 / / }) . ({ 62 / / }) 
+# sentence pair 14
+Arsenal sneaked a 1-0 victory over Birmingham at Highbury , taking advantage of Stephen Clemence 's own-goal in the 81st minute .
+NULL ({ / / }) Arsenal ({ 1 / / }) lost ({ / / }) to ({ / / }) Birmingham ({ 7 / / }) . ({ 22 / / }) 
+# sentence pair 15
+On 12 August , the San Carlos Battalion came across mines placed in their path and one soldier was killed while two were seriously injured . Meanwhile on 10 August , urban commandos took a patrol car by surprise and dropped a grenade inside the car , injuring four and partially destroying the vehicle .
+NULL ({ / / }) A ({ 35 45 / / }) patrol ({ 36 p46 / / }) car ({ 37 46 / / }) was ({ p34 p41 p42 p43 p44 / / }) attacked ({ p34 p41 p42 p43 p44 / / }) by ({ / / }) the ({ 5 / / }) San ({ 6 / / }) Carlos ({ 7 / / }) Battalion ({ 8 / / }) . ({ 55 / / }) 
+# sentence pair 16
+Bogota , 4 May 88 - The dissemination of a document questioning Colombia 's oil policy , is reportedly the aim of the publicity stunt carried out by the pro-Castro Army Of National Liberation , which kidnapped several honorary consuls , newsmen , and political leaders .
+NULL ({ / / }) Several ({ 38 / / }) honorary ({ 39 / / }) consuls ({ 40 / / }) were ({ p37 / / }) kidnapped ({ 37 / / }) on ({ p3 p4 p5 / / }) 4 ({ 3 / / }) May ({ 4 / / }) 88 ({ 5 / / }) . ({ 47 / / }) 
+# sentence pair 17
+The FMLN has prudently taken time before adopting a definite position , meanwhile the government has increased its detentions and attacked the residences of leaders of the Social Christian People 's Movement .
+NULL ({ / / }) Social ({ 28 p27 / / }) Christian ({ 29 p27 / / }) People ({ 30 p27 / / }) 's ({ 31 p27 / / }) Movement ({ 32 p27 / / }) was ({ p21 / / }) attacked ({ 21 / / }) by ({ / / }) FMLN ({ 2 p1 / / }) . ({ 33 / / }) 
+# sentence pair 18
+`` A force majeure is an act of God , '' said attorney Phil Wittmann , who represents the New Orleans Saints and owner Tom Benson 's local interests .
+NULL ({ / / }) Phil ({ 14 p13 / / }) Wittmann ({ 15 p13 / / }) works ({ 18 / / }) for ({ 18 / / }) Tom ({ 25 / / }) Benson ({ 26 / / }) . ({ 30 / / }) 
+# sentence pair 19
+Co-producing the film is Happy Madison , the company owned by Sandler , who has been a compatriot of Schneider 's since they met early in their careers , as mutually struggling stand-up comedians in Los Angeles .
+NULL ({ / / }) Happy ({ 5 / / }) Madison ({ 6 / / }) works ({ / / }) for ({ / / }) the ({ 8 / / }) company ({ 9 / / }) owned ({ 10 / / }) by ({ 11 / / }) Sandler ({ 12 / / }) . ({ 38 / / }) 
+# sentence pair 20
+Although they were born on different planets , Oscar-winning actor Nicolas Cage 's new son and Superman have something in common - both were named Kal-el .
+NULL ({ / / }) Nicolas ({ 11 p9 p10 / / }) Cage ({ 12 p9 p10 / / }) 's ({ 13 / / }) son ({ 15 / / }) is ({ 24 / / }) called ({ 25 / / }) Kal-el ({ 26 / / }) . ({ 27 / / }) 
+# sentence pair 21
+With Washington hinting it might soften its tough stance to break the deadlock , top US negotiator , Christopher Hill , said the two sides needed to review the situation .
+NULL ({ / / }) Christopher ({ 19 / / }) Hill ({ 20 / / }) works ({ p17 / / }) for ({ p17 / / }) the ({ p16 / / }) US ({ 16 / / }) . ({ 31 / / }) 
+# sentence pair 22
+Jean-Claude Trichet , the European Central Bank president , made it clear , on Wednesday , that he would oppose unwarranted political attempts to remove Antonio Fazio : the Bank of Italy governor , engulfed in controversy over his handling of bank takeover bids .
+NULL ({ / / }) Antonio ({ 26 / / }) Fazio ({ 27 / / }) works ({ p33 / / }) for ({ p33 / / }) the ({ 29 / / }) Bank ({ 30 / / }) of ({ 31 / / }) Italy ({ 32 / / }) . ({ 45 / / }) 
+# sentence pair 23
+The assassins of former Defense Minister Enrique Lopez Albujar Trint are presumably members of the Maoist terrorist organization , Shining Path , since the counterterrorism division has identified one of them as Gerardo Olivos Silva , through a composite made from witness ' reports .
+NULL ({ / / }) Gerardo ({ 33 / / }) Olivos ({ 34 / / }) Silva ({ 35 / / }) is ({ 11 / / }) a ({ p29 p30 p31 / / }) member ({ p29 p30 p31 / / }) of ({ p30 / / }) the ({ 15 / / }) Maoist ({ 16 / / }) terrorist ({ 17 / / }) organization ({ 18 / / }) Shining ({ 20 / / }) Path ({ 21 / / }) . ({ 45 / / }) 
+# sentence pair 24
+Linda Johnson , who lives with her husband , Charles , and two cats in a rented one-bedroom apartment in San Francisco 's Mission District , said Katrina has made her realize she needs to gather together , in one accessible place , her scattered disaster supplies .
+NULL ({ / / }) Linda ({ 1 / / }) Johnson ({ 2 / / }) is ({ p8 / / }) married ({ 8 / / }) to ({ p8 / / }) Charles ({ 10 / / }) . ({ 48 / / }) 
+# sentence pair 25
+Mexico City -LRB- Mexico -RRB- , 12 Jan 90 -LRB- DPA -RRB- - Salvadoran Social Democratic politician Hector Oqueli Colindres was kidnapped today , in Guatemala city , along with Guatemalan Social Democratic leader Gilda Flores , his party , in Mexico City , reported .
+NULL ({ / / }) Hector ({ 18 p15 p16 p17 / / }) Oqueli ({ 19 p15 p16 p17 / / }) Colindres ({ 20 p15 p16 p17 / / }) comes ({ p14 / / }) from ({ p14 / / }) El ({ 14 / / }) Salvador ({ 14 / / }) . ({ 46 / / }) 
+# sentence pair 26
+From Joss Stone to Keith Richards to Sting , the artists joining Les on the rock-charged album share one clear common bond : Les Paul is one of their most respected and beloved mentors .
+NULL ({ / / }) Eric ({ / / }) Clapton ({ / / }) is ({ / / }) in ({ / / }) business ({ / / }) with ({ / / }) Les ({ 24 / / }) Paul ({ 25 / / }) . ({ 35 / / }) 
+# sentence pair 27
+Japan 's Toshiba Corp. announced Tuesday that it has developed the first laptop computer with its new HD DVD drive : a next-generation disc format it is promoting over a rival standard pushed by Sony Corp.
+NULL ({ / / }) Toshiba ({ 3 / / }) Corp. ({ 4 / / }) 's ({ / / }) headquarters ({ / / }) is ({ / / }) in ({ p2 / / }) Japan ({ 1 / / }) . ({ / / }) 
+# sentence pair 28
+Tilda Swinton has a prominent role as the White Witch in `` The Chronicles of Narnia : The Lion , The Witch and The Wardrobe '' , coming out in December .
+NULL ({ / / }) Tilda ({ 1 / / }) Swinton ({ 2 / / }) plays ({ 3 6 p4 p5 / / }) the ({ p3 p4 p5 p6 / / }) part ({ p3 p4 p5 p6 / / }) of ({ p7 / / }) the ({ 8 / / }) White ({ 9 / / }) Witch ({ 10 / / }) . ({ 32 / / }) 
+# sentence pair 29
+Patricia Amy Messier and Eugene W. Weaver were married May 28 at St. Clare Roman Catholic Church in North Palm Beach .
+NULL ({ / / }) Eugene ({ 5 / / }) W. ({ 6 / / }) Weaver ({ 7 / / }) is ({ 8 / / }) the ({ p9 / / }) husband ({ 9 / / }) of ({ p9 / / }) Patricia ({ 1 3 / / }) Amy ({ 2 3 / / }) . ({ 22 / / }) 
+# sentence pair 30
+FMLN reports to our people , and to the people of the world , that the massacre against the Salvadoran Workers National Union Federation -LRB- Fenastras -RRB- was carried out by Colonel Elena Fuente , as the head of the morbid death squad of the army 's 1st Infantry Brigade , in response to our military attack on the army staff .
+NULL ({ / / }) Fenastras ({ 20 21 22 23 24 26 p19 / / }) was ({ p16 p17 p18 / / }) attacked ({ 17 p16 p18 / / }) by ({ 31 / / }) FMLN ({ 1 / / }) . ({ 62 / / }) 
+# sentence pair 31
+Two new Les Paul books arrive in stores this year : The Les Paul Legacy by Rob Lawrence is due from Hal Leonard Publishing on October 27 .
+NULL ({ / / }) Rob ({ 17 / / }) Lawrence ({ 18 / / }) works ({ / / }) for ({ / / }) The ({ 12 / / }) Les ({ 13 / / }) Paul ({ 14 / / }) Legacy ({ 15 / / }) . ({ 28 / / }) 
+# sentence pair 32
+Farabundo Marti National Liberation Front 's -LRB- FMLN -RRB- urban commandos have denied reports they participated in an attack on vice president-elect Francisco Merino 's home .
+NULL ({ / / }) Farabundo ({ 1 8 / / }) Marti ({ 2 8 / / }) National ({ 3 8 / / }) Liberation ({ 4 8 / / }) Front ({ 5 8 / / }) is ({ p14 p15 p16 p17 / / }) accused ({ 14 p15 p16 p17 / / }) of ({ p14 p15 p16 p17 / / }) an ({ 18 / / }) attack ({ 19 / / }) on ({ 20 / / }) Merino ({ 23 24 p21 p22 / / }) 's ({ 25 / / }) home ({ 26 / / }) . ({ 27 / / }) 
+# sentence pair 33
+The human rights promotion and protection secretariat of the FMLN strongly condemns the massacre of five Spanish-born Jesuit priests , and three Salvadoran citizens , carried out by the Salvadoran Armed Forces Soldiers .
+NULL ({ / / }) The ({ 29 / / }) Salvadoran ({ 30 / / }) Armed ({ 31 / / }) Forces ({ 32 / / }) Soldiers ({ 33 / / }) murdered ({ 14 p13 p15 p26 p27 p28 / / }) three ({ 22 / / }) Salvadoran ({ 23 / / }) citizens ({ 24 / / }) . ({ 34 / / }) 
+# sentence pair 34
+Jack Straw , the Foreign Secretary , will meet his Brazilian counterpart , Celso Amorim , in London today .
+NULL ({ / / }) Jack ({ 1 p4 p5 p6 / / }) Straw ({ 2 p4 p5 p6 / / }) is ({ / / }) a ({ / / }) partner ({ / / }) of ({ / / }) Celso ({ 14 / / }) Amorim ({ 15 / / }) . ({ 20 / / }) 
+# sentence pair 35
+The watchdog International Atomic Energy Agency meets in Vienna on September 19 .
+NULL ({ / / }) The ({ 1 / / }) International ({ 3 / / }) Atomic ({ 4 / / }) Energy ({ 5 / / }) Agency ({ 6 / / }) holds ({ p7 / / }) a ({ p7 / / }) meeting ({ 7 / / }) in ({ 8 / / }) Vienna ({ 9 / / }) . ({ 13 / / }) 

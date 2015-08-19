@@ -1,0 +1,131 @@
+<style type="text/css" media="screen">
+
+#header {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #eee;
+}
+
+.square {
+	width: 144px;
+	height: 144px;
+	background: #f0f;
+	margin-right: 48px;
+	float: left;
+}
+
+
+.transformed {
+	-webkit-transform: rotate(15deg) scale(1.25, 0.5);
+	-moz-transform: rotate(15deg) scale(1.25, 0.5);
+	-ms-transform: rotate(15deg) scale(1.25, 0.5);
+	transform: rotate(15deg) scale(1.25, 0.5);
+}
+
+body,td,div,.p,a {
+	font-family: times, serif;
+}
+
+div,td {
+	color: #000
+}
+
+div.n {
+	margin-top: 1ex
+}
+
+td.first-column {
+	text-align: right;
+	width: 20%;
+}
+
+td.last-row {
+	height: 200;
+}
+
+td.topborder {
+	text-align: center;
+	background-color: #E2FAFA;
+	border-left: solid 3px #000000;
+	border-right: solid 3px #000000;
+	border-top: solid 3px #000000;
+}
+
+td.middleborder {
+	text-align: center;
+	background-color: #E2FAFA;
+	border-left: solid 3px #000000;
+	border-right: solid 3px #000000;
+}
+
+td.bottomborder {
+	text-align: center;
+	background-color: #E2FAFA;
+	border-left: solid 3px #000000;
+	border-right: solid 3px #000000;
+	border-bottom: solid 3px #000000;
+}
+
+.blacklink {
+	text-decoration: none;
+	color: black;
+}
+
+td.black {
+	background-color: black;
+}
+
+td.white {
+	background-color: #CCCCCC;
+}
+
+td.gray {
+	background-color: gray;
+}
+
+td.red {
+	background-color: red;
+}
+
+td.blue {
+	background-color: blue;
+}
+
+td.green {
+	background-color: green;
+}
+
+td.highlight {
+	background-color: #FF00FF;
+}
+
+table { 
+    table-layout:fixed; 
+	width: 100%;
+}
+
+#scrollbar1 {
+  float: left;
+  width: 15%;
+  padding-right: 5%;
+}
+
+
+#tables {
+  float: left;
+  width: 78%;
+}
+
+#scrollbar1 { width: 15%; clear: both; margin: 20px 0 10px; }
+#scrollbar1 .viewport { width: 80%; height: 1000px; overflow: hidden; position: relative; }
+#scrollbar1 .overview { list-style: none; position: absolute; left: 0; top: 0; }
+#scrollbar1 .thumb .end,
+#scrollbar1 .thumb { background-color: gray; }
+#scrollbar1 .scrollbar { position: relative; float: right; width: 15px; overflow: hidden}
+#scrollbar1 .track { background-color: #CCCCCC; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#scrollbar1 .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+#scrollbar1 .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+#scrollbar1 .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+
+</style>

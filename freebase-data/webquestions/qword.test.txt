@@ -1,0 +1,1706 @@
+Adding annotator tokenize
+Adding annotator ssplit
+Adding annotator parse
+Loading parser from serialized file edu/stanford/nlp/models/lexparser/englishPCFG.caseless.ser.gz ... done [1.7 sec].
+Adding annotator lemma
+Adding annotator ner
+Loading classifier from edu/stanford/nlp/models/ner/english.all.3class.caseless.distsim.crf.ser.gz ... done [5.8 sec].
+Loading classifier from edu/stanford/nlp/models/ner/english.muc.7class.caseless.distsim.crf.ser.gz ... done [3.7 sec].
+Loading classifier from edu/stanford/nlp/models/ner/english.conll.4class.caseless.distsim.crf.ser.gz ... done [4.6 sec].
+Initializing JollyDayHoliday for sutime
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/defs.sutime.txt
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.sutime.txt
+Mar 19, 2014 6:05:03 PM edu.stanford.nlp.ling.tokensregex.CoreMapExpressionExtractor appendRules
+INFO: Ignoring inactive rule: temporal-composite-8:ranges
+Reading TokensRegex rules from edu/stanford/nlp/models/sutime/english.holidays.sutime.txt
+what does jamaican people speak?	what	--dobj-->	speak
+what did james k polk do before he was president?	what	--dobj-->	do
+who plays ken barlow in coronation street?	who	--nsubj-->	plays
+what happened after mr. sugihara died?	what	--nsubj-->	happened
+who did mozart write his four horn concertos for?	who	--dep-->	write
+where is jamarcus russell from?	where	--advmod-->	is
+where was george washington carver from?	where	--advmod-->	was
+what else did ben franklin invent?	what	--dobj-->	invent
+who was richard nixon married to?	who	--dep-->	married
+what country did germany invade first in ww1?	what	--det-->	country
+where is the fukushima daiichi nuclear plant located?	where	--advmod-->	located
+what countries are part of the uk?	what	--det-->	countries
+who plays bilbo baggins in the hobbit?	who	--nsubj-->	plays
+what things did martin luther king do?	what	--det-->	things
+what did st augustine do?	what	--dobj-->	do
+what kind government does egypt have?	what	--det-->	government
+what town was martin luther king assassinated in?	what	--det-->	town
+where did edgar allan poe died?	where	--advmod-->	died
+when did charles goodyear invented rubber?	when	--advmod-->	invented
+what to do today in atlanta with kids?	what	--dep-->	do
+who did france surrender to in ww2?	who	--dep-->	surrender
+what electorate does anna bligh represent?	what	--det-->	electorate
+what channel is the usa pageant on?	what	--det-->	channel
+where did andy murray started playing tennis?	where	--advmod-->	started
+what is the australian dollar called?	what	--dep-->	is
+what timezone is sweden?	what	--det-->	timezone
+who did cam newton sign with?	who	--dep-->	sign
+what county is frederick md in?	what	--det-->	county
+what highschool did harper lee go to?	what	--det-->	highschool
+what timezone is utah in?	what	--det-->	timezone
+who did george w. bush run against for the second term?	who	--dobj-->	run
+where is the galapagos islands located on a world map?	where	--advmod-->	located
+what did george clemenceau do?	what	--dobj-->	do
+where was rihanna born and raised?	where	--advmod-->	born
+what year did president william henry harrison take office?	what	--det-->	year
+where george lopez was born?	where	--advmod-->	born
+where are samsung based?	where	--advmod-->	based
+what did the islamic people believe in?	what	--dobj-->	believe
+what did the scientist chadwick discovered?	what	--dobj-->	discovered
+who will play mr gray in the film?	who	--nsubj-->	play
+what did george orwell died of?	what	--dep-->	died
+who won the battle of gettysburg union or confederate?	who	--nsubj-->	won
+what country did adolf hitler control?	what	--det-->	country
+what county is kansas city kansas?	what	--det-->	county
+what was john quincy adams famous for?	what	--pobj-->	famous
+who did jackie robinson first play for?	who	--dep-->	play
+when did annie open?	when	--advmod-->	open
+where did eleanor roosevelt die?	where	--advmod-->	die
+what are the religions practiced in indonesia?	what	--dobj-->	practiced
+what was jesse james killed with?	what	--dep-->	killed
+what other books did charles dickens write?	what	--det-->	books
+what is the currency of puerto rico called?	what	--dep-->	is
+what kind of cancer did carl wilson have?	what	--det-->	kind
+who plays the voice of kitt in knight rider?	who	--nsubj-->	plays
+what county is brentwood tennessee in?	what	--det-->	county
+who did michael j fox marry?	who	--dobj-->	marry
+what battles did stonewall jackson fight in?	what	--det-->	battles
+what language do the maasai tribe speak?	what	--det-->	language
+who did benjamin franklin get married to?	who	--dobj-->	married
+what disease did patrick swayze died from?	what	--det-->	disease
+what works of art did leonardo da vinci produce?	what	--det-->	works
+what capital of austria?	what	--det-->	capital
+what type of cancer did eva peron have?	what	--det-->	type
+what country did buddha come from?	what	--det-->	country
+what county is greeley colorado in?	what	--det-->	county
+where is the ellen degenerous show filmed?	where	--advmod-->	filmed
+what did peter tchaikovsky do?	what	--dobj-->	do
+which countries speak german officially?	which	--det-->	countries
+what type of music did john lennon sing?	what	--det-->	type
+which country does greenland belong to?	which	--det-->	country
+what the zip code for seattle washington?	what	--dobj-->	code
+what do you call the chinese writing system?	what	--dep-->	call
+who played on the jeffersons?	who	--nsubj-->	played
+what made the soviet union fall?	what	--nsubj-->	made
+what continent does armenia belong to?	what	--det-->	continent
+what did randy savage died of?	what	--dep-->	died
+where did richard nixon die?	where	--advmod-->	die
+what songs does smokey robinson sing?	what	--det-->	songs
+who was vice president when jfk was president?	when	--advmod-->	president
+what is serbian language called?	what	--dep-->	is
+what language is spoken in haiti today?	what	--det-->	language
+who played barbara gordon batgirl?	who	--nsubj-->	played
+what basketball teams has shaq played for?	what	--det-->	teams
+where is jay leno from?	where	--advmod-->	is
+what language do people from thailand speak?	what	--det-->	language
+who did armie hammer play in the social network?	who	--dobj-->	play
+what was the book written by charles darwin?	what	--dobj-->	written
+who did tim tebow play college football for?	who	--dep-->	play
+who does peyton manning play football for?	who	--dep-->	play
+where is the carpathian mountain range located?	where	--advmod-->	located
+what did anton van leeuwenhoek contribute to our knowledge of cells?	what	--dobj-->	contribute
+who did the voice of darth vader in episode 3?	who	--nsubj-->	did
+what super bowl did peyton manning win?	what	--det-->	bowl
+which country was justin bieber born in?	which	--det-->	country
+where are yamaha outboard motors manufactured?	where	--advmod-->	manufactured
+who fought in the gulf war 1991?	who	--nsubj-->	fought
+who plays london tipton in suite life on deck?	who	--nsubj-->	plays
+what team did david beckham play for in 2011?	what	--det-->	team
+where did francisco coronado come from?	where	--advmod-->	come
+what all does google now do?	what	--det-->	all
+what language does egyptian people speak?	what	--det-->	language
+who wrote the jana gana mana?	who	--nsubj-->	wrote
+what type of cancer did gilda radner die of?	what	--det-->	type
+who plays juni cortez?	who	--nsubj-->	plays
+who did carrie ann inaba get engaged to?	who	--dobj-->	engaged
+who inspired obama?	who	--nsubj-->	inspired
+where did dolly parton grow up?	where	--advmod-->	grow
+what type of books did agatha christie wrote?	what	--det-->	type
+what is jimi hendrix purple haze about?	what	--dobj-->	about
+where can i go running in sacramento?	where	--advmod-->	go
+what are the four main languages spoken in spain?	what	--dobj-->	spoken
+where is the nra headquarters located?	where	--advmod-->	located
+who developed the tcp ip reference model?	who	--nsubj-->	developed
+who led the campaign in the shenandoah valley?	who	--nsubj-->	led
+who founded the pittsburgh steelers in 1933?	who	--nsubj-->	founded
+what college did albert einstein go to?	what	--det-->	college
+what team does jordan own?	what	--det-->	team
+who is eli whitney and what did he invent?	what	--dobj-->	invent
+what do portuguese people speak?	what	--dobj-->	speak
+what language does cuba speak?	what	--det-->	language
+where did aaron rodgers go to high school?	where	--advmod-->	go
+where herman cain stance on the issues?	where	--advmod-->	cain
+what instruments did louis armstrong play?	what	--det-->	instruments
+what year was george w bush elected?	what	--det-->	year
+what time zone am i in california?	what	--det-->	zone
+where is mission san buenaventura located?	where	--advmod-->	located
+what time in hilo hawaii?	what	--det-->	time
+where did rudolf virchow conduct his research?	where	--advmod-->	conduct
+what university did gordon brown attend?	what	--det-->	university
+what countries does greece share borders with?	what	--det-->	countries
+what year did the seahawks win the superbowl?	what	--det-->	year
+what did stephen hawking become famous for?	what	--dobj-->	famous
+who plays donna noble?	who	--nsubj-->	plays
+where did queensland get its name from?	where	--advmod-->	get
+what document did james madison write?	what	--det-->	document
+who played bilbo in lord of the rings?	who	--nsubj-->	played
+what airport do you fly into to get to destin fl?	what	--det-->	airport
+what do you call members of the senate?	what	--dep-->	call
+what countries are part of the baltic?	what	--det-->	countries
+what team does colin kaepernick play for?	what	--det-->	team
+where did joe flacco attend college?	where	--advmod-->	attend
+where was theodore roosevelt buried?	where	--advmod-->	buried
+what artistic movement did henri matisse belong to?	what	--det-->	movement
+where the missouri river ends?	where	--advmod-->	ends
+what type of currency do they use in thailand?	what	--det-->	type
+what years did romney serve as governor?	what	--det-->	years
+what state does romney live in?	what	--det-->	state
+what type of government does france use?	what	--det-->	type
+who rules denmark right now?	who	--nsubj-->	rules
+what did stephen hawking study?	what	--dobj-->	study
+where did bristol palin go to school?	where	--advmod-->	go
+what region of the world is egypt associated with?	what	--det-->	region
+what did dr. seuss do?	what	--dobj-->	do
+where did drew brees go to college wikianswers?	where	--advmod-->	go
+what school did ben roethlisberger go to?	what	--det-->	school
+where did the iroquois indians come from?	where	--advmod-->	come
+what kind of guitar did george harrison use?	what	--det-->	kind
+what language do navajo people speak?	what	--det-->	language
+what places make up new england?	what	--nsubj-->	places
+what type of government does iraq have now?	what	--det-->	type
+where was the vietnam war location?	where	--advmod-->	was
+who did gerald ford select as his vice president when he became president?	when	--advmod-->	president
+what is the currency used in italy?	what	--dobj-->	used
+who is jamie little engaged to?	who	--dep-->	engaged
+what school did sir ernest rutherford go to?	what	--det-->	school
+what position does brandon roy play?	what	--det-->	position
+where is harvard university?	where	--advmod-->	is
+what does janelle brown work?	what	--dobj-->	work
+where is laos in world map?	where	--advmod-->	is
+where is tyrese gibson from?	where	--advmod-->	is
+what countries are near italy?	what	--det-->	countries
+which states does the colorado river run through?	which	--det-->	states
+who did scarlett johansson date?	who	--dep-->	johansson
+which continents were part of the roman empire?	which	--det-->	continents
+where was elvis costello born?	where	--advmod-->	born
+where are the gobi desert located on a map?	where	--advmod-->	located
+what type of government does the us follow?	what	--det-->	type
+in which continent is germany?	which	--det-->	continent
+when did the wright brothers created their first plane?	when	--advmod-->	created
+what language turkey people speak?	what	--det-->	language
+who does jeremy lin play for?	who	--dep-->	play
+where is the seychelles on world map?	where	--advmod-->	is
+where did william morris go to college?	where	--advmod-->	go
+what state is mount st. helens in?	what	--det-->	state
+where were the seneca indians located?	where	--advmod-->	located
+what is william taft known for?	what	--dep-->	known
+what state is washington d.c. located?	what	--det-->	state
+where to exchange euros in new york city?	where	--advmod-->	exchange
+when did florida marlins join mlb?	when	--advmod-->	join
+what countries have spanish as the national language?	what	--det-->	countries
+what to see in phoenix arizona?	what	--dep-->	see
+what countries does the panama canal go through?	what	--det-->	countries
+what is charlie chaplin famous for?	what	--pobj-->	famous
+who did paul revere marry?	who	--dobj-->	marry
+what did fred durst do?	what	--dobj-->	do
+who did the chargers draft in 2011?	who	--dobj-->	draft
+where do american bulldogs originate from?	where	--advmod-->	originate
+what colleges did albert einstein teach at?	what	--det-->	colleges
+who plays the voice of brian on family guy?	who	--nsubj-->	plays
+what make of bike did steve mcqueen ride in the great escape?	what	--det-->	make
+where did george w bush live as a child?	where	--advmod-->	live
+which dawkins book to read first?	which	--det-->	book
+what year was the first miss america pageant held?	what	--det-->	year
+where did flemish people come from?	where	--advmod-->	come
+what state new york city belong to?	what	--det-->	state
+what type of government does usa follow?	what	--det-->	type
+what type of currency do they use in england?	what	--det-->	type
+where was benjamin franklin educated?	where	--advmod-->	educated
+what countries included in the uk?	what	--det-->	countries
+what countries in the world speak chinese?	what	--det-->	countries
+where obama went to school?	where	--advmod-->	obama
+which of the following does australia export the most?	which	--dep-->	export
+where was david berkowitz arrested?	where	--advmod-->	arrested
+where was the city of david?	where	--advmod-->	was
+what is cindy sherman known for?	what	--dep-->	known
+what tv shows did shawnee smith play in?	what	--det-->	shows
+what does australia use for currency?	what	--dobj-->	use
+which airport to fly into rome?	which	--det-->	airport
+what is there to do for fun in kansas city?	what	--nsubj-->	do
+where was martin luther king jr raised?	where	--advmod-->	raised
+what year was lebron james rookie season?	what	--det-->	year
+where does delaware river start?	where	--advmod-->	start
+what kind of monarchy does japan have?	what	--det-->	kind
+where did mitt romney's parents come from?	where	--advmod-->	come
+what places in japan were bombed?	what	--nsubj-->	places
+when did michael jordan return to the nba?	when	--advmod-->	return
+what type of economy exists in china?	what	--det-->	type
+where was mission san rafael located?	where	--advmod-->	located
+who's dating claire danes?	who	--nsubj-->	dating
+what county is st paul va in?	what	--det-->	county
+what produce does florida export?	what	--det-->	produce
+what type of sports do japanese play?	what	--det-->	type
+which countries share a border with russia?	which	--det-->	countries
+what did drita find out?	what	--dobj-->	find
+where did the latin language originate from?	where	--advmod-->	originate
+when does the mayan calendar end exactly?	when	--advmod-->	end
+what school did karl benz go to?	what	--det-->	school
+what movies has carmen electra been in?	what	--det-->	movies
+when does jewish new year start?	when	--advmod-->	start
+when do world war ii end?	when	--advmod-->	end
+what do christians believe about heaven hell and purgatory?	what	--dobj-->	believe
+where did morgan freeman graduate?	where	--advmod-->	graduate
+who did queen elizabeth 1 executed?	who	--dobj-->	executed
+where is arabic most spoken?	where	--advmod-->	is
+what type of government does germany have now?	what	--det-->	type
+what kind of government does libya have today?	what	--det-->	kind
+what time zone is anaheim california?	what	--det-->	zone
+what year did the orioles go to the world series?	what	--det-->	year
+what would ap xin zhao do?	what	--dobj-->	do
+where did margaret hoover go to college?	where	--advmod-->	go
+where does bradley walsh live?	where	--advmod-->	live
+where does the shannon river start and end?	where	--advmod-->	start
+who did reese witherspoon get married to?	who	--dobj-->	married
+where did dutch language come from?	where	--advmod-->	come
+what kind of money should i take to costa rica?	what	--det-->	kind
+where is the ufc headquarters?	where	--advmod-->	is
+who plays captain kirk in star trek?	who	--nsubj-->	plays
+who does albert pujols play for 2012?	who	--dobj-->	play
+what kind of government is sweden?	what	--det-->	kind
+where was country singer george jones born?	where	--advmod-->	born
+what did shakespeare become famous for?	what	--dobj-->	famous
+where does russia import from?	where	--advmod-->	import
+what is the money of switzerland called?	what	--dep-->	is
+what to see near grand canyon?	what	--dep-->	see
+when did the jews stop making animal sacrifices?	when	--advmod-->	stop
+what do people in australia speak?	what	--dobj-->	speak
+what has ian somerhalder acted in?	what	--dep-->	acted
+what movies did ron howard director?	what	--dep-->	did
+what role did alexander hamilton play in the constitution?	what	--det-->	role
+who is shakira married to?	who	--dep-->	married
+what did gerald r ford die from?	what	--dep-->	die
+what two continents is turkey on?	what	--det-->	continents
+where did kevin love go to college?	where	--advmod-->	go
+what type of government was formed when italy unified?	when	--advmod-->	unified
+where was the temple of karnak built?	where	--advmod-->	built
+what movies did morgan freeman star in?	what	--det-->	movies
+who did john kennedy have affairs with?	who	--dep-->	have
+what type of money to take to cuba?	what	--det-->	type
+what currency should you take to morocco?	what	--det-->	currency
+what do they call money in japan?	what	--dep-->	call
+what nationality is mother teresa?	what	--det-->	nationality
+what countries share borders with spain?	what	--det-->	countries
+what countries have english as their official language?	what	--det-->	countries
+what international organizations is china part of?	what	--det-->	organizations
+what county is west st paul in?	what	--det-->	county
+what college did magic johnson play for?	what	--det-->	college
+who does donnie wahlberg play in the sixth sense?	who	--dobj-->	play
+what did baron de montesquie influence?	what	--dep-->	montesquie
+what do australians call bigfoot?	what	--dep-->	call
+who did carlos boozer play for?	who	--dep-->	play
+what countries share a land border with indonesia?	what	--det-->	countries
+who owns the portland press herald?	who	--nsubj-->	owns
+what did albert speer design?	what	--dobj-->	design
+who does jordan palmer play for?	who	--dep-->	play
+what art movement did leonardo da vinci belong to?	what	--det-->	movement
+what time does american horror story air?	what	--det-->	time
+what airport is near arlington tx?	what	--det-->	airport
+who did vasco de gama explore for?	who	--dep-->	explore
+what type of government does the us constitution set up?	what	--det-->	type
+what team does heskey play for?	what	--det-->	team
+where did emperor hirohito live?	where	--advmod-->	live
+what to do and see in vienna austria?	what	--dep-->	do
+when did conflict start in ireland?	when	--advmod-->	start
+when did the lakers 3 peat?	when	--advmod-->	peat
+what bible do catholics follow?	what	--det-->	bible
+what is there to do in peoria illinois?	what	--nsubj-->	do
+what language do british speak?	what	--det-->	language
+what makes elvis presley famous?	what	--nsubj-->	makes
+what high school did lil wayne graduate from?	what	--det-->	school
+what language do people speak in the netherlands?	what	--det-->	language
+what are the major languages spoken in greece?	what	--dobj-->	spoken
+what movies has john williams score?	what	--det-->	movies
+what to do in richardson dallas?	what	--dep-->	do
+what type of artist is henri matisse?	what	--det-->	type
+what books did agatha christie wrote?	what	--det-->	books
+what school did michael jordan attend?	what	--det-->	school
+which continental congress approve the declaration of independence?	which	--dep-->	approve
+what year does hitler die?	what	--det-->	year
+where is mount st helens volcano?	where	--advmod-->	is
+what shows are shot in new york?	what	--nsubj-->	shows
+what book did tupac write?	what	--det-->	book
+what language do chinese people write in?	what	--det-->	language
+what was robert burns famous for?	what	--pobj-->	famous
+when did william mckinley died?	when	--advmod-->	died
+how deep is lake merritt oakland?	how deep	--advmod-->	deep
+what type of music did claude debussy play?	what	--det-->	type
+when was the last time the toronto maple leafs were in the stanley cup finals?	when	--advmod-->	was
+what currency does russia use 2012?	what	--det-->	currency
+what team is hank baskett on 2010?	what	--det-->	team
+who is hammurabi and what did he do?	what	--dobj-->	do
+what state is the steelers from?	what	--det-->	state
+what college did sir isaac newton go to?	what	--det-->	college
+where is the university of the rockies located?	where	--advmod-->	located
+what disease does robin roberts have?	what	--det-->	disease
+who plays edward scissorhands?	who	--nsubj-->	plays
+what does joey jordison play in slipknot?	what	--dobj-->	play
+what kind of language does turkey speak?	what	--det-->	kind
+who fought the battle of gettysburg?	who	--nsubj-->	fought
+where can you go on eco holidays in the uk?	where	--advmod-->	go
+where did giuliana rancic grow up?	where	--advmod-->	grow
+which university did michael bay graduated from?	which	--det-->	university
+what did queen victoria say about the suffragettes?	what	--dobj-->	say
+who does brian dawkins play for 2011?	who	--dobj-->	play
+what movies did tupac star in?	what	--det-->	movies
+what form of currency does china have?	what	--det-->	form
+who plays kenneth?	who	--nsubj-->	plays
+what league are the indianapolis colts in?	what	--det-->	league
+what country did magellan represent?	what	--det-->	country
+where is perpignan located?	where	--advmod-->	located
+who did kim richards marry?	who	--dobj-->	marry
+what happened in bosnia in the 90s?	what	--nsubj-->	happened
+when's the last time the steelers won the superbowl?	when	--advmod-->	's
+where does archbishop desmond tutu live?	where	--advmod-->	live
+where english is spoken?	where	--advmod-->	english
+where is giza pyramids located?	where	--advmod-->	located
+what states make up the midwest us?	what	--det-->	states
+where do the florida marlins play spring training?	where	--advmod-->	play
+what instruments does justin bieber use?	what	--det-->	instruments
+what language does australians speak?	what	--det-->	language
+who did annie oakley married?	who	--dobj-->	married
+who has played lex luthor?	who	--nsubj-->	played
+where does the zambezi river start?	where	--advmod-->	start
+where will tebow go in 2013?	where	--advmod-->	go
+where did they find jenni rivera's body?	where	--advmod-->	find
+what university did romney graduated from?	what	--det-->	university
+where is the time zone line in south dakota?	where	--advmod-->	is
+where is jason mraz from?	where	--advmod-->	is
+what killed john bonham?	what	--nsubj-->	killed
+what industry does walmart operate in?	what	--det-->	industry
+what county is texarkana arkansas in?	what	--det-->	county
+what team was chris paul on?	what	--det-->	team
+what country was slovakia?	what	--det-->	country
+what music period did beethoven live in?	what	--det-->	period
+what did laura ingalls wilder wrote?	what	--dobj-->	wrote
+what type of government system does italy have?	what	--det-->	type
+what did john irving wrote?	what	--dobj-->	wrote
+what did alice paul accomplish?	what	--dobj-->	accomplish
+where to go fishing in roanoke va?	where	--advmod-->	go
+what languages do they speak in costa rica?	what	--det-->	languages
+where did hank marvin come from?	where	--advmod-->	come
+when did chipper jones get drafted?	when	--advmod-->	drafted
+what part did winona ryder play in star trek?	what	--det-->	part
+what did president carter do in office?	what	--dobj-->	do
+what war did hitler lose?	what	--det-->	war
+where did jovan belcher kill himself?	where	--advmod-->	kill
+where is the chernobyl nuclear power plant?	where	--advmod-->	is
+where did clay matthews go to school?	where	--advmod-->	go
+what time is it in texas houston right now?	what	--det-->	time
+what language brazil speak?	what	--det-->	language
+who played obi wan in episode 2?	who	--nsubj-->	played
+where did venus williams come from?	where	--advmod-->	come
+what currency is used in panama?	what	--det-->	currency
+where does the zambezi river originate?	where	--advmod-->	originate
+what countries do the united nations help?	what	--det-->	countries
+what team did ronaldo play for in 2003?	what	--det-->	team
+where does robin williams live 2011?	where	--advmod-->	live
+who played jacob black in twilight?	who	--nsubj-->	played
+when was president john adams elected?	when	--advmod-->	elected
+who does lee clark manager?	who	--nsubj-->	does
+which airport to fly into in buenos aires?	which	--det-->	airport
+where to get a marriage license in long island?	where	--advmod-->	get
+what team did adrian peterson play for in college?	what	--det-->	team
+where does name pennsylvania come from?	where	--advmod-->	come
+what kind of money do they use in germany?	what	--det-->	kind
+who plays blaine in batman?	who	--nsubj-->	plays
+what did james chadwick invent?	what	--dobj-->	invent
+what language does australia use?	what	--det-->	language
+what position did vince lombardi play in college?	what	--det-->	position
+what kind of government did the united states have after the revolution?	what	--det-->	kind
+who did veronica lake mary?	who	--nsubj-->	did
+who did sir francis drake marry?	who	--dobj-->	marry
+who plays stephanie plum in one for the money?	who	--nsubj-->	plays
+what did the ancient romans speak?	what	--dobj-->	speak
+what does ringo sing?	what	--dobj-->	sing
+where was st. lucy born?	where	--advmod-->	born
+what type of government does australia have?	what	--det-->	type
+where is the university of maryland medical school?	where	--advmod-->	is
+what objects did galileo see with his telescope?	what	--det-->	objects
+where did salvador dali study art?	where	--advmod-->	study
+what national team does cristiano ronaldo play for?	what	--det-->	team
+what flower is on the oklahoma quarter?	what	--det-->	flower
+what has ashley greene been in?	what	--dep-->	been
+where did al qaeda attack?	where	--advmod-->	attack
+what language is spoken in switzerland?	what	--det-->	language
+what islands did darwin study finches on?	what	--det-->	islands
+what the time zone in england?	what	--dobj-->	zone
+what does egfr african american mean on a blood test?	what	--dobj-->	mean
+what system of government is practiced in nigeria?	what	--det-->	system
+what else did alexander graham bell invent other than the telephone?	what	--dep-->	invent
+where did holly madison get her breast implants?	where	--advmod-->	get
+what language do most australians speak?	what	--det-->	language
+where is denmark situated?	where	--advmod-->	situated
+where was teddy roosevelt's house?	where	--advmod-->	was
+what do people speak in canada?	what	--dobj-->	speak
+what type of money do they use in costa rica?	what	--det-->	type
+what timezone is nashville tn?	what	--det-->	timezone
+what does the sun in the philippine flag represent?	what	--dobj-->	represent
+where did adolf hitler die?	where	--advmod-->	die
+where was the first gulf war fought?	where	--advmod-->	fought
+what band was george clinton in?	what	--det-->	band
+what country borders slovakia?	what	--det-->	country
+what was james garfield most known for?	what	--dep-->	known
+where did paula deen go to school?	where	--advmod-->	go
+where does robert irvine come from?	where	--advmod-->	come
+what style of music does michael jackson perform?	what	--det-->	style
+what does david beckham play?	what	--dobj-->	play
+what does julian lennon do?	what	--dobj-->	do
+who led the mexican army at the battle of the alamo?	who	--nsubj-->	led
+what has charlie hunnam been in?	what	--dep-->	been
+what school did michael jackson go to high school?	what	--det-->	school
+what college did brett favre?	what	--det-->	college
+what time does registration open portland state?	what	--det-->	time
+where did alex chilton die?	where	--advmod-->	die
+what college did martin luther king jr go to?	what	--det-->	college
+where is harley davidson made?	where	--advmod-->	made
+what kind of cancer did farrah fawcett die of?	what	--det-->	kind
+what money do i use in costa rica?	what	--det-->	money
+what guitar did joe walsh play?	what	--det-->	guitar
+what did african americans do during the revolutionary war?	what	--dobj-->	do
+what language do most italians speak?	what	--det-->	language
+what broncos are in the pro bowl?	what	--det-->	broncos
+what money do they use in spain?	what	--det-->	money
+what did drew barrymore go to rehab for?	what	--dep-->	go
+when is saint george day celebrated?	when	--advmod-->	celebrated
+what government did the roman empire have?	what	--det-->	government
+which country won the crimean war?	which	--det-->	country
+what instrument did robin gibb play?	what	--det-->	instrument
+who voiced darth vader?	who	--nsubj-->	voiced
+when was abe lincoln president?	when	--advmod-->	was
+where are the texas rangers playing?	where	--advmod-->	playing
+what did andrew johnson accomplish as president?	what	--dobj-->	accomplish
+where to go in vietnam beaches?	where	--advmod-->	go
+when did michael vick start playing for the eagles?	when	--advmod-->	start
+where do kfc get their chicken from?	where	--advmod-->	get
+what is william taft famous for?	what	--pobj-->	famous
+who was jesse james killed by?	who	--dep-->	killed
+where did robin cook die?	where	--advmod-->	die
+where did melba beals live?	where	--advmod-->	live
+how large is kony army?	how large	--advmod-->	large
+where did derek fisher go to college?	where	--advmod-->	go
+who was kobe bryant drafted by?	who	--dep-->	drafted
+where are the new orleans hornets moving to?	where	--advmod-->	moving
+what language does algerian people speak?	what	--det-->	language
+where was anne boleyn executed?	where	--advmod-->	executed
+what did galileo do to become famous?	what	--dep-->	do
+what school did martin luther king jr received his doctorate degree from?	what	--det-->	school
+where buddha come from?	where	--advmod-->	come
+what did king henry viii rule?	what	--dobj-->	rule
+what type of cancer did larry hagman have?	what	--det-->	type
+where is byron nelson 2012?	where	--advmod-->	is
+what wars did robert e lee served in?	what	--det-->	wars
+what russian language called?	what	--det-->	language
+who is in charge of libya now?	who	--nsubj-->	is
+what currency does australia use 2012?	what	--det-->	currency
+when did shays rebellion start?	when	--advmod-->	start
+what kind of disease does montel williams have?	what	--det-->	kind
+where do flemish come from?	where	--advmod-->	come
+when is the last time the ravens won a superbowl?	when	--advmod-->	is
+where did kansas city royals come from?	where	--advmod-->	come
+what style of music does john mayer play?	what	--det-->	style
+what inventions did thomas edison invent list?	what	--det-->	inventions
+where did djokovic come from?	where	--advmod-->	come
+what part of the country is new england?	what	--det-->	part
+what money to take to turkey?	what	--det-->	money
+what kind of music did jimi hendrix play?	what	--det-->	kind
+what degrees did obama get in college?	what	--det-->	degrees
+when tupac was shot?	when	--advmod-->	shot
+when did liverpool fc last win the champions league?	when	--advmod-->	win
+who played jeannie?	who	--nsubj-->	played
+what kind of shoes do french people wear?	what	--det-->	kind
+where was st peter killed?	where	--advmod-->	killed
+who does jeremy shockey play for in 2012?	who	--dobj-->	play
+what college did deion sanders jr go to?	what	--det-->	college
+when did the battle of alamo start?	when	--advmod-->	start
+where did tim tebow grow up?	where	--advmod-->	grow
+where is chesapeake bay bridge?	where	--advmod-->	is
+who played victoria barkley?	who	--nsubj-->	played
+where did kennedy's inaugural address take place?	where	--advmod-->	take
+what countries have german as the official language?	what	--det-->	countries
+where did the taliban began?	where	--advmod-->	began
+what kind of government system did ancient egypt have?	what	--det-->	kind
+who plays elena gilbert on vampire diaries?	who	--nsubj-->	plays
+what happened to jill valentine?	what	--nsubj-->	happened
+what does the missouri river bisect?	what	--dobj-->	bisect
+what nationality is taylor lautner jacob black?	what	--det-->	nationality
+what animal represents california?	what	--det-->	animal
+what company does nike own?	what	--det-->	company
+what language do colombian people speak?	what	--det-->	language
+what year did ray allen join the nba?	what	--det-->	year
+what color jerseys do the redskins wear at home?	what	--det-->	color
+what is claire danes famous for?	what	--pobj-->	famous
+what county is san antonio in?	what	--det-->	county
+what characters does matt stone do?	what	--det-->	characters
+what timezone is the state of michigan and?	what	--det-->	timezone
+what type of government did soviet union have?	what	--det-->	type
+what languages are there in japan?	what	--det-->	languages
+what year did the bulls get rodman?	what	--det-->	year
+what hemisphere is africa located in?	what	--det-->	hemisphere
+where did vince scully go to college?	where	--advmod-->	go
+where does princess leia live?	where	--advmod-->	live
+what famous people are from el salvador?	what	--det-->	people
+what type of art did leonardo da vinci make?	what	--det-->	type
+where did mary bell live?	where	--advmod-->	live
+what countries don need a visa for usa?	what	--det-->	countries
+who did kimberly williams marry?	who	--dobj-->	marry
+what other movies has ryan gosling been in?	what	--det-->	movies
+what political party does julia gillard belong to?	what	--det-->	party
+what kind of hispanic is selena gomez?	what	--det-->	kind
+who did denise van outen married?	who	--dobj-->	married
+what are egyptian money called?	what	--dobj-->	called
+where did martin luther king got shot at?	where	--advmod-->	got
+who wrote the gospel according to john?	who	--nsubj-->	wrote
+what form of government is the uk?	what	--det-->	form
+what college football team did john elway play for?	what	--det-->	team
+who did nasri play for before arsenal?	who	--dobj-->	play
+what currency does the czech republic use now?	what	--det-->	currency
+what age did william penn get married?	what	--det-->	age
+what was firefox programmed in?	what	--dep-->	programmed
+what government does new zealand have?	what	--det-->	government
+where is isthmus of panama located on the map?	where	--advmod-->	located
+what has kristen stewart acted in?	what	--dep-->	acted
+what did dr josef mengele do?	what	--dobj-->	do
+what kind of language does egypt speak?	what	--det-->	kind
+what form of government does north korea have?	what	--det-->	form
+where did robert kardashian go to college?	where	--advmod-->	go
+what happened at chernobyl?	what	--nsubj-->	happened
+what county is st james city fl in?	what	--det-->	county
+what did the akkadian empire include?	what	--dobj-->	include
+after how many years are the olympic games held?	how many	--advmod-->	many
+what system of government does guyana have?	what	--det-->	system
+when was the last time the ny knicks won a playoff game?	when	--advmod-->	was
+what team did aguero play for?	what	--det-->	team
+when is st joseph birthday?	when	--advmod-->	is
+what year was kenya moore crowned miss usa?	what	--det-->	year
+what sort of government does nigeria have?	what	--det-->	sort
+where does chef ina garten live?	where	--advmod-->	live
+when the atlanta braves won the world series?	when	--advmod-->	won
+what is lamar odom doing now july 2012?	what	--dobj-->	doing
+what kind of language do they speak in iran?	what	--det-->	kind
+what was the first language spoken in spain?	what	--dobj-->	spoken
+what did scott joplin play?	what	--dobj-->	play
+what school did miley cyrus?	what	--det-->	school
+which hemingway book to read?	which	--det-->	book
+what language do most people speak in afghanistan?	what	--det-->	language
+what role did paul mccartney play in the beatles?	what	--det-->	role
+when did juventus win the champions league?	when	--advmod-->	win
+when does school start for the university of oregon?	when	--advmod-->	start
+where is french spoken most?	where	--advmod-->	spoken
+what team is reggie bush on 2011?	what	--det-->	team
+what highschool did emily osment go to?	what	--det-->	highschool
+what currency should i take to mexico?	what	--det-->	currency
+what area of science did leonardo da vinci study?	what	--det-->	area
+where did troy aikman play football?	where	--advmod-->	play
+who played cletus hogg?	who	--nsubj-->	played
+who won fa cup 1976?	who	--nsubj-->	won
+what did general robert e lee die from?	what	--dep-->	die
+what style of art did henri matisse do?	what	--det-->	style
+who plays chuck bass in gossip girl?	who	--nsubj-->	plays
+what countries have territories in oceania?	what	--det-->	countries
+what county is st. louis park in?	what	--det-->	county
+when does parliament sit in canberra?	when	--advmod-->	sit
+what language group does germany belong to?	what	--det-->	group
+what timezone is tucson arizona in right now?	what	--det-->	timezone
+when was lucy lawless born?	when	--advmod-->	born
+which political party does barack obama represent?	which	--det-->	party
+where is the empire of ghana?	where	--advmod-->	is
+what kind of leukemia did jill clayburgh have?	what	--det-->	kind
+what is there to see in sydney australia?	what	--nsubj-->	see
+where was marilyn monroe found dead?	where	--advmod-->	found
+what states does the sierra nevada run through?	what	--det-->	states
+what language is spoken in greek?	what	--det-->	language
+what team did monta ellis get traded to?	what	--det-->	team
+who plays stanley hudson?	who	--nsubj-->	plays
+what record label is kelly clarkson signed with?	what	--det-->	label
+where does tim roth come from?	where	--advmod-->	come
+what kind of equipment did isaac newton use?	what	--det-->	kind
+what currency should you take to vietnam?	what	--det-->	currency
+who did roger federer married?	who	--dobj-->	married
+what kind of money do i need in costa rica?	what	--det-->	kind
+what caused the embargo against cuba?	what	--nsubj-->	caused
+what kind of government does japan have now?	what	--det-->	kind
+what pieces of music did claude debussy compose?	what	--det-->	pieces
+who plays caesar flickerman in the hunger games?	who	--nsubj-->	plays
+where did the gettysburg address?	where	--advmod-->	address
+who was tupac signed to?	who	--dep-->	signed
+what was augustus caesar famous for?	what	--pobj-->	famous
+what kind of tennis racquet does serena williams use?	what	--det-->	kind
+what language does colombia?	what	--det-->	language
+where can you find wind turbines in canada?	where	--advmod-->	find
+who owns google 2012?	who	--nsubj-->	owns
+what drink did john pemberton create?	what	--det-->	drink
+what position did stanley matthews play?	what	--det-->	position
+what type of government does brazil have 2011?	what	--det-->	type
+who makes the voice of stewie griffin?	who	--nsubj-->	makes
+who brad pitt has dated?	who	--nsubj-->	brad
+what party does barack obama belong to?	what	--det-->	party
+who has stephen ireland played for?	who	--dep-->	played
+what do people in france like to do for fun?	what	--dep-->	like
+where did john mayer go to college?	where	--advmod-->	go
+what celebrities has brody jenner dated?	what	--det-->	celebrities
+who owns volkswagen car company?	who	--nsubj-->	owns
+which is the main train station in rome?	which	--dep-->	is
+what did steve mcnair died from?	what	--dep-->	died
+who plays roxanne in ghost rider?	who	--nsubj-->	plays
+where is the sony ericsson company?	where	--advmod-->	is
+what kind of currency does the dominican republic have?	what	--det-->	kind
+what to do this weekend in manchester with kids?	what	--dep-->	do
+what sport is popular in italy?	what	--det-->	sport
+where is the main headquarters of google?	where	--advmod-->	is
+where does carlos santana live?	where	--advmod-->	live
+what is the new movie john carter about?	what	--dobj-->	about
+what countries does nafta include?	what	--det-->	countries
+what county is houston tx in?	what	--det-->	county
+where do the seattle seahawks play?	where	--advmod-->	play
+who does michael keaton play in cars?	who	--dobj-->	play
+where is the riviera casino?	where	--advmod-->	is
+who became president when henry harrison died?	when	--advmod-->	died
+where did richard arkwright grow up?	where	--advmod-->	grow
+what other books did louis sachar write?	what	--det-->	books
+when did roth ira originate?	when	--advmod-->	originate
+who does the voice for darth vader?	who	--nsubj-->	does
+what did thomas malthus do?	what	--dobj-->	do
+what states share a border with tennessee?	what	--det-->	states
+what to see and do in vancouver washington?	what	--dep-->	see
+what war did the us lose the most soldiers?	what	--det-->	war
+what kind of government is egypt?	what	--det-->	kind
+what musical instruments does justin bieber play?	what	--det-->	instruments
+who is james madison and what did he do?	what	--dobj-->	do
+what did obama do before he was elected president?	what	--dobj-->	do
+where do john lennon die?	where	--advmod-->	die
+who plays edward on deception?	who	--nsubj-->	plays
+what was herbert hoover best known for?	what	--dep-->	known
+what games will be on nfl network this year?	what	--det-->	games
+what language do people from greece speak?	what	--det-->	language
+where is the phillies spring training stadium?	where	--advmod-->	is
+what movies does matt dallas play in?	what	--det-->	movies
+where is harley davidson corporate headquarters?	where	--advmod-->	is
+when was john paul ii?	when	--advmod-->	was
+where is belgium germany?	where	--advmod-->	is
+where did starbucks get their logo?	where	--advmod-->	get
+where was the ottoman empire based?	where	--advmod-->	based
+where was bin laden found and killed?	where	--advmod-->	found
+what did pamela courson die from?	what	--dep-->	die
+what did dr jack kevorkian do?	what	--dobj-->	do
+what does bolivia border?	what	--dobj-->	border
+who plays stacey in the stacy's mom video?	who	--nsubj-->	plays
+who does nolan ryan play for?	who	--dep-->	play
+what country does justin bieber come from?	what	--det-->	country
+what is the head judge of the supreme court called?	what	--dep-->	is
+who was frida kahlo influenced by?	who	--dep-->	influenced
+where is taylor swift from?	where	--advmod-->	is
+what type of religion does argentina have?	what	--det-->	type
+when is the last time the giants won the world series?	when	--advmod-->	is
+what is the main language used in china?	what	--dobj-->	used
+where did the battle of waterloo occur?	where	--advmod-->	occur
+what spain brought to the new world?	what	--dobj-->	brought
+who did vladimir lenin marry?	who	--dobj-->	marry
+what year did the baltimore ravens win superbowl?	what	--det-->	year
+what team does cristiano ronaldo play for 2011?	what	--det-->	team
+what book is mark twain famous for?	what	--det-->	book
+what is money called in italy?	what	--dobj-->	called
+where did theodor schwann study?	where	--advmod-->	study
+how old is bruno mars and where is he from?	where	--advmod-->	is
+what countries are members of the security council?	what	--det-->	countries
+where are the nordic countries?	where	--advmod-->	are
+what country sponsored ferdinand magellan?	what	--det-->	country
+what did vera ellen die from?	what	--dep-->	die
+what province is toronto in ( 7 letters )?	what	--det-->	province
+where do most illegal immigrants in the us come from?	where	--advmod-->	come
+who will plaxico burress play for in 2011?	who	--dobj-->	play
+what types of art did andy warhol do?	what	--det-->	types
+what other states border florida?	what	--dep-->	border
+who does mike marry at the end of season 5 desperate housewives?	who	--dobj-->	marry
+what countries were part of the spanish empire?	what	--det-->	countries
+who will coach carolina panthers in 2013?	who	--nsubj-->	coach
+where did louis sachar grow up?	where	--advmod-->	grow
+who plays marshall eriksen?	who	--nsubj-->	plays
+what activities are there to do in greece?	what	--det-->	activities
+what to do for fun in houston?	what	--dep-->	do
+where did otto frank go to college?	where	--advmod-->	go
+what else has jennifer lawrence played in?	what	--dep-->	played
+where is ancient phoenician?	where	--advmod-->	is
+where does the celtics practice?	where	--advmod-->	practice
+what did george washington do as a teenager?	what	--dobj-->	do
+where bin laden got killed?	where	--advmod-->	killed
+where does toronto get its water from?	where	--advmod-->	get
+what language do people from bosnia speak?	what	--det-->	language
+where did hugo chavez go to school?	where	--advmod-->	go
+who does japan import from?	who	--dep-->	import
+who do islamic people pray to?	who	--dep-->	pray
+where was mary todd lincoln from?	where	--advmod-->	was
+where did charles darwin die?	where	--advmod-->	die
+what movies does nick cannon play in?	what	--det-->	movies
+when did the big earthquake hit san francisco?	when	--advmod-->	hit
+who was king george vi married to?	who	--dep-->	married
+where was jesus after he died on the cross?	where	--advmod-->	was
+who voiced darth vader in the original star wars movies?	who	--nsubj-->	voiced
+what high school did maya angelou go to?	what	--det-->	school
+what 5 countries border switzerland?	what	--dep-->	border
+what country did benito mussolini govern?	what	--det-->	country
+where did mubarak get his wealth?	where	--advmod-->	get
+what did miles davis died of?	what	--dep-->	died
+what date did sally pearson won gold?	what	--det-->	date
+when did the detroit pistons last win the championship?	when	--advmod-->	win
+when did the philadelphia flyers win the cup?	when	--advmod-->	win
+what county is st paul nc in?	what	--det-->	county
+where is olympic national park wa?	where	--advmod-->	is
+where did nat turner 1831 rebellion occur?	where	--advmod-->	occur
+who would play luke skywalker?	who	--nsubj-->	play
+who won the presidential election in egypt 2012?	who	--nsubj-->	won
+where turkish people originate?	where	--advmod-->	originate
+what state is barack obama from?	what	--det-->	state
+what years did joe montana win super bowl?	what	--det-->	years
+who should the minnesota vikings draft?	who	--dobj-->	draft
+what percent of americans have college degree?	what	--det-->	percent
+what awards gary paulsen won?	what	--nsubj-->	awards
+what caused the cuban rebellion in 1868?	what	--nsubj-->	caused
+where did alexander graham bell die?	where	--advmod-->	die
+what year did the golden state warriors win their first nba championship?	what	--det-->	year
+what currency should i take to turkey?	what	--det-->	currency
+what type of government did mexico have?	what	--det-->	type
+what countries are in the uk yahoo?	what	--det-->	countries
+what superbowl did the baltimore ravens win?	what	--det-->	superbowl
+what is the language of russia s spoken?	what	--dobj-->	spoken
+who played lauren reed on alias?	who	--nsubj-->	played
+what schools did sir isaac newton go to?	what	--det-->	schools
+what books are written by suzanne collins?	what	--dep-->	written
+what countries does england border?	what	--det-->	countries
+what team did messi play for in 2010?	what	--det-->	team
+what time zone is greensburg indiana?	what	--det-->	zone
+what fma stands for?	what	--nsubj-->	stands
+who plays voldemort?	who	--nsubj-->	plays
+what colleges did harper lee attend?	what	--det-->	colleges
+who founded the kkk?	who	--nsubj-->	founded
+what is the university of georgia known for?	what	--dep-->	known
+what jobs did john adams have before he was president?	what	--det-->	jobs
+what year did super mario bros 2 come out?	what	--det-->	year
+what political party did andrew johnson belong to?	what	--det-->	party
+where did joseph's family live?	where	--advmod-->	live
+where was osama bin laden killed?	where	--advmod-->	killed
+where were greek temples built?	where	--advmod-->	built
+where are people who speak arabic from?	who	--nsubj-->	speak
+what type of art did pablo picasso paint?	what	--det-->	type
+who did ricky martin started his career with?	who	--dep-->	started
+who does don draper gets engaged to?	who	--dobj-->	engaged
+what political system did spain have?	what	--det-->	system
+what led to the split of the republican party in 1912?	what	--nsubj-->	led
+what to see in toronto top 10?	what	--dep-->	see
+when is the rainy season in bangkok thailand?	when	--advmod-->	is
+where did the israel palestine conflict start?	where	--advmod-->	start
+what country does alaska belong to?	what	--det-->	country
+where is kansas city?	where	--advmod-->	is
+who did granville t. woods married?	who	--dobj-->	married
+what type of government did thomas jefferson prefer?	what	--det-->	type
+what language did the sioux indians speak?	what	--det-->	language
+who did brett gardner play for in 2008?	who	--dobj-->	play
+who plays dwight in the office?	who	--nsubj-->	plays
+who plays riley on buffy the vampire slayer?	who	--nsubj-->	plays
+what county is san diego ca?	what	--det-->	county
+where did the yoruba originated from?	where	--advmod-->	originated
+where did anne frank go to school?	where	--advmod-->	go
+what basketball player is married to monica?	what	--det-->	player
+what did hitler use to kill himself?	what	--dep-->	use
+what do people speak in germany?	what	--dobj-->	speak
+when is the last time the denver broncos won the superbowl?	when	--advmod-->	is
+where was caesar when he was stabbed?	when	--advmod-->	stabbed
+what style of music did bessie smith perform?	what	--det-->	style
+what team did jackie robinson?	what	--det-->	team
+what time zone is chicago in right now?	what	--det-->	zone
+what two countries make up the dominican republic?	what	--det-->	countries
+where do the chicago white sox play home games?	where	--advmod-->	play
+what part did jeff conaway play in grease?	what	--det-->	part
+what book did benjamin franklin published?	what	--det-->	book
+what currency to take to barbados?	what	--det-->	currency
+where did they get the name stanley cup?	where	--advmod-->	get
+where did tennessee williams go to college?	where	--advmod-->	go
+where did benjamin franklin work?	where	--advmod-->	work
+what does barbara bush do for work?	what	--dobj-->	do
+what happened to dunkirk during ww2?	what	--nsubj-->	happened
+what was scottie pippen good at?	what	--pobj-->	good
+who played donna on west wing?	who	--nsubj-->	played
+who played meg in season 1 of family guy?	who	--nsubj-->	played
+when was the last time the dallas cowboys won the superbowl?	when	--advmod-->	was
+what did napoleon bonaparte do as emperor?	what	--dobj-->	do
+where do ireland play rugby union?	where	--advmod-->	play
+who killed lee harvey oswald shot?	who	--nsubj-->	killed
+when was the last time knicks won the championship?	when	--advmod-->	won
+when did celtics win the championship?	when	--advmod-->	win
+what countries included in oceania?	what	--det-->	countries
+what country is nicki minaj from?	what	--det-->	country
+who played harry potter dumbledore actor?	who	--nsubj-->	played
+what movies did christopher plummer play in?	what	--det-->	movies
+what movies is omar epps in?	what	--det-->	movies
+what district does nancy pelosi represent?	what	--det-->	district
+where is walton indiana?	where	--advmod-->	is
+where did george herbert walker bush go to college?	where	--advmod-->	go
+what did bruce jenner win gold medal for?	what	--dep-->	win
+where do they speak tibetan?	where	--advmod-->	speak
+what to do in hollywood ca this weekend?	what	--dep-->	do
+who ran against abraham lincoln for president in 1860?	who	--nsubj-->	ran
+where did kim kardashian come from?	where	--advmod-->	come
+what town did justin bieber grew up in?	what	--det-->	town
+what is michael kors best known for?	what	--dep-->	known
+who plays charlie in the santa clause movies?	who	--nsubj-->	plays
+where does the expression excuse my french come from?	where	--advmod-->	excuse
+what highschool did r. kelly attend?	what	--det-->	highschool
+what happened at benghazi?	what	--nsubj-->	happened
+what country is nike based in?	what	--det-->	country
+what kind of money do i bring to mexico?	what	--det-->	kind
+who did steve spurrier play pro football for?	who	--dep-->	play
+where do the blackhawks play?	where	--advmod-->	play
+who plays john connor?	who	--nsubj-->	plays
+what is the main language spoken in mexico?	what	--dobj-->	spoken
+what are italians classified as?	what	--dep-->	classified
+what has angelina jolie accomplished?	what	--dobj-->	accomplished
+who played captain kirk in star trek movie?	who	--nsubj-->	played
+who played dana scully in x files?	who	--nsubj-->	played
+what is the dominant language spoken in jamaica?	what	--dobj-->	spoken
+where does sherrod brown live?	where	--advmod-->	live
+what kind of language does colombia speak?	what	--det-->	kind
+what currency does england use now?	what	--det-->	currency
+what kind of government is mali?	what	--det-->	kind
+who did cristiano ronaldo play for in 2010?	who	--dobj-->	play
+who does amy stiller play in dodgeball?	who	--dobj-->	play
+who were king henry vii children?	who	--dep-->	vii
+who plays mary jane in the spiderman movies?	who	--nsubj-->	plays
+who does mila kunis play on family guy?	who	--dobj-->	play
+when did the san francisco earthquake occur?	when	--advmod-->	occur
+who played damien in the omen 2006?	who	--nsubj-->	played
+what athlete am i olympics?	what	--det-->	athlete
+who played denver in four christmases?	who	--nsubj-->	played
+what to do with kids in essex?	what	--dep-->	do
+who did the cleveland cavaliers draft?	who	--dobj-->	draft
+what concentration camp did anne frank died in?	what	--det-->	camp
+when did gordon brown resigns?	when	--advmod-->	resigns
+what language does east timor speak?	what	--det-->	language
+where does greek language come from?	where	--advmod-->	come
+what is the name of the currency used in italy?	what	--dobj-->	used
+where is audrey hepburn from?	where	--advmod-->	is
+where did the australian floods take place?	where	--advmod-->	take
+who does darth vaders voice?	who	--dobj-->	voice
+when is nrl grand final day?	when	--advmod-->	is
+what school did douglas macarthur go to?	what	--det-->	school
+what famous people are from barbados?	what	--det-->	people
+what is the name of the currency used in china?	what	--dobj-->	used
+what currency to take to turkey 2010?	what	--det-->	currency
+when was the most recent earthquake in haiti?	when	--advmod-->	was
+who is lamar odom playing for this year?	who	--dobj-->	playing
+where were the great pyramids of giza built?	where	--advmod-->	built
+who designed national flag of italy?	who	--nsubj-->	designed
+what language do the russian speak?	what	--det-->	language
+what language do australia people speak?	what	--det-->	language
+what country was king tut's tomb found?	what	--det-->	country
+where did abraham and his descendants live?	where	--advmod-->	live
+where did george washington carver go to collage?	where	--advmod-->	go
+where president obama was born?	where	--advmod-->	born
+what sports do people play in poland?	what	--det-->	sports
+who was demi lovato dating?	who	--dobj-->	dating
+where did tony gonzalez play college basketball?	where	--advmod-->	play
+what films has scarlett johansson been in?	what	--det-->	films
+who originally voiced meg on family guy?	who	--nsubj-->	voiced
+who played amy squirrel in bad teacher?	who	--nsubj-->	played
+where are boeing headquarters?	where	--advmod-->	are
+what type of religions are in the united states?	what	--det-->	type
+who did viggo mortensen play in lord of the rings?	who	--dobj-->	play
+what lands did henry hudson discover?	what	--det-->	lands
+who was isaac newton and what did he do?	what	--dobj-->	do
+who did william shakespeare marry?	who	--dobj-->	marry
+what movies queen latifah is in?	what	--det-->	movies
+where did michelle obama graduated from?	where	--advmod-->	graduated
+what kind of music did franz liszt compose?	what	--det-->	kind
+what country does david luiz play for?	what	--det-->	country
+what document did thomas jefferson wrote?	what	--det-->	document
+where is victoria british columbia?	where	--advmod-->	is
+how many mary mary sisters?	how many	--advmod-->	many
+what do we call the currency of france?	what	--dep-->	call
+where do scottish people originate from?	where	--advmod-->	originate
+what team does david beckham play for in 2012?	what	--det-->	team
+what movies did nick cannon star in?	what	--det-->	movies
+what radio station is npr on in nyc?	what	--det-->	station
+who did tom landry play for?	who	--dep-->	play
+where was john jay born?	where	--advmod-->	born
+where is mount fuji located?	where	--advmod-->	located
+when is venus brightest?	when	--advmod-->	is
+where was toussaint l'ouverture born?	where	--advmod-->	born
+what countries makes up the uk?	what	--det-->	countries
+where do they speak german?	where	--advmod-->	speak
+when did mark mcgwire retired?	when	--advmod-->	retired
+what was the currency used in france before the euro?	what	--dobj-->	used
+what type of government does russia have 2010?	what	--det-->	type
+what did elvis presley died from?	what	--dep-->	died
+who played samantha stephens in bewitched?	who	--nsubj-->	played
+what area of science did sir isaac newton study?	what	--det-->	area
+what county is san diego in?	what	--det-->	county
+which country in north america is divided into provinces?	which	--det-->	country
+where is the scottish house in skyfall?	where	--advmod-->	is
+when does daylight saving end in new zealand 2012?	when	--advmod-->	end
+when did kelly slater go pro?	when	--advmod-->	go
+what did coretta scott king died from?	what	--dep-->	died
+what does wh smith stand for?	what	--dep-->	stand
+what type of drugs did whitney houston?	what	--det-->	type
+what religion did adolf hitler follow?	what	--det-->	religion
+where is the illinois river on a map?	where	--advmod-->	is
+where honduras in the world?	where	--advmod-->	honduras
+who do pagans worship?	who	--dobj-->	worship
+where do i vote milwaukee wisconsin?	where	--advmod-->	vote
+who owns mazda canada?	who	--nsubj-->	owns
+who does ronaldinho play for now 2011?	who	--dobj-->	play
+what galileo galilei was famous for?	what	--dep-->	famous
+where did romney graduated college?	where	--advmod-->	graduated
+who did johnny depp play in corpse bride?	who	--dobj-->	play
+what college did se hinton go?	what	--det-->	college
+when was taylor swift fearless tour?	when	--advmod-->	was
+where did charles darwin and his wife live?	where	--advmod-->	live
+what region did the incas live in?	what	--det-->	region
+who did australia fight in the first world war?	who	--dobj-->	fight
+what countries does canada have trade agreements with?	what	--det-->	countries
+which of the following was a contribution thomas hunt morgan made to genetics?	which	--dobj-->	made
+what rainforest is in south america?	what	--det-->	rainforest
+what type of art does claude monet do?	what	--det-->	type
+what country did hitler invaded to start ww2?	what	--det-->	country
+when did we start war with iraq?	when	--advmod-->	start
+who did taft defeated in 1908?	who	--dobj-->	defeated
+what guitar did kurt cobain?	what	--det-->	guitar
+who did jennifer lawrence play in x men?	who	--dobj-->	play
+who did darth vaders voice?	who	--dobj-->	voice
+what type of equipment did dorothea lange use?	what	--det-->	type
+where is walton county ga?	where	--advmod-->	is
+what cancer did jackie kennedy die of?	what	--det-->	cancer
+what does lauren conrad major in?	what	--dep-->	conrad
+what time zone is pennsylvania in right now?	what	--det-->	zone
+where did mario lopez go to school?	where	--advmod-->	go
+where is tupac from originally?	where	--advmod-->	tupac
+what role did george lucas play in star wars?	what	--det-->	role
+what sarah dessen books are movies?	what	--det-->	dessen
+what did dmitri mendeleev discover in 1869?	what	--dobj-->	discover
+where was farrah fawcett buried?	where	--advmod-->	buried
+what inspired steinbeck?	what	--nsubj-->	inspired
+what kind of government does cuba have today?	what	--det-->	kind
+where are english speakers distributed?	where	--advmod-->	distributed
+what language do people speak in the bahamas?	what	--det-->	language
+where did george michael go to school?	where	--advmod-->	go
+what team did jeremy lin go to?	what	--det-->	team
+what club does cristiano ronaldo play for in 2010?	what	--det-->	club
+what time zone is in the bahamas?	what	--det-->	zone
+where did african american slaves come from?	where	--advmod-->	come
+what language do people speak in brazil?	what	--det-->	language
+who influenced samuel taylor coleridge?	who	--nsubj-->	influenced
+what does kim kardashian work as?	what	--dep-->	work
+where did the mississippi river end?	where	--advmod-->	end
+who played carlton lassiter on psych?	who	--nsubj-->	played
+what was john deere famous for?	what	--pobj-->	famous
+where did the anasazi indians live?	where	--advmod-->	live
+who plays harley quinn?	who	--nsubj-->	plays
+what percent of people are overweight in the uk?	what	--det-->	percent
+when does ziva start on ncis?	when	--advmod-->	start
+where are you from in malayalam?	where	--advmod-->	are
+what did mark zuckerberg study?	what	--dobj-->	study
+which country was michael jackson born?	which	--det-->	country
+what countries require travel visas for us citizens?	what	--det-->	countries
+what country was stalin in charge of?	what	--det-->	country
+what do the symbols on the nevada flag mean?	what	--dobj-->	mean
+what nationality is rihanna?	what	--det-->	nationality
+what has shannen doherty played in?	what	--dep-->	played
+what college did joakim noah?	what	--det-->	college
+when was the last time the red sox won 100 games?	when	--advmod-->	was
+who plays billy elliot?	who	--nsubj-->	plays
+what team will michael vick play for in 2011?	what	--det-->	team
+what kourtney kardashian boyfriends name?	what	--dobj-->	name
+what form of government does australia use?	what	--det-->	form
+what team did howie long?	what	--det-->	team
+where did the greek alphabet come from?	where	--advmod-->	come
+what timezone is elizabethtown kentucky?	what	--det-->	timezone
+what to see in christchurch new zealand?	what	--dep-->	see
+where is chris paul from?	where	--advmod-->	is
+what year was albert pujols rookie year?	what	--det-->	year
+what business did andrew carnegie dominate?	what	--det-->	business
+where to visit in paris with children?	where	--advmod-->	visit
+who did shaq first play for?	who	--dep-->	play
+what football team is michael vick on?	what	--det-->	team
+where does the columbia river start?	where	--advmod-->	start
+what banjo does scott avett play?	what	--det-->	banjo
+who was sir walter raleigh and what did he do?	what	--dobj-->	do
+what countries are in the euro dollar?	what	--det-->	countries
+what currency can you use in barbados?	what	--det-->	currency
+where is nineveh city?	where	--advmod-->	is
+where is the national ffa foundation located today?	where	--advmod-->	located
+which countries speak germanic languages?	which	--det-->	countries
+who plays eowyn in lord of the rings?	who	--nsubj-->	plays
+what to do in cancun during spring break?	what	--dep-->	do
+where is augusta masters 2012?	where	--advmod-->	is
+what type of cancer did eva peron die from?	what	--det-->	type
+who did terrell owens play for in 2010?	who	--dobj-->	play
+where is denmark south carolina?	where	--advmod-->	is
+when will the world end mayans?	when	--advmod-->	end
+what books did ernest hemingway write?	what	--det-->	books
+what year did baltimore ravens win super bowl?	what	--det-->	year
+where did the battle of passchendaele happen?	where	--advmod-->	happen
+what part of the country is ohio considered?	what	--det-->	part
+what team is cristiano ronaldo play for?	what	--det-->	team
+what standard time is michigan?	what	--det-->	time
+what did romo do?	what	--dobj-->	do
+what currency can you use in jamaica?	what	--det-->	currency
+where did jay moriarty die?	where	--advmod-->	die
+where was the boston tea party 1773?	where	--advmod-->	was
+what drugs lindsay lohan abuse?	what	--dep-->	lohan
+when did carolina panthers go to superbowl?	when	--advmod-->	go
+when did the burma cyclone happen?	when	--advmod-->	happen
+who won the governor election in texas?	who	--nsubj-->	won
+what does helen flanagan do?	what	--dobj-->	do
+when are the summer and winter olympics held?	when	--advmod-->	held
+where is tennessee river?	where	--advmod-->	is
+what guitar does corey taylor play?	what	--det-->	guitar
+where did kate gosselin grew up?	where	--advmod-->	grew
+under what political system does the united states government operate?	what	--det-->	system
+which countries in africa were slaves taken from?	which	--det-->	countries
+what to do in paris in 1 day?	what	--dep-->	do
+what city is mt lassen in?	what	--det-->	city
+where did jennifer arnold go to medical school?	where	--advmod-->	go
+what country do maltese come from?	what	--det-->	country
+what type of music did mozart composed?	what	--det-->	type
+what stones albums did mick taylor play on?	what	--det-->	stones
+how many kids were there in the kennedy family?	how many	--advmod-->	many
+which barcelona airport is closest to the port?	which	--det-->	airport
+where has the english language evolved from?	where	--advmod-->	evolved
+what country did hitler invade that started ww2?	what	--det-->	country
+what does matt damon play in?	what	--dobj-->	play
+what was scottie pippen known for?	what	--dep-->	known
+what continent does canada belong to?	what	--det-->	continent
+what does george wilson do for a living?	what	--dobj-->	do
+where did kobe earthquake happen?	where	--advmod-->	happen
+what city does fulham play in?	what	--det-->	city
+where is the euphrates and tigris river located on a map?	where	--advmod-->	located
+what other movies is josh hutcherson in?	what	--det-->	movies
+what awards did marilyn monroe won?	what	--det-->	awards
+what kind of government does iran have after 1979?	what	--det-->	kind
+where did harper lee attend high school?	where	--advmod-->	attend
+what college did jrr tolkien go to?	what	--det-->	college
+what art did wassily kandinsky do?	what	--det-->	art
+who won the league cup in 2002?	who	--nsubj-->	won
+what was antoni gaudi inspired by?	what	--dep-->	inspired
+in what country do people speak danish?	what	--det-->	country
+where should a family stay in paris?	where	--advmod-->	stay
+what led to stalin rise in power?	what	--nsubj-->	led
+what the largest city in spain?	what	--prep_in-->	spain
+what the largest city in spain?	what	--dep-->	city
+what type of government was utilized in ancient egypt?	what	--det-->	type
+who has pudge rodriguez played for?	who	--dep-->	played
+what is the milwaukee brewers stadium called?	what	--dep-->	is
+where did the gallipoli war take place?	where	--advmod-->	take
+what other movies has tom hardy played in?	what	--det-->	movies
+what to visit in atlanta?	what	--dep-->	visit
+what college did john nash go to?	what	--det-->	college
+what language do maltese speak?	what	--det-->	language
+what did thomas edison do for the world?	what	--dobj-->	do
+where is shakira from?	where	--advmod-->	is
+what did hayes do?	what	--dobj-->	do
+who played bilbo in the fellowship of the ring?	who	--nsubj-->	played
+when does the vietnam war end?	when	--advmod-->	end
+where does the tennessee river go?	where	--advmod-->	go
+who did tom hanks play in apollo 13?	who	--dobj-->	play
+what language do they in ghana?	what	--det-->	language
+what all did ben franklin invent?	what	--det-->	all
+what city in florida has the lowest crime rate?	what	--det-->	city
+what team does jeremy lin play for 2013?	what	--det-->	team
+what kind of language does france speak?	what	--det-->	kind
+what degree did martin luther king earn?	what	--det-->	degree
+what two states is st louis in?	what	--det-->	states
+when were south australian women given the right to vote?	when	--advmod-->	given
+what does sarabi?	what	--nsubj-->	does
+what team did peyton manning's dad play for?	what	--det-->	team
+what school did john henry thompson go to?	what	--det-->	school
+what did jesse owens won?	what	--dobj-->	won
+what is the name of the currency used in peru?	what	--dobj-->	used
+who is on the board of facebook?	who	--nsubj-->	is
+what school did robert f kennedy go to?	what	--det-->	school
+what drug killed marilyn monroe?	what	--det-->	drug
+where is the fukushima daiichi nuclear power station?	where	--advmod-->	is
+what did nicolas cage name his son?	what	--dep-->	name
+what is berkshire hathaway invested in?	what	--dep-->	invested
+what currency should take to mexico?	what	--det-->	currency
+who was jessica simpson married too?	who	--dobj-->	married
+what do they speak in scotland?	what	--dobj-->	speak
+what did john dalton study?	what	--dobj-->	study
+what songs do zac brown band sing?	what	--det-->	songs
+where is glastonbury england?	where	--advmod-->	is
+who formed the american federation of labor?	who	--nsubj-->	formed
+what to visit in denver?	what	--dep-->	visit
+where did thomas hobbes live?	where	--advmod-->	live
+what do unitarian universalist believe?	what	--dobj-->	believe
+what did john hancock do for the american revolution?	what	--dobj-->	do
+where was john f kennedy when he got shot?	when	--advmod-->	got
+what type of government does italy have 2011?	what	--det-->	type
+which state did anne hutchinson found?	which	--det-->	state
+what province is montreal canada located?	what	--det-->	province
+where does bronx begin?	where	--advmod-->	begin
+who does kellan lutz play in prom night?	who	--dobj-->	play
+what did franz liszt do to earn a living?	what	--dep-->	do
+what was nikola tesla known for?	what	--dep-->	known
+what other countries border argentina?	what	--dep-->	border
+what language does people in iceland speak?	what	--det-->	language
+who has coached the carolina panthers?	who	--nsubj-->	coached
+what time zone is toronto gmt?	what	--det-->	zone
+what country did toussaint l'ouverture help free?	what	--det-->	country
+what jobs did robert burns have?	what	--det-->	jobs
+who won utah attorney general?	who	--nsubj-->	won
+what the language spoken in indonesia?	what	--det-->	language
+what is warren g harding most known for?	what	--pobj-->	known
+who coaches the carolina panthers?	who	--nsubj-->	coaches
+what other countries does south africa share borders with?	what	--det-->	countries
+who played darth vader at the end of return of the jedi?	who	--nsubj-->	played
+when was herbert hoover born and died?	when	--advmod-->	born
+what movies did joan crawford play in?	what	--det-->	movies
+what products does the united states export?	what	--det-->	products
+what did neil armstrong say when he landed on the moon?	when	--advmod-->	landed
+what did james polk do before he was president?	what	--dobj-->	do
+which country invented nike?	which	--det-->	country
+what there to do in salt lake city utah?	what	--dobj-->	do
+what is the state of montana known for?	what	--dep-->	known
+who will be the red sox next coach?	who	--nsubj-->	coach
+what are the major languages spoken in the united kingdom?	what	--dobj-->	spoken
+what did st. nicholas do in his life?	what	--dobj-->	do
+what percentage of cases does the us supreme court take?	what	--det-->	percentage
+when was christopher columbus first expedition?	when	--advmod-->	was
+what to do in rome october 2012?	what	--dep-->	do
+what happened to pope john paul ii?	what	--nsubj-->	happened
+what was franklin pierce famous for?	what	--pobj-->	famous
+when was the last time the boston bruins went to the stanley cup?	when	--advmod-->	was
+who is meredith gray married to in real life?	who	--dep-->	married
+what inspired michelangelo buonarroti?	what	--nsubj-->	inspired
+what does monsanto own?	what	--dobj-->	own
+who did woody harrelson play on cheers?	who	--dobj-->	play
+what language do they speak in sweden yahoo?	what	--det-->	language
+what language did they speak in ghana?	what	--det-->	language
+what form of government do we have in the philippines?	what	--det-->	form
+what colleges did mitt romney attend?	what	--det-->	colleges
+where is ibrahim afellay from?	where	--advmod-->	is
+who was the secretary of state when andrew jackson was president?	when	--advmod-->	president
+who does ron stoppable's voice?	who	--nsubj-->	does
+what currency is accepted in new zealand?	what	--det-->	currency
+what do they think happened to natalee holloway?	what	--dobj-->	think
+when did pakistan get its independence?	when	--advmod-->	get
+what places are in the west midlands?	what	--det-->	places
+what to do with kids in asheville nc?	what	--dep-->	do
+who is in the american league in baseball?	who	--nsubj-->	is
+who did kurt warner play 4?	who	--dep-->	play
+who financed sir francis drake?	who	--nsubj-->	financed
+what did the ancient mayans predict?	what	--dobj-->	predict
+where is spanish spoken most?	where	--advmod-->	spoken
+who does myles kennedy sing for?	who	--dep-->	sing
+where all did picasso live?	where	--advmod-->	live
+what currency shall i take to croatia?	what	--det-->	currency
+what team is raul ibanez on?	what	--det-->	team
+what tv series did mark harmon star in?	what	--det-->	series
+what year did jimmy the rev sullivan die?	what	--det-->	year
+who plays anakin skywalker in star wars 1?	who	--nsubj-->	plays
+where does michelle pfeiffer live now?	where	--advmod-->	live
+what was laura ingalls wilder famous for?	what	--pobj-->	famous
+which country did nike originate from?	which	--det-->	country
+where is dwight howard now?	where	--advmod-->	is
+who is nick lachey married to?	who	--dep-->	married
+where did madonna grew up?	where	--advmod-->	grew
+what capital city of brazil?	what	--det-->	city
+what college did john stockton go to?	what	--det-->	college
+what kind of currency does mexico use?	what	--det-->	kind
+who owns chrysler corporation 2011?	who	--nsubj-->	owns
+who has ray allen dated?	who	--dobj-->	dated
+who is running for vice president with barack obama 2012?	who	--nsubj-->	running
+what language do people from the uk speak?	what	--det-->	language
+what to do with my kids in toronto?	what	--dep-->	do
+what kind of government is south korea?	what	--det-->	kind
+what channel saints game?	what	--nsubj-->	channel
+who did ben franklin marry?	who	--dobj-->	marry
+what sri lanka capital?	what	--nsubj-->	sri
+where was the assyrian homeland?	where	--advmod-->	was
+what kind of government does poland have?	what	--det-->	kind
+what famous people came from delaware?	what	--det-->	people
+when did romney become governor?	when	--advmod-->	governor
+what currency does cyprus use?	what	--det-->	currency
+who was with president lincoln when he was assassinated?	when	--advmod-->	assassinated
+what type of guitar does johnny depp play?	what	--det-->	type
+where to stay in singapore blog?	where	--advmod-->	stay
+what episode of how i met your mother is carrie underwood on?	how i	--advmod-->	met
+who did cher have a son with?	who	--dep-->	have
+what city is the university of oregon state in?	what	--det-->	city
+who played carmen cortez in spy kids?	who	--nsubj-->	played
+what prompted shakespeare to write poetry?	what	--nsubj-->	prompted
+what is the currency in turkey called?	what	--dep-->	is
+what school did mark zuckerberg attend?	what	--det-->	school
+where does kate middleton live 2012?	where	--advmod-->	live
+what type of art does marc chagall do?	what	--det-->	type
+what character did billy d williams play in star wars?	what	--det-->	character
+what language is spoken in argentina?	what	--det-->	language
+who won the american league east in 2012?	who	--nsubj-->	won
+what did isaac newton explain?	what	--dobj-->	explain
+what school did wilfred owen go to?	what	--det-->	school
+who is kevin jonas married to?	who	--dep-->	married
+where does airtran airways fly?	where	--advmod-->	fly
+where does the city of paris get its name?	where	--advmod-->	get
+what to see in montreal downtown?	what	--dep-->	see
+who did sandra bullock marry?	who	--dobj-->	marry
+where is olympic national park located?	where	--advmod-->	located
+where is the un based?	where	--advmod-->	based
+what city and state is yale located in?	what	--det-->	city
+where did thomas paine die?	where	--advmod-->	die
+where was barack hussein obama sr born?	where	--advmod-->	born
+what do they do in cuba for fun?	what	--dobj-->	do
+where is the home stadium of the new england patriots?	where	--advmod-->	is
+when did bill clinton go to college?	when	--advmod-->	go
+who helped eminem started his career?	who	--nsubj-->	helped
+what to do with kids in summer in dubai?	what	--dep-->	do
+what victory was andrew jackson most famous for?	what	--det-->	victory
+what to do downtown sacramento?	what	--dep-->	do
+what makes the film so popular back in london?	what	--nsubj-->	makes
+where did sanjay gupta go to school?	where	--advmod-->	go
+what team did brandon roy go to?	what	--det-->	team
+what countries are involved in the nafta?	what	--det-->	countries
+what continent is cayman islands located?	what	--det-->	continent
+what language speak in brazil?	what	--det-->	language
+what disease did anne frank die of?	what	--det-->	disease
+who does kroy biermann play football for?	who	--dep-->	play
+when is the last time the pittsburgh steelers won a superbowl?	when	--advmod-->	is
+who invented islamic religion?	who	--nsubj-->	invented
+who were we fighting in the gulf war?	who	--dobj-->	fighting
+how many languages do they speak in switzerland?	how many	--advmod-->	many
+what political party does barack obama represent?	what	--det-->	party
+what movies does logan lerman play in?	what	--det-->	movies
+where did emperor constantine die?	where	--advmod-->	die
+who plays ponyboy in that was then this is now?	who	--nsubj-->	plays
+where is mali located?	where	--advmod-->	located
+where to go in ibiza for families?	where	--advmod-->	go
+what planet did luke skywalker came from?	what	--det-->	planet
+where was the first microsoft headquarters located?	where	--advmod-->	located
+where did john steinbeck go to college?	where	--advmod-->	go
+what did niels bohr discover about the atomic structure?	what	--dobj-->	discover
+what books did louis sachar wrote?	what	--det-->	books
+who is ryan reynolds married to 2012?	who	--dobj-->	married
+what type of music did antonio vivaldi play?	what	--det-->	type
+what school does james franco go to?	what	--det-->	school
+what is samuel langhorne clemens well known for?	what	--dep-->	known
+who is jake gyllenhaal married to?	who	--dep-->	married
+where did rick santorum attend high school?	where	--advmod-->	attend
+where did antoine lavoisier die?	where	--advmod-->	die
+what season did lana lang leave smallville?	what	--det-->	season
+what year did seattle seahawks go to the super bowl?	what	--det-->	year
+who did richard nixon run against?	who	--dep-->	run
+where does sami yusuf live?	where	--advmod-->	live
+what is the parliament of nepal called?	what	--dep-->	is
+when's the last time the mets won the world series?	when	--advmod-->	's
+where do florida panthers play?	where	--advmod-->	play
+who is john cena married to?	who	--dep-->	married
+what to do san jose ca?	what	--dep-->	do
+who founded new york university?	who	--nsubj-->	founded
+who created arthur?	who	--nsubj-->	created
+what countries constitute the eu?	what	--det-->	countries
+what did bobby darin die of?	what	--dep-->	die
+where does houston dynamo play?	where	--advmod-->	play
+what kind of guitar john mayer?	what	--det-->	kind
+what cancer did patrick swayze?	what	--det-->	cancer
+what university did obama graduated from?	what	--det-->	university
+what jamaican money called?	what	--det-->	money
+where is the arizona cardinals stadium located?	where	--advmod-->	located
+what should i do today in san francisco?	what	--dobj-->	do
+who influenced picasso art?	who	--nsubj-->	influenced
+what products and\/or services does google offer customers?	what	--det-->	products
+when does the wsop main event start?	when	--advmod-->	start
+who did cliff lee play for last year?	who	--dobj-->	play
+who played elaine the pain?	who	--nsubj-->	played
+who killed martin luther king jr video?	who	--nsubj-->	killed
+what type of democracy is the united states?	what	--det-->	type
+when was the last time the toronto maple leafs made the playoffs?	when	--advmod-->	was
+what time in china hong kong?	what	--det-->	time
+what all movies has taylor lautner been in?	what	--det-->	movies
+what disease did bernie mac die of?	what	--det-->	disease
+who plays spike spiegel?	who	--nsubj-->	plays
+who does chris hemsworth have a baby with?	who	--dep-->	have
+where is the mts iceplex in winnipeg?	where	--advmod-->	is
+where is the thames river source?	where	--advmod-->	is
+where did buster posey go to high school?	where	--advmod-->	go
+what new movies is robert pattinson in?	what	--det-->	movies
+what language do they use in pakistan?	what	--det-->	language
+what kind of products does nike sell?	what	--det-->	kind
+who did lbj marry?	who	--dobj-->	marry
+where did kim jong il die?	where	--advmod-->	die
+what honor did agatha christie receive in 1971?	what	--det-->	honor
+who ran against bill clinton in the presidential election?	who	--nsubj-->	ran
+where are kohler sinks manufactured?	where	--advmod-->	manufactured
+what countries speak english natively?	what	--det-->	countries
+what did thomas hobbes do?	what	--dobj-->	do
+what counties in florida have the lowest property taxes?	what	--det-->	counties
+who won fedex cup 2012?	who	--nsubj-->	won
+what language is mainly spoken in egypt?	what	--det-->	language
+who played alf on tv show?	who	--nsubj-->	played
+what type of art did raphael sanzio create?	what	--det-->	type
+what language do they speak in malta?	what	--det-->	language
+what religion was king louis xiv?	what	--det-->	religion
+what football team does mike wright play for?	what	--det-->	team
+what did shannon hoon die from?	what	--dep-->	die
+what did nicholas copernicus discover?	what	--dobj-->	discover
+what teams has manny ramirez played for?	what	--det-->	teams
+where do the appalachian mountains run?	where	--advmod-->	run
+when was president wilson in office?	when	--advmod-->	was
+what political party is jerry brown?	what	--det-->	party
+what ocean is around hawaii?	what	--det-->	ocean
+what is the most common language spoken in argentina?	what	--dobj-->	spoken
+what language tunisia?	what	--det-->	language
+who wrote st trinians?	who	--nsubj-->	wrote
+what are malaysian coins called?	what	--dobj-->	called
+what type government does mexico have?	what	--det-->	government
+what currency does dominican republic take?	what	--det-->	currency
+what inspired michael jackson to become a singer?	what	--nsubj-->	inspired
+what to visit in london city?	what	--dep-->	visit
+what genre of art is the mona lisa?	what	--det-->	genre
+who does peter griffin voice?	who	--dobj-->	voice
+when did tony romo got drafted?	when	--advmod-->	got
+what does anne frank died of?	what	--dep-->	died
+what language is most commonly spoken in belgium?	what	--det-->	language
+where did frank baum die?	where	--advmod-->	die
+where is tunis on a map?	where	--advmod-->	is
+who is nicolas cage married too?	who	--dobj-->	married
+who does the voice for chucky in child's play?	who	--dobj-->	play
+what did mary wollstonecraft fight for?	what	--dep-->	fight
+what year did the phillies begin?	what	--det-->	year
+what country is dyson made?	what	--det-->	country
+what language does iceland speak?	what	--det-->	language
+what did gloria steinem founded?	what	--dobj-->	founded
+where to eat crawfish in beaumont?	where	--advmod-->	eat
+what language they speak in scotland?	what	--det-->	language
+what boarding school did mark zuckerberg go to?	what	--det-->	school
+where are ike and tina turner's children?	where	--advmod-->	are
+when did shaq come into the nba?	when	--advmod-->	come
+where do they speak turkish?	where	--advmod-->	speak
+who will the cavaliers draft 2012?	who	--dep-->	draft
+where is english spoken around the world?	where	--advmod-->	spoken
+what music did louis armstrong play?	what	--det-->	music
+what form of currency does germany use?	what	--det-->	form
+where is the latin language from?	where	--advmod-->	is
+what did andy irons die from?	what	--dep-->	die
+where is auburn university located?	where	--advmod-->	located
+where did leif ericson grow up?	where	--advmod-->	grow
+what language do the maasai speak?	what	--det-->	language
+what political party was hitler in?	what	--det-->	party
+where do the appalachian mountains run through?	where	--advmod-->	run
+what money does spain use?	what	--det-->	money
+where was terry waite born?	where	--advmod-->	born
+what country did the battle of san juan hill take place?	what	--det-->	country
+what kind of government does the united states have currently?	what	--det-->	kind
+when was the last time the orioles won the world series?	when	--advmod-->	was
+what did shakespeare learn in grammar school?	what	--dobj-->	learn
+who did ben stiller date?	who	--dep-->	stiller
+what influenced william shakespeare to start writing?	what	--nsubj-->	influenced
+where did benjamin franklin went to school?	where	--advmod-->	went
+what movies has spike lee made?	what	--det-->	movies
+what did bernie mac died of?	what	--dep-->	died
+what countries does the arctic circle run through?	what	--det-->	countries
+where is electrolux based?	where	--advmod-->	based
+where do italy people live?	where	--advmod-->	live
+where did russians originate?	where	--advmod-->	originate
+what was shakespeare's wife called?	what	--dobj-->	called
+when did truman become president?	when	--advmod-->	president
+what did ferdinand magellan do?	what	--dobj-->	do
+when was abraham lincoln declared president?	when	--advmod-->	declared
+where do burmese cats originate from?	where	--advmod-->	originate
+who played kirk?	who	--nsubj-->	played
+where is mt st helens located?	where	--advmod-->	located
+what county is st paul minnesota in?	what	--det-->	county
+who does david beckham play for?	who	--dep-->	play
+who won the battle of gettysburg?	who	--nsubj-->	won
+where was franz ferdinand from?	where	--advmod-->	was
+what was benedict arnold most famous for?	what	--pobj-->	famous
+who plays lex luthor on smallville?	who	--nsubj-->	plays
+what does bentley mean?	what	--dobj-->	mean
+when was the last time the la kings won a playoff series?	when	--advmod-->	was
+where did spencer pratt go to school?	where	--advmod-->	go
+what disease did abraham lincoln had?	what	--det-->	disease
+where did cs lewis wrote?	where	--advmod-->	wrote
+what did thomas jefferson do before he became president?	what	--dobj-->	do
+what language do the cheyenne speak?	what	--det-->	language
+who was married to jane wyman?	who	--nsubjpass-->	married
+who played mickey in the rocky movies?	who	--nsubj-->	played
+what language does peru speak?	what	--det-->	language
+where is english spoken in the world map?	where	--advmod-->	spoken
+when did arsenal won the league?	when	--advmod-->	won
+what timezone is phoenix az in right now?	what	--det-->	timezone
+where is south portland?	where	--advmod-->	is
+what countries speak french as a first language?	what	--det-->	countries
+who was ptolemy and what did he do?	what	--dobj-->	do
+where does the parana river flow?	where	--advmod-->	flow
+where did theodor schwann get his education?	where	--advmod-->	get
+who or what influenced frank lloyd wright?	what	--nsubj-->	influenced
+what year did houston rockets win their first championship?	what	--det-->	year
+where do most of the people live in russia?	where	--advmod-->	live
+where is holy roman empire located?	where	--advmod-->	located
+what movies has liam hemsworth played in?	what	--det-->	movies
+who plays nicholas newman on the young and the restless?	who	--nsubj-->	plays
+where is the headquarters of bank of america?	where	--advmod-->	is
+what type of government japan have?	what	--det-->	type
+what team does josh hamilton play for?	what	--det-->	team
+when was the leafs last in the playoffs?	when	--advmod-->	was
+where is burundi country?	where	--advmod-->	is
+when does the world end according to the mayans time?	when	--advmod-->	end
+through which countries of the sahel does the niger river flow?	which	--det-->	countries
+what did werner heisenberg discover?	what	--dobj-->	discover
+what city does paul ryan live in?	what	--det-->	city
+what city is acadia university in?	what	--det-->	city
+what did f. scott fitzgerald do?	what	--dobj-->	do
+what countries does tomtom western europe include?	what	--det-->	countries
+where did the second battle of ypres occur?	where	--advmod-->	occur
+what languages do people speak in spain?	what	--det-->	languages
+what did michael crabtree do?	what	--dobj-->	do
+where do they speak afrikaans?	where	--advmod-->	speak
+what 3 states border florida?	what	--dep-->	border
+who plays ziva david on ncis?	who	--nsubj-->	plays
+who ruled after king henry viii died?	who	--nsubj-->	ruled
+where is daud ibrahim?	where	--advmod-->	is
+what region is turkey considered?	what	--det-->	region
+what language do russians speak?	what	--det-->	language
+where was martin luther king jr buried?	where	--advmod-->	buried
+where is the city wales?	where	--advmod-->	is
+what country does rafael nadal play for?	what	--det-->	country
+who was judi dench married to?	who	--dep-->	married
+how many languages do they speak in spain?	how many	--advmod-->	many
+where are the sahara desert located?	where	--advmod-->	located
+what is rihanna mum called?	what	--dep-->	is
+what county is san francisco?	what	--det-->	county
+when did president theodore roosevelt take office?	when	--advmod-->	take
+who does michael oher play for in 2010?	who	--dobj-->	play
+who or what influenced albert einstein?	what	--nsubj-->	influenced
+where does egypt export to?	where	--advmod-->	export
+who did messi have a baby with?	who	--dep-->	have
+where is the seat of the african union?	where	--advmod-->	is
+what ship did darwin sail around the world?	what	--det-->	ship
+where did christopher columbus began his journey?	where	--advmod-->	began
+what artistic style did henri rousseau work in?	what	--det-->	style
+what is john edwards indicted for?	what	--dep-->	indicted
+where was huey newton killed?	where	--advmod-->	killed
+when was the printing press invented by gutenberg?	when	--advmod-->	invented
+where is midlothian scotland?	where	--advmod-->	is
+where does marta play soccer?	where	--advmod-->	play
+where is mitt romney's family from?	where	--advmod-->	is
+what are john terry's children called?	what	--dobj-->	called
+what city was michael jackson born in?	what	--det-->	city
+who fought in the battle of vicksburg?	who	--nsubj-->	fought
+which city is the oldest in pakistan?	which	--det-->	city
+what kind of writing is nikolai gogol famous for?	what	--det-->	kind
+what year was first world series?	what	--det-->	year
+who plays simon birch?	who	--nsubj-->	plays
+where are the timezones in the usa?	where	--advmod-->	are
+what does gm make?	what	--dobj-->	make
+what do people speak in uk?	what	--dobj-->	speak
+what do people in jamaica speak?	what	--dobj-->	speak
+what position did lebron james play?	what	--det-->	position
+what kind of guitar did jerry garcia play?	what	--det-->	kind
+what type of art leonardo da vinci do?	what	--det-->	type
+where was rihanna raised?	where	--advmod-->	raised
+what team does messi play for 2011?	what	--det-->	team
+where does lil wayne go to school?	where	--advmod-->	go
+what airport is nearest to rome?	what	--det-->	airport
+where did jrr tolkien go to school?	where	--advmod-->	go
+what state is saint louis university in?	what	--det-->	state
+what religion does canada follow?	what	--det-->	religion
+what factors led to the rise of the roman empire?	what	--dobj-->	led
+which countries have spanish as their main language?	which	--det-->	countries
+who is in paul ryan's family?	who	--nsubj-->	is
+what government does iraq use?	what	--det-->	government
+what type of currency do they use in spain?	what	--det-->	type
+what did lincoln steffens wrote?	what	--dobj-->	wrote
+what schools did anders celsius attend?	what	--det-->	schools
+what can do in new york?	what	--nsubj-->	do
+what currency does france accept?	what	--det-->	currency
+what type of religion did massachusetts have?	what	--det-->	type
+what language do they speak in colombia south america?	what	--det-->	language
+when was the last tsunami in the atlantic ocean?	when	--advmod-->	was
+what did martha graham train as?	what	--dep-->	train
+what kind of government does brazil has?	what	--det-->	kind
+what did george washington carver made?	what	--dobj-->	made
+what country did gregor mendel live in?	what	--det-->	country
+where laura ingalls wilder lived?	where	--advmod-->	lived
+what to do in bangkok in 4 days?	what	--dep-->	do
+what sports are popular in germany?	what	--det-->	sports
+what do they speak in norway?	what	--dobj-->	speak
+what does ss stand for in hitler's army?	what	--dobj-->	stand
+what currency does singapore use?	what	--det-->	currency
+what did the blackfoot indians speak?	what	--dobj-->	speak
+who plays robin hood in prince of thieves?	who	--nsubj-->	plays
+what standard time is texas?	what	--det-->	time
+what city is the south rim of the grand canyon near?	what	--det-->	city
+where does kurdish people live?	where	--advmod-->	live
+what instrument does louis armstrong?	what	--det-->	instrument
+who does alyson stoner play in camp rock?	who	--dobj-->	play
+what religion does madonna practice?	what	--det-->	religion
+what countries are located near egypt?	what	--det-->	countries
+when was michael jordan at his best?	when	--advmod-->	was
+what made richard hammond famous?	what	--nsubj-->	made
+who originally voiced lois griffin?	who	--nsubj-->	voiced
+what airport do you fly into in paris?	what	--det-->	airport
+who plays sheldon cooper mother on the big bang theory?	who	--nsubj-->	plays
+what rihanna new album called 2012?	what	--dep-->	called
+where does dave ramsey live?	where	--advmod-->	live
+what does a dream deferred by langston hughes?	what	--dobj-->	deferred
+what discovery did galileo make?	what	--det-->	discovery
+what was the japanese war called?	what	--dobj-->	called
+what did nikola tesla invented that is of use today?	what	--dobj-->	invented
+who plays the role of tony dinozzo on ncis?	who	--nsubj-->	plays
+what did jesus do for living?	what	--dobj-->	do
+where is the main branch of bank of america?	where	--advmod-->	is
+who plays knox overstreet?	who	--nsubj-->	plays
+where did sally pearson go to primary school?	where	--advmod-->	go
+what movies did david carradine play in?	what	--det-->	movies
+what is the stanley cup named after?	what	--dep-->	named
+when do they change the time in california?	when	--advmod-->	change
+where is traditional chinese used?	where	--advmod-->	used
+who does portugal trade with?	who	--dep-->	trade
+what type of political system is brazil?	what	--det-->	type
+what language did the ancient babylonians speak?	what	--det-->	language
+what kind of painter was wassily kandinsky?	what	--det-->	kind
+what form of government does the united states use?	what	--det-->	form
+what money does cuba use?	what	--det-->	money
+what timezone is sweden gmt?	what	--det-->	timezone
+where did robert downey jr go to jail?	where	--advmod-->	go
+what degrees did barack obama get?	what	--det-->	degrees
+what does god shiva represent?	what	--dobj-->	represent
+what inventions were made by ben franklin?	what	--det-->	inventions
+what is the name of the currency used in switzerland?	what	--dobj-->	used
+what year did the milwaukee brewers go to the world series?	what	--det-->	year
+what songs did franz liszt compose?	what	--det-->	songs
+where did the russian japanese war happen?	where	--advmod-->	happen
+what year did the la kings win the cup?	what	--det-->	year
+what kind of money does egypt have?	what	--det-->	kind
+what baseball team was jackie robinson on?	what	--det-->	team
+what body of water does st lawrence river flow into?	what	--det-->	body
+what form of government does the united states have?	what	--det-->	form
+what voices does seth macfarlane play on family guy?	what	--det-->	voices
+who was william mckinley married to?	who	--dep-->	married
+who played darth vader in the first movie?	who	--nsubj-->	played
+where did kevin james go to college?	where	--advmod-->	go
+what year was hitler was born?	what	--det-->	year
+what did canada get gold medals in?	what	--dep-->	get
+what's there to see in atlanta?	what	--nsubj-->	see
+where was auschwitz concentration camp located?	where	--advmod-->	located
+with which ancient ruler did julius caesar fall in love?	which	--det-->	ruler
+what kind of currency does dominican republic use?	what	--det-->	kind
+what did elliot stabler do?	what	--dobj-->	do
+what is spoken in czech republic?	what	--nsubjpass-->	spoken
+where was shakespeare born at?	where	--advmod-->	born
+where did scott fitzgerald go to college?	where	--advmod-->	go
+what did joan crawford died of?	what	--dep-->	died
+where did rob kardashian go to school?	where	--advmod-->	go
+what year was allen iverson mvp?	what	--det-->	year
+where did harry s truman go to school?	where	--advmod-->	go
+what county is utica ny in?	what	--det-->	county
+what did charles babbage discover?	what	--dobj-->	discover
+what are members of the house of representatives called?	what	--dobj-->	called
+who plays king julian madagascar?	who	--nsubj-->	plays
+where did the crimean war take place?	where	--advmod-->	take
+what offices did theodore roosevelt hold?	what	--det-->	offices
+what movies has miley cyrus been in?	what	--det-->	movies
+what century did slavery end in america?	what	--det-->	century
+who did james franco play in milk?	who	--dobj-->	play
+when did the libyan conflict start?	when	--advmod-->	start
+what city did marco polo came from?	what	--det-->	city
+what wnba team is diana taurasi on?	what	--det-->	team
+what do see in paris?	what	--nsubj-->	see
+what other organisms did mendel use in experiments?	what	--det-->	organisms
+who made the laws in canada?	who	--nsubj-->	made
+what year did adam morrison get drafted?	what	--det-->	year
+where michael jackson from?	where	--advmod-->	jackson
+what college did maya moore go to?	what	--det-->	college
+when was the last time the dodgers won a championship?	when	--advmod-->	was
+where did robin williams get married?	where	--advmod-->	married
+what form of government does canada?	what	--det-->	form
+who do islamic people follow?	who	--dobj-->	follow
+what kind of government does peru?	what	--det-->	kind
+who was in the israeli palestinian conflict?	who	--nsubj-->	was
+who founded the afl?	who	--nsubj-->	founded
+where did diego velazquez die?	where	--advmod-->	die
+what did warren buffett invest in?	what	--dobj-->	invest
+what currency do they use in switzerland?	what	--det-->	currency
+what does british colony mean?	what	--dobj-->	mean
+when olympic games 2012 opening ceremony?	when	--advmod-->	opening
+where is president kennedy buried?	where	--advmod-->	buried
+who won the michigan ohio state game 2012?	who	--nsubj-->	won
+where was the prophet mohammed from?	where	--advmod-->	mohammed
+what events lead to the battle of antietam?	what	--det-->	events
+what language do ukrainian people speak?	what	--det-->	language
+who are the judges appointed in the supreme court?	who	--dobj-->	appointed
+which country in europe has the largest land area?	which	--det-->	country
+when did kaley cuoco join charmed?	when	--advmod-->	join
+where is chris rock from?	where	--advmod-->	is
+what vegetables can i plant in november in southern california?	what	--det-->	vegetables
+when was the last time the toronto maple leafs win the stanley cup?	when	--advmod-->	was
+what kind of language do egyptian speak?	what	--det-->	kind
+what language do brazilians use?	what	--det-->	language
+what position did vince lombardi play?	what	--det-->	position
+who played stanley kowalski in a streetcar named desire movie?	who	--nsubj-->	played
+who did the voice for lola bunny?	who	--nsubj-->	did
+what book did charles darwin wrote in 1859?	what	--det-->	book
+what language do serbs speak?	what	--det-->	language
+what team is kris humphries play for?	what	--det-->	team
+what movies gerard butler has been in?	what	--det-->	movies
+where did john franklin live?	where	--advmod-->	live
+what language do bosnian muslims speak?	what	--det-->	language
+what team did drogba play for?	what	--det-->	team
+where did crabtree go to college?	where	--advmod-->	go
+where does freddie ljungberg come from?	where	--advmod-->	come
+where is staten island ferry?	where	--advmod-->	is
+what state did john adams live in?	what	--det-->	state
+what type of music did vivaldi compose?	what	--det-->	type
+what college did john nash teach at?	what	--det-->	college
+what team does mike fisher play for?	what	--det-->	team
+what films has daniel craig been in?	what	--det-->	films
+what materials did eduardo paolozzi use in his work?	what	--det-->	materials
+what did joe biden study in college?	what	--dobj-->	study
+who did marilyn monroe marry at 16?	who	--dobj-->	marry
+who plays timon's voice in the lion king?	who	--nsubj-->	plays
+what part of the country is ohio in?	what	--det-->	part
+which island is kailua on?	which	--det-->	island
+what language do speak in argentina?	what	--det-->	language
+what did whoopi goldberg won a grammy for?	what	--dep-->	won
+who played maggie in himym?	who	--nsubj-->	played
+who does owen schmitt play for?	who	--dep-->	play
+what party was thomas jefferson affiliated with?	what	--det-->	party
+what religions are popular in france?	what	--det-->	religions
+who played berger in sex and the city?	who	--nsubj-->	played
+who won the 2000 fa cup final?	who	--nsubj-->	won
+what movies have robert pattinson in them?	what	--dep-->	have
+what the time zone in japan?	what	--dobj-->	zone
+who plays bob kelso in scrubs?	who	--nsubj-->	plays
+what race is vanessa carlton?	what	--det-->	race
+what do people in czech republic speak?	what	--dobj-->	speak
+which countries speak arabic language?	which	--det-->	countries
+where does tim cook work?	where	--advmod-->	work
+what degrees does romney have?	what	--det-->	degrees
+where is bob marley buried?	where	--advmod-->	buried
+where to stay in chicago tourist?	where	--advmod-->	stay
+what type of breast cancer did sheryl crow have?	what	--det-->	type
+what type of government does argentina have today?	what	--det-->	type
+where does fabio capello come from?	where	--advmod-->	come
+what party was abe lincoln part of?	what	--det-->	party
+what did jack london do for a living?	what	--dobj-->	do
+who did morgan freeman marry?	who	--dobj-->	marry
+what are the mountains in northern italy called?	what	--dobj-->	called
+what influenced john steinbeck to start writing?	what	--nsubj-->	influenced
+where is dwayne johnson ethnicity?	where	--advmod-->	is
+where are the nato headquarters located?	where	--advmod-->	located
+in which state was the battle of antietam fought?	which	--det-->	state
+which ocean does the zambezi river flow into?	which	--det-->	ocean
+what team did david beckham play for before la galaxy?	what	--det-->	team
+where was the palace of knossos located?	where	--advmod-->	located
+where is roswell area 51?	where	--advmod-->	is
+when was father chris riley born?	when	--advmod-->	born
