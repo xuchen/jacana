@@ -1,7 +1,8 @@
 # jacana-align
 
 
-= Introduction =
+Introduction
+============
 
 jacana-align is a token-based word-aligner for English parallel sentences described in the following paper:
 
@@ -13,7 +14,8 @@ Speed test: on my laptop (i5 2.6GHz), the aligner aligns about 65 sentence pairs
 
 http://www.cs.jhu.edu/~xuchen/packages/jacana-align-demo.png
 
-= Build =
+Build
+=====
 
 jacana-align is written in a mixture of Java and Scala. If you build from ant, you have to set up the environmental variables JAVA_HOME and SCALA_HOME. In my system, I have:
 
@@ -29,7 +31,8 @@ Then type:
 
 If you build from Eclipse, first install [http://scala-ide.org/ scala-ide], then import the whole jacana folder as a Scala project. Eclipse should find the `.project` file and set up the project automatically for you.
 
-= Demo =
+Demo
+====
 
 `scripts-align/runDemoServer.sh` shows up the web demo. Direct your browser to http://localhost:8080/ and you should be able to align some sentences.
 
@@ -39,7 +42,8 @@ Note 2: To make jacana-align know where to look for resource files, pass the pro
 
 `java -DJACANA_HOME=/path/to/jacana -cp jacana-align.jar ......`
 
-= Browser =
+Browser
+=======
 
 You can also browse one or two alignment files (`*`.json) with *firefox* opening `src/web/AlignmentBrowser.html`:
 
@@ -50,7 +54,8 @@ Note 1: due to strict security setting for accessing local files, Chrome/IE won'
 
 Note 2: the input `*`.json files have to be in the same folder with `AlignmentBrowser.html`.
 
-= Align =
+Align
+=====
 
 `scripts-align/alignFile.sh` aligns tab-separated sentence files and output the output to a .json file that's accepted by the browser:
 
@@ -58,7 +63,8 @@ Note 2: the input `*`.json files have to be in the same folder with `AlignmentBr
 
 If you need a whitespace tokenizer, use the "-n" option.
 
-= Training =
+Training
+========
 
 `java -DJACANA_HOME=../ -jar ../build/lib/jacana-align.jar -r train.json -d dev.json -t test.json -m /tmp/align.model`
 

@@ -1,6 +1,7 @@
 # jacana-freebase
 
-= Introduction =
+Introduction
+============
 
 jacana-freebase is a question answering engine that extracts answers from [http://www.freebase.com Freebase], given a short factoid web-style question (just as the one you type into a search engine), such as _who did natalie portman play in star wars?_
 
@@ -10,7 +11,8 @@ Information Extraction over Structured Data: Question Answering with Freebase.
 Xuchen Yao and Benjamin Van Durme. Proceedings of ACL 2014.
 
 
-= Build =
+Build
+=====
 
 jacana-freebase is written in a mixture of Java and Scala. If you build from ant, you have to set up the environmental variables JAVA_HOME and SCALA_HOME. In my system, I have:
 
@@ -27,7 +29,8 @@ An all-in-one jar file, `build/lib/jacana-freebase.jar`, will be built for you.
 If you build from Eclipse, first install [http://scala-ide.org/ scala-ide], then import the whole jacana folder as a Scala project. Eclipse should find the `.project` file and set up the project automatically for you.
 
 
-= Run =
+Run
+===
 
 The training/testing pipeline:
  # Given training/test files, run `edu.jhu.jacana.freebase.featureextraction.GraphFeatureWriter` to extract features, and save in `.bnf` files

@@ -7,13 +7,14 @@ Jacana (/dʒəˈkɑːnə/) consists of three parts:
   * jacana-align, a monolingual word aligner for English, written in Java and Scala.
   * jacana-freebase, a Question Answering engine for web-style questions on Freebase, written in Java and Scala.
 
-*download*: 
+**download**: 
 
 [http://www.cs.jhu.edu/~xuchen/packages/jacana-align.bin.20141029.tar.bz2 jacana-align.bin.20141029.tar.bz2] (103M, just the binary version of the aligner)
 
 [http://www.cs.jhu.edu/~xuchen/packages/jacana.20141029.tar.bz2 jacana.20141029.tar.bz2] (660MB, everything (qa+align+freebase, source code only, no compiled jars), mostly data files and lexical resources)
 
-==jacana-qa==
+jacana-qa
+=========
 
 contains:
   * a ranker for ranking whether a sentence contains an answer for a given question,
@@ -31,7 +32,8 @@ Proceedings of ACL 2013, short papers.
 
 HOWTO: [JacanaQA](JacanaQA.md)
 
-==jacana-align==
+jacana-align
+============
 
 is a token-based aligner described in the following paper:
 
@@ -43,7 +45,8 @@ Proceedings of ACL 2013, short papers.
 
 HOWTO: [JacanaAlign](JacanaAlign.md)
 
-==jacana-freebase==
+jacana-freebase
+===============
 
 is a question answering engine that extracts answers from Freebase:
 
@@ -51,7 +54,8 @@ Information Extraction over Structured Data: Question Answering with Freebase. X
 
 HOWTO: [JacanaFreebase](JacanaFreebase.md)
 
-==Change Log==
+Change Log
+==========
 
 2015-08-18:
 * imported from Google Code. Original repo exceeded GitHub limit (less 1G repo, single file less than 100MB). Had to separate data from main repo and lost commit history.
@@ -78,4 +82,4 @@ HOWTO: [JacanaFreebase](JacanaFreebase.md)
 * demo pre-loads model first
 
 2013-5-28
-Initial release
+* Initial release
